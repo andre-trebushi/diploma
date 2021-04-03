@@ -30,25 +30,25 @@
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Влияние размера электронного пучка на расходимость излучения}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Влияние размера электронного пучка на расходимость излучения}{9}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Различие расходимости излучения для случая продольно полностью когерентного и некогерентного пучка}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Различие расходимости излучения для случая продольно полностью когерентного и некогерентного пучка}{9}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Метод ограничения пространственных гармоник огибающими: SERVAL}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Метод ограничения пространственных гармоник огибающими: SERVAL}{10}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Алгоритм получения поля}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Алгоритм получения поля}{10}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Выбор подходящих огибающих}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Выбор подходящих огибающих}{12}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Сравнение метода Монте-Карло, SRW и SERVAL}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Сравнение метода Монте-Карло, SRW и SERVAL}{14}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Дифракция на апертуре}{12}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Дифракция на апертуре}{14}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Фокусировка}{12}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Фокусировка}{14}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Корреляционный анализ модовой структуры}{13}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Корреляционный анализ модовой структуры}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список литературы}{15}{section*.7}%
+\contentsline {chapter}{Список литературы}{17}{section*.10}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}
