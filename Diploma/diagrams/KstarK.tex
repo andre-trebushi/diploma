@@ -1,0 +1,56 @@
+\tikzset{
+    photon/.style={decorate, decoration={snake}, draw=black},
+    electron/.style={draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow[draw=black]{<}}}},
+    positron/.style={draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow[draw=black]{>}}}},
+    scalar/.style={decorate, dashed, draw=black} ,
+    vector/.style={decorate, double, double distance=3pt, draw=black} ,
+    line/.style={decorate, draw=black} ,
+    gluon/.style={decorate, draw=magenta,
+        decoration={coil,amplitude=4pt, segment length=5pt}} 
+}
+
+\resizebox{7cm}{!}{
+\begin{tikzpicture}[
+        thick,
+        % Set the overall layout of the tree
+        level/.style={level distance=1.5cm},
+        level 2/.style={sibling distance=2.6cm},
+        level 3/.style={sibling distance=2cm}
+    ]
+    \coordinate
+        child[grow=left]{
+            child {
+                node {$e^{-}$}
+                % The 'edge from parent' is actually not needed because it is
+                % implicitly added.
+                edge from parent [electron]
+            }
+            child {
+                node {$e^{+}$}
+                edge from parent [positron]
+            }
+            edge from parent [photon] node [above=3pt] {$\gamma$}  
+        }
+        % I have to insert a dummy child to get the tree to grow
+        % correctly to the right.
+        child[grow=right, level distance=0pt] {
+        child  {
+            child{
+                edge from parent [scalar] node [below=3pt] {$\bar{K}$}
+            }
+            child{
+                child{
+                    edge from parent [scalar] node [below=3pt] {$K$}
+                }
+                child{
+                    edge from parent [scalar] node [above=3pt] {$\pi^{0}$}
+                }
+                edge from parent [line] node [above=3pt] {$K^{*}$}
+            }
+            edge from parent [vector] node [above=3pt] {$V$}     
+        }
+    };
+\end{tikzpicture}
+}

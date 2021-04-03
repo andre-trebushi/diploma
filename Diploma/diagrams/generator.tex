@@ -1,0 +1,14 @@
+\begin{tikzpicture}[node distance=2cm, auto, >='Latex']
+    \tikzset{
+        mynode/.style = {rectangle, draw=black, very thick, inner sep=1em, minimum size=2cm, text badly centered},
+        myarrow/.style={->, >=latex', thick}
+    }
+    \node[mynode, text width=3cm] (gen){\text{Генератор} \text{частиц}};
+    \node[mynode, text width=3cm, right=5cm of gen] (detector){\text{Моделирование} \text{детектора}};
+    \draw [myarrow, arrowhead=1mm, ] (gen.east) to (detector.west) node [align=center, xshift=-2.5cm, above=3pt] {(\text{Тип частицы}, $\vec{P}$,$\vec{r_{0}}$)};
+    
+    \node[mynode, text width=3cm, below=1cm of detector] (det){\text{Отклик} \text{электроники}};
+    \node[mynode, text width=3cm, left=5cm of det] (recon){\text{Реконструкция}};
+    \draw [myarrow, arrowhead=1mm] (detector.south) to (det.north);
+    \draw [myarrow, arrowhead=1mm] (det.west) to (recon.east);
+\end{tikzpicture}

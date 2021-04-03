@@ -1,0 +1,54 @@
+\subsection*{Общая характеристика работы}
+
+\newcommand{\actuality}{\underline{\textbf{Актуальность темы.}}}
+\newcommand{\aim}{\underline{\textbf{Целью}}}
+\newcommand{\tasks}{\underline{\textbf{задачи}}}
+\newcommand{\defpositions}{\underline{\textbf{Основные положения, выносимые на~защиту:}}}
+\newcommand{\novelty}{\underline{\textbf{Научная новизна:}}}
+\newcommand{\influence}{\underline{\textbf{Практическая значимость}}}
+\newcommand{\reliability}{\underline{\textbf{Достоверность}}}
+\newcommand{\probation}{\underline{\textbf{Апробация работы.}}}
+\newcommand{\contribution}{\underline{\textbf{Личный вклад.}}}
+\newcommand{\publications}{\underline{\textbf{Публикации.}}}
+
+\input{../common/characteristic} % Характеристика работы по структуре во введении и в автореферате не отличается (ГОСТ Р 7.0.11, пункты 5.3.1 и 9.2.1), потому её загружаем из одного и того же внешнего файла, предварительно задав форму выделения некоторым параметрам
+
+%Диссертационная работа была выполнена при поддержке грантов ...
+
+%\underline{\textbf{Объем и структура работы.}} Диссертация состоит из~введения, четырех глав, заключения и~приложения. Полный объем диссертации \textbf{ХХХ}~страниц текста с~\textbf{ХХ}~рисунками и~5~таблицами. Список литературы содержит \textbf{ХХX}~наименование.
+
+%\newpage
+\subsection*{Содержание работы}
+Во \underline{\textbf{введении}} обосновывается актуальность исследований, проводимых в рамках данной диссертационной работы, приводится обзор научной литературы по изучаемой проблеме, формулируется цель, ставятся задачи работы, сформулированы научная новизна и практическая значимость представляемой работы.
+
+\underline{\textbf{Первая глава}} посвящена ...
+
+ картинку можно добавить так:
+\begin{figure}[ht] 
+  \center
+  \includegraphics [scale=0.27] {latex}
+  \caption{Подпись к картинке.} 
+  \label{img:latex}
+\end{figure}
+
+Формулы в строку без номера добавляются так:
+\[ 
+  \lambda_{T_s} = K_x\frac{d{x}}{d{T_s}}, \qquad
+  \lambda_{q_s} = K_x\frac{d{x}}{d{q_s}},
+\]
+
+\underline{\textbf{Вторая глава}} посвящена исследованию 
+
+\underline{\textbf{Третья глава}} посвящена исследованию 
+
+В \underline{\textbf{четвертой главе}} приведено описание 
+
+В \underline{\textbf{заключении}} приведены основные результаты работы, которые заключаются в следующем:
+\input{../common/concl}
+
+
+%\newpage
+\renewcommand{\refname}{\large Публикации автора по теме диссертации}
+%\nocite{*}
+%\insertbiblioauthor                          % Подключаем Bib-базы
+\insertbibliofull

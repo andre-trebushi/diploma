@@ -1,0 +1,362 @@
+\documentclass[14pt, hyperref = {colorlinks}]{beamer}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[colorlinks]{hyperref}
+\usepackage{amssymb,amsfonts,amsmath,mathtext}
+\usepackage{cite,enumerate,float,indentfirst}
+
+%Диаграммы Фейнмана
+\usepackage{tikz}
+\usetikzlibrary{trees}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{positioning, automata, arrows, arrows.meta}
+
+\graphicspath{{images/}}
+
+\usetheme{Pittsburgh}
+\usecolortheme{whale}
+
+\setbeamercolor{footline}{fg=blue}
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{}%
+    A.Semenov
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{}%
+    Novosibirsk, 2017
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{}%
+  Page \insertframenumber{} / \inserttotalframenumber \hspace*{2ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\newcommand{\itemi}{\item[\checkmark]}
+
+\title{\small{Study the $e^{+}e^{-} \to K_{S}K_{L}\pi^{0}$ process with the CMD-3 detector}}
+\author{\small{%
+\emph{Reporter:}~A.Semenov\\%
+\emph{Supervisor:}~PhD.~B.Shwartz}\\%
+\vspace{30pt}%
+BINP
+\vspace{0pt}%
+}
+
+\date{\includegraphics[width=0.2\linewidth]{logo} \\
+\vspace{20pt}% 
+\small{Novosibirsk, 2017}}
+
+\begin{document}
+
+\maketitle
+\small
+\begin{frame}
+\frametitle{Outline}\label{t1}
+\begin{itemize}
+  \item Objective and motivation
+  \item VEPP-2000 project
+  \item List of the selection constraints
+  \item Results
+  \item Conclusion and future plans
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Objective and motivation}\label{t1}
+The main goal of the current work is to measure the $e^{+}e^{-} \to K_{S}K_{L}\pi^{0}$ process cross-section up to 2 GeV in the mass center system.
+\begin{itemize}
+  \item Study the light quarks interaction
+  \item Non-perturbative QCD
+  \item Contribution of this process into the processes with two $K$ and one $\pi$ equals 12\%.
+  \item Anomalous magnetic moment {$(g-2)_\mu$}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{VEPP-2000 project}
+\begin{figure}[h]
+\begin{minipage}[h]{0.49\linewidth}   
+    \center{\includegraphics[width=1.1\linewidth]{vepp2000}}
+\end{minipage}
+\begin{minipage}[h]{0.49\linewidth}
+    \center{\includegraphics[width=1.1\linewidth]{cmd}}
+\end{minipage}
+\center{Data of 2011-2012 seasons\\Integrated luminosity is 33.18 pb$^{-1}$}
+\hfill
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r}
+\frametitle{Preliminary event selection}
+\begin{figure}[h]
+\begin{minipage}[h]{0.59\linewidth}
+
+\center{The next decay modes are used:}
+\begin{itemize}
+    \item $K_{S} \to \pi^{+} \pi^{-}$ (69\%)
+    \item $\pi_{0} \to \gamma \gamma$ (99\%)
+\end{itemize}
+\center{Preliminary selection cuts:}
+\begin{itemize}
+  \item {Number of tracks, $N_{tr} = 2$} 
+  \item {Number of photons, $N_{ph} \geq 2$}
+  \item {One vertex of a $K_{S}$ meson, $N_{K_{S}} = 1$}
+\end{itemize}
+\end{minipage}
+\begin{minipage}[h]{0.39\linewidth}
+    \center{
+        \center{\subcaptionbox{$e^{+}\:e^{-} \to K^{*}\:\bar{K}$}}
+        {\input{Diagrams/KStar}} 
+        \center{\subcaptionbox{$e^{+}\:e^{-} \to \phi\:\pi^{0}$}}
+        {\input{Diagrams/Phi}}
+    }
+\end{minipage}
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r}
+\frametitle{Event selection}
+\begin{itemize}
+  \item {Ionization losses {$({dE\over{dx}})_{\pi}$}}
+  \item {The cosine of the angle between the momentum and the position vector of the $K_{S}$ vertex in the XY plane is more than 0.8}
+  \item {The solid angle between tracks is more than theoretical mean {$\psi > \psi_{min}$}}
+  \item {The energy release of the photon signal in the LXe or in BGO-calorimeters is more than threshold energy}
+  \item {The solid angle between signal photons is more than theoretical mean}
+  \item {The polar angles of tracks are in the range ($0.9, \pi-0.9$)}
+\end{itemize}
+\end{frame}
+
+\begin{frame}\label{r3}
+\frametitle{Ionization losses}
+\begin{figure}[h]
+\center\textbf{The beams energy is 840 MeV}
+\begin{minipage}[h]{0.69\linewidth}
+        \center{\includegraphics[width=0.8\linewidth]{Present/images/tdedx.png}}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.29\linewidth}
+    \small{$({dE\over{dx}})_{\pi}(p) = a + {b\over{p^{2}}}$
+    \\$a = 2047.2\\b = 2.3*10^{7}$}
+    \begin{itemize}
+        \item {$N_{tr} = 2$}
+        \item {$N_{ph} \geq 2$}
+        \item {$N_{K_{S}} = 1$}
+    \end{itemize}
+\end{minipage}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ionization losses}
+\begin{figure}[h]
+\center{$\xi_{tr} = {(dE/dx)_{exp}\over{(dE/dx)_{aprx}}}$}\\
+\center{\textbf{The selection criterion is $\xi_{tr} < 1.6$}}\\
+ \begin{minipage}[h]{0.49\linewidth}
+    \center{Simulation\\(840 MeV, ISR on)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/xiSim.png}}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.49\linewidth}
+    \center{Experiment\\(840 MeV, ISR on)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/xiExp.png}}
+  \end{minipage}
+   \small\center{$N_{tr} = 2$, $N_{ph} \geq 2$, $N_{K_{S}} = 1$}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{The cosine between the momentum and the radius-vector of the $K_{S}$}
+\begin{figure}[h]
+\center{\textbf{The selection criterion is $cos_{K_{S}} > 0.8$}}
+\begin{minipage}[h]{0.69\linewidth}
+    \center{\includegraphics[width=0.6\linewidth]{ksalign}}
+    \center{\includegraphics[width=0.3\linewidth]{cos}}
+\end{minipage}
+\begin{minipage}[h]{0.29\linewidth}
+    \begin{itemize}
+        \item {$N_{tr} = 2$}
+        \item {$N_{ph} \geq 2$}
+        \item {$N_{K_{S}} = 1$}
+        \item {$\xi_{tr} < 1.6$}
+        \item {$E_{phlxe} > 15$ or $E_{phbgo} > 15$}
+    \end{itemize}
+\end{minipage}
+\hfill
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r1}
+\frametitle{The minimal angle between the tracks}
+\begin{figure}[h]
+    \center\textbf{$\psi_{min} = 2\arctg{(\sqrt{M^{2} - 4m^{2}}/P)}$}\\
+\begin{minipage}[h]{0.49\linewidth}   
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/ksdpsiSim.png}}
+\end{minipage}
+\begin{minipage}[h]{0.49\linewidth}
+    \begin{itemize}
+    \center{\includegraphics[width=1\linewidth]{Present/images/ksdpsiExp.png}}
+    \end{itemize}
+\end{minipage}
+\center{
+    {$N_{tr} = 2$, }
+    {$N_{ph} \geq 2$, }
+    {$N_{K_{S}} = 1$, }
+    {$\xi < 1.6$, }
+    {\small{$cos(\vec{r}_K_{s},\vec{P})>0.8$}, }
+    {$E_{phlxe} > 15$ or $E_{phbgo} > 15$}
+    }
+\center{The condition of the pion's turn $\pi$, $P_{K_{S}} > 768$ MeV\\($E = 915$ MeV)}
+\hfill
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r1}
+\frametitle{The minimal angle between the signal photons}
+\begin{figure}[h]
+    \center\textbf{$\alpha_{min} = 2\arctg{(m/P)}$}\\
+\begin{minipage}[h]{0.49\linewidth}   
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/pi0dpsiSim.png}}
+\end{minipage}
+\begin{minipage}[h]{0.49\linewidth}
+    \begin{itemize}
+    \center{\includegraphics[width=1\linewidth]{Present/images/pi0dpsiExp.png}}
+    \end{itemize}
+\end{minipage}
+\center{
+    {$N_{tr} = 2$, }
+    {$N_{ph} \geq 2$, }
+    {$N_{K_{S}} = 1$, }
+    {$\xi < 1.6$, }
+    {\small{$cos(\vec{r}_K_{s},\vec{P})>0.8$}, }
+    {$E_{phlxe} > 15$ or $E_{phbgo} > 15$}
+    }
+\hfill
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r2}
+\frametitle{Polar angles of the tracks}
+\begin{figure}[h]
+\center{\textbf{The selection criterion is $\theta_{tr} \in (0.9; \pi-0.9)$}}
+\begin{minipage}[h]{0.69\linewidth}   
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/tthSim.png}}
+\end{minipage}
+\begin{minipage}[h]{0.29\linewidth}
+    \begin{itemize}
+        \item {$N_{tr} = 2$}
+        \item {$N_{ph} \geq 2$}
+        \item {$N_{K_{S}} = 1$}
+        \item {$\xi_{tr} < 1.6$}
+        \item {$E_{phlxe} > 15$ or $E_{phbgo} > 15$}
+    \end{itemize}
+\end{minipage}
+\hfill
+\end{figure}
+\end{frame}
+
+%\begin{frame}\label{r2}
+%\frametitle{Results}
+%\begin{figure}[h]
+%  \begin{minipage}[h]{0.49\linewidth}
+%    \center\textbf{Simulation \\(840 MeV, ISR on)}
+%    \center{\includegraphics[width=0.8\linewidth]{Present/images/xiafterM.png%}}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[h]{0.49\linewidth}
+%    \center\textbf{Experiment\\(840 MeV)}
+%    \center{\includegraphics[width=0.8\linewidth]{Present/images/xiafter.png}%}
+%  \end{minipage}
+%  \center{Dependence of the $\xi_{-}$ on the $\xi_{+}$}
+%\end{figure}
+%\end{frame}
+
+\begin{frame}
+\frametitle{Results\\(840 MeV)}
+\begin{figure}[h]
+  \begin{minipage}[h]{0.49\linewidth}
+    \center\textbf{Simulation \\(840 MeV, ISR on)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/ks:piSim.png}}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.49\linewidth}
+    \center\textbf{Experiment \\(840 MeV)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/ks:piExp.png}}
+  \end{minipage}
+  \center{Dependence of the $K_{S}$ meson mass on the $\pi^{0}$ meson mass}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Effiency}
+\center $\epsilon = {N_{det}\over{N}}$, where $N=10^{5}$.
+
+2011 --- 1.0 T, 2012 --- 1.3 T
+\begin{figure}[h]
+    \center{\includegraphics[width=0.6\linewidth]{Present/images/effiency.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Calculation of the cross section}
+\begin{figure}[h]
+\center{\includegraphics[width=0.5\linewidth]{Present/images/fitksminv.png}}
+    \begin{itemize}
+    \tiny{
+    \item $S(x) = N*(\alpha*gausn(x, \bar{x}_{1}, \sigma_{1}) + \beta*gausn(x, \bar{x}_{2}, \sigma_{2}) + (1-\alpha-\beta)*gausn(x, \bar{x}_{3}, \sigma_{3})))$ --- signal
+    \item $\Phi(x) = k*(x-b)$ --- background
+    \item $S(x) + \Phi(x)$ --- total. 
+    }
+    \end{itemize}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Preliminary cross-section}
+\center $\sigma = {N\over{\epsilon L}}$, where $N$ --- number of the good events, $\epsilon$ --- efficiency and $L$ --- integrated luminosity.\\
+\begin{figure}[h]
+    \center\textbf{}
+    \center{\includegraphics[width=0.55\linewidth]{Present/images/cross.png}}
+\end{figure}
+\end{frame}
+
+%\begin{frame}
+%\frametitle{Background}
+%Below 1400 MeV
+%\begin{itemize}
+%    \item $K_{S}K_{L}\gamma$
+%    \item $\pi^{+}\pi^{-}(\gamma, \pi^{0}, 2\pi^{0})$
+%\end{itemize}
+%After 1400 MeV
+%\begin{itemize}
+%    \item $K_{S}K_{L}\pi^{0}\pi^{0}$
+%    \item $K^{+}\pi^{-}\pi^{0}$
+%    \item $\pi^{+}\pi^{-}(\gamma, \pi^{0}, 2\pi^{0})$
+%\end{itemize}
+%\end{frame}
+
+\begin{frame}
+\frametitle{Conclusion and future plans}
+Conclusion:
+\begin{itemize}
+    \item The optimal criteria for selecting the events of the process have been developed.
+    \item The efficiency of registration by means of Monte-Carlo simulation have been determined.
+  \item The total cross-section of the process ${e^+\: e^ - \to K_{s}\:K_{L}\:\pi^0}$ in the energy range from \test{1.1 GeV} to \test{2 GeV} have been measured.
+\end{itemize}
+Future plans:
+\begin{itemize}
+    \item Detailed background study
+    \item Publication
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\begin{center}
+\textbf{Thank you for your attention!}
+\end{center}
+\end{frame}
+
+\end{document} 

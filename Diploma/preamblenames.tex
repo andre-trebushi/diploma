@@ -1,0 +1,8 @@
+%%% Переопределение именований, чтобы можно было и в преамбуле использовать %%%
+\renewcommand{\chaptername}{Глава}
+\renewcommand{\appendixname}{Приложение} % (ГОСТ Р 7.0.11-2011, 5.7)
+\newcommand\DoubleLine[5][3pt]{%
+  \path(#2)--(#3)coordinate[at start](h1)coordinate[at end](h2);
+  \draw[#4]($(h1)!#1!90:(h2)$)--($(h2)!#1!-90:(h1)$);
+  \draw[#5]($(h1)!#1!-90:(h2)$)--($(h2)!#1!90:(h1)$);
+}

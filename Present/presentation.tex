@@ -1,0 +1,394 @@
+\documentclass[14pt, hyperref = {colorlinks}]{beamer}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[colorlinks]{hyperref}
+\usepackage{amssymb,amsfonts,amsmath,mathtext}
+\usepackage{cite,enumerate,float,indentfirst}
+
+%Диаграммы Фейнмана
+\usepackage{tikz}
+\usetikzlibrary{trees}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{positioning, automata, arrows, arrows.meta}
+
+\graphicspath{{images/}}
+
+\usetheme{Pittsburgh}
+\usecolortheme{whale}
+
+\setbeamercolor{footline}{fg=blue}
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{}%
+    А. В. Семенов
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{}%
+    Новосибирск, 2017
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{}%
+  Стр. \insertframenumber{} из \inserttotalframenumber \hspace*{2ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\newcommand{\itemi}{\item[\checkmark]}
+
+\title{\small{Измерение сечения процесса e+ e- -> KS KL pi0 с детектором КМД-3}}
+\author{\small{%
+\emph{Выступающий:}~А.В.Семенов\\%
+\emph{Руководитель:}~д.ф.-м.н.~Б. А. Шварц}\\%
+\vspace{30pt}%
+Институт Ядерной Физики
+\vspace{0pt}%
+}
+
+\date{\includegraphics[width=0.2\linewidth]{logo} \\
+\vspace{20pt}% 
+\small{Новосибирск, 2017}}
+
+
+\begin{document}
+
+\maketitle
+
+%\begin{frame}
+%\frametitle{План}
+%\begin{itemize}
+%  \item Акутальность - \textbf{\ref{t1} стр.}
+%  \item Цели - \textbf{\ref{t2} стр.}
+%  \item Критерии отбора - \textbf{\ref{r} стр.}
+%  \item {Результаты} - \textbf{\ref{r0} стр.}
+%  \item {Планы} - \textbf{\ref{r5} стр.}
+%\end{itemize}
+%\end{frame}
+\small
+\begin{frame}
+\frametitle{Цель работы}\label{t1}
+\begin{center}
+ Главной целью данной работы является измерение сечения процесса {$e^+\:e^- \to K_{S}\:K_{L}\:\pi^0$} в диапазоне энергий от порога рождения \text{(1130 МэВ)} до \text{2 ГэВ} в системе центра масс.
+\begin{itemize}
+  \item Изучение взаимодействия легких кварков.
+  \item Конечные состояния с двумя каонами и пионом имеют 12\% вклад в адронное сечение при энергии 1650 МэВ.
+  \item Вклад в поляризацию вакуума, используемое для вычисления аномального магнитного момента мюона {$(g-2)_\mu$}.
+  \item Полученные сечения коллабораций SND и BaBar по данному процессу имеют различия в области выше 1800 МэВ в системе центра масс.
+\end{itemize}
+\end{center}
+\end{frame}
+
+%\begin{frame}
+%\frametitle{Цели}\label{t2}
+%\begin{itemize}
+%  \item Измерить сечение процесса $e^{+}e^{-} \to KsKl\pi^{0}$ на детекторе КМД-3.
+%\end{itemize}
+%\end{frame}
+
+\begin{frame}
+\frametitle{КМД-3}
+\begin{figure}[h]
+ %   \center{\includegraphics[width=1.1\linewidth]{vepp2000}}
+    \center{\includegraphics[width=0.8\linewidth]{cmd}}
+\center{Использовались данные сезонов 2011 и 2012\\Интегральная светимость 33.18 пб$^{-1}$}
+\hfill
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r}
+\frametitle{Предварительные критерии отбора}
+\begin{figure}[h]
+\begin{minipage}[h]{0.59\linewidth}
+
+\center{Использовались следующие моды распадов:}
+\begin{itemize}
+    \item $K_{S} \to \pi^{+} \pi^{-}$ (69\%)
+    \item $\pi_{0} \to \gamma \gamma$ (99\%)
+\end{itemize}
+\center{Предварительные критерии отбора:}
+\begin{itemize}
+  \item {Число треков $N_{tr} = 2$} 
+  \item {Число фотонов $N_{ph} \geq 2$}
+  \item {Одна вершина $N_{K_{S}} = 1$}
+\end{itemize}
+\end{minipage}
+\begin{minipage}[h]{0.39\linewidth}
+    \center{
+        \center{\subcaptionbox{$e^{+}\:e^{-} \to K^{*}\:\bar{K}$}}
+        {\input{Diagrams/KStar}} 
+        \center{\subcaptionbox{$e^{+}\:e^{-} \to \phi\:\pi^{0}$}}
+        {\input{Diagrams/Phi}}
+    }
+\end{minipage}
+\end{figure}
+\end{frame} 
+
+\begin{frame}\label{r}
+\frametitle{Критерии отбора}
+\begin{itemize}
+  \item {Отбор по ионизационным потерям треков {$({dE\over{dx}})_{\pi}$}} %  - \textbf{\ref{r3} стр.}
+  \item {Косинус угла между импульсом $K_{S}$-мезона и радиус-вектором его вершины в плоскости XY больше, чем {$0.8$}}
+  \item {Полярный угол треков лежит в диапазоне от $0.9$ радиан до $\pi-0.9$ радиан}
+  \item {Пространственный угол между треками больше теоретического минимума {$\psi > \psi_{min}$}}
+  \item {Энерговыделение фотона в LXe или в BGO-калориметрах больше порогового значения {$E_{phlxe} > 15$ МэВ || $E_{phbgo} > 15$ МэВ}}
+  \item {Угол между фотонами больше теоретического минимума {$\alpha > \alpha_{min}$}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}\label{r3}
+\frametitle{Ионизационные потери}
+\begin{figure}[h]
+\center\textbf{Ионизационные потери заряженных пионов при энергии 840 МэВ в пучке}
+\begin{minipage}[h]{0.69\linewidth}
+        \center{\includegraphics[width=0.8\linewidth]{Present/images/tdedx.png}}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.29\linewidth}
+    \small{$({dE\over{dx}})_{\pi}(p) = a + {b\over{p^{2}}}$
+    \\$a = 2047.2\\b = 2.3*10^{7}$}
+    \begin{itemize}
+        \item {$N_{tr} = 2$}
+        \item {$N_{ph} \geq 2$}
+        \item {$N_{K_{S}} = 1$}
+    \end{itemize}
+\end{minipage}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ионизационные потери}
+\begin{figure}[h]
+\center{$\xi_{tr} = {(dE/dx)_{exp}\over{(dE/dx)_{aprx}}}$}\\
+\center{\textbf{Критерий отбора $\xi_{tr} < 1.6$}}\\
+ \begin{minipage}[h]{0.49\linewidth}
+    \center{Моделирование\\(840 МэВ, ISR on)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/xiSim.png}}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.49\linewidth}
+    \center{Эксперимент\\(840 МэВ, ISR on)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/xiExp.png}}
+  \end{minipage}
+   \small\center{$N_{tr} = 2$, $N_{ph} \geq 2$, $N_{K_{S}} = 1$}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Косинус угла между вектором импульса и радиус-вектором вершины Ks-мезона}
+\begin{figure}[h]
+\center{\textbf{Критерий отбора $cos_{K_{S}} > 0.8$}}
+\begin{minipage}[h]{0.69\linewidth}
+    \center{\includegraphics[width=0.6\linewidth]{ksalign}}
+    \center{\includegraphics[width=0.3\linewidth]{cos}}
+\end{minipage}
+\begin{minipage}[h]{0.29\linewidth}
+    \begin{itemize}
+        \item {$N_{tr} = 2$}
+        \item {$N_{ph} \geq 2$}
+        \item {$N_{K_{S}} = 1$}
+        \item {$\xi_{tr} < 1.6$}
+        \item {$E_{phlxe} > 15$ или $E_{phbgo} > 15$}
+    \end{itemize}
+\end{minipage}
+\hfill
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r1}
+\frametitle{Минимальный угол между треками}
+\begin{figure}[h]
+    \center\textbf{$\psi_{min} = 2\arctg{(\sqrt{M^{2} - 4m^{2}}/P)}$}\\
+\begin{minipage}[h]{0.49\linewidth}   
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/ksdpsiSim.png}}
+\end{minipage}
+\begin{minipage}[h]{0.49\linewidth}
+    \begin{itemize}
+    \center{\includegraphics[width=1\linewidth]{Present/images/ksdpsiExp.png}}
+    \end{itemize}
+\end{minipage}
+\center{Условие разворота $\pi$, $P_{K_{S}} > 768$ МэВ\\($E = 915$ МэВ)}
+\center{
+    {$N_{tr} = 2$, }
+    {$N_{ph} \geq 2$, }
+    {$N_{K_{S}} = 1$, }
+    {$\xi < 1.6$, }
+    {\small{$cos(\vec{r}_K_{s},\vec{P})>0.8$}, }
+    {$E_{phlxe} > 15$ или $E_{phbgo} > 15$}
+    }
+\hfill
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r1}
+\frametitle{Минимальный угол между фотонами}
+\begin{figure}[h]
+    \center\textbf{$\alpha_{min} = 2\arctg{(m/P)}$}\\
+\begin{minipage}[h]{0.49\linewidth}   
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/pi0dpsiSim.png}}
+\end{minipage}
+\begin{minipage}[h]{0.49\linewidth}
+    \begin{itemize}
+    \center{\includegraphics[width=1\linewidth]{Present/images/pi0dpsiExp.png}}
+    \end{itemize}
+\end{minipage}
+\center{
+    {$N_{tr} = 2$, }
+    {$N_{ph} \geq 2$, }
+    {$N_{K_{S}} = 1$, }
+    {$\xi < 1.6$, }
+    {\small{$cos(\vec{r}_K_{s},\vec{P})>0.8$}, }
+    {$E_{phlxe} > 15$ или $E_{phbgo} > 15$}
+    }
+\hfill
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Полярный угол треков}
+\begin{figure}[h]
+\center{\textbf{Критерий отбора $\theta_{tr} \in (0.9; \pi-0.9)$}}
+\begin{minipage}[h]{0.69\linewidth}   
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/tthSim.png}}
+\end{minipage}
+\begin{minipage}[h]{0.29\linewidth}
+    \begin{itemize}
+        \item {$N_{tr} = 2$}
+        \item {$N_{ph} \geq 2$}
+        \item {$N_{K_{S}} = 1$}
+        \item {$\xi_{tr} < 1.6$}
+        \item {$E_{phlxe} > 15$ или $E_{phbgo} > 15$}
+    \end{itemize}
+\end{minipage}
+\hfill
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r2}
+\frametitle{Результаты}
+\begin{figure}[h]
+  \begin{minipage}[h]{0.49\linewidth}
+    \center\textbf{Моделирование \\(840 МэВ, ISR on)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/xiafterM.png}}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.49\linewidth}
+    \center\textbf{Эксперимент \\(840 МэВ)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/xiafter.png}}
+  \end{minipage}
+  \center{Зависимость коэффициента $\xi_{-}$ от коэффициента $\xi_{+}$}
+\end{figure}
+\end{frame}
+
+\begin{frame}\label{r2}
+\frametitle{Результаты}
+\begin{figure}[h]
+  \begin{minipage}[h]{0.49\linewidth}
+    \center\textbf{Моделирование \\(840 МэВ, ISR on)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/ks:piSim.png}}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.49\linewidth}
+    \center\textbf{Эксперимент \\(840 МэВ)}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/ks:piExp.png}}
+  \end{minipage}
+  \center{Зависимость массы $K_{S}$-мезона от массы $\pi^{0}$-мезона}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Эффективность регистрации}
+\center $\epsilon = {N_{det}\over{N}}$, где $N=10^{5}$.
+
+2011 --- 1.0 Тл, 2012 --- 1.3 Тл
+\begin{figure}[h]
+    \center{\includegraphics[width=0.6\linewidth]{Present/images/effiency.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Вычисление сечения процесса}
+\begin{figure}[h]
+\center{\includegraphics[width=0.5\linewidth]{Present/images/fitksminv.png}}
+
+    Функции подгонки имели следующий виде:
+    \begin{itemize}
+    \tiny{
+    \item $S(x) = N*(\alpha*gausn(x, \bar{x}_{1}, \sigma_{1}) + \beta*gausn(x, \bar{x}_{2}, \sigma_{2}) + (1-\alpha-\beta)*gausn(x, \bar{x}_{3}, \sigma_{3})))$ --- сигнальные события
+    \item $\Phi(x) = k*(x-b)$ --- фоновые события
+    \item $S(x) + \Phi(x)$ --- итоговая форма. 
+    }
+    \end{itemize}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Предварительное сечение}
+\center $\sigma = {N\over{\epsilon L}}$, где $N$ --- число отобранных событий, $\epsilon$ --- эффективность регистрации и $L$ --- интегральная светимость.\\
+\begin{figure}[h]
+    \center\textbf{}
+    \center{\includegraphics[width=0.55\linewidth]{Present/images/cross.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Фоновые процессы}
+Основные фоновые процессы
+\begin{itemize}
+    \item При энергии ниже 1300 МэВ --- $K_{S}K_{L}\gamma$
+    \item При энергии выше 1300 МэВ и ниже 1800 МэВ --- $\pi^{+}\pi^{-}\pi^{0}\pi^{0}$
+    \item При энергии выше 1800 МэВ --- $K_{S}K_{L}\pi^{0}\pi^{0}$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Заключение и планы}
+Заключение:
+\begin{itemize}
+    \item Выработаны оптимальные критерии отбора
+    \item Определена эффективность регистрации
+    \item Получено предварительное сечение процесса $e^{+}\:e^{-} \to K_{S}\:K_{L}\:\pi^{0}$
+%    \item Сделана оценка вклада фоновых процессов (< 10\%)
+\end{itemize}
+Планы:
+\begin{itemize}
+    \item Более детальное изучение фоновых процессов
+    \item Подготовка публикации
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ионизационные потери}
+\begin{figure}[h]
+\center\textbf{Ионизационные потери положительно-заряженных частицы слева и отрицательных справа}
+ \begin{minipage}[h]{0.49\linewidth}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/dedxplus.png}}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.49\linewidth}
+    \center{\includegraphics[width=0.8\linewidth]{Present/images/dedxminus.png}}
+  \end{minipage}
+   \small\center{$N_{tr} = 2$, $N_{ph} \geq 2$, $N_{K_{S}} = 1$}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Энергия и Масса $K_{L}$-мезона}
+\begin{figure}[h]
+\center\textbf{Распределение энергий слева и распределение масс справа при энергии 1900 МэВ}\\
+ \begin{minipage}[h]{0.49\linewidth}
+    \center{\includegraphics[width=1\linewidth]{Present/images/klenergyExp.png}}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.49\linewidth}
+    \center{\includegraphics[width=1\linewidth]{Present/images/klminvExp.png}}
+  \end{minipage}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Результаты\\(840 МэВ)}
+\begin{figure}[h]
+    \center{\includegraphics[width=0.6\linewidth]{Present/images/rho_mafter.png}}
+\end{figure}
+\end{frame}
+\end{document} 
