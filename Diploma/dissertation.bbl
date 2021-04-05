@@ -19,227 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{willmott_introduction_2019}{book}{}
-      \name{author}{1}{}{%
-        {{hash=310a3e106974a7d4011da95dad6c11da}{%
-           family={Willmott},
-           familyi={W\bibinitperiod},
-           given={Phil},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Hoboken, New Jersey}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{310a3e106974a7d4011da95dad6c11da}
-      \strng{fullhash}{310a3e106974a7d4011da95dad6c11da}
-      \strng{bibnamehash}{310a3e106974a7d4011da95dad6c11da}
-      \strng{authorbibnamehash}{310a3e106974a7d4011da95dad6c11da}
-      \strng{authornamehash}{310a3e106974a7d4011da95dad6c11da}
-      \strng{authorfullhash}{310a3e106974a7d4011da95dad6c11da}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{edition}{Second edition}
-      \field{isbn}{978-1-119-28037-8 978-1-119-28038-5}
-      \field{langid}{english}
-      \field{pagetotal}{1}
-      \field{shorttitle}{An introduction to synchrotron radiation}
-      \field{title}{An introduction to synchrotron radiation: techniques and applications}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \verb{file}
-      \verb Willmott - 2019 - An introduction to synchrotron radiation techniqu.pdf:/home/andrei/Zotero/storage/454YP4RZ/Willmott - 2019 - An introduction to synchrotron radiation techniqu.pdf:application/pdf
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
-    \entry{alsnielsen_elements_2011}{book}{}
-      \name{author}{2}{}{%
-        {{hash=15b2fbfb74229080fee6fb73c79fcbea}{%
-           family={Als‐Nielsen},
-           familyi={A\bibinithyphendelim N\bibinitperiod},
-           given={Jens},
-           giveni={J\bibinitperiod}}}%
-        {{hash=5b59facd146aae9e409b25a7ebd2aabf}{%
-           family={{McMorrow}},
-           familyi={M\bibinitperiod},
-           given={Des},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{6e8d424e3338b02a9fbbd6dd35d8bde9}
-      \strng{fullhash}{6e8d424e3338b02a9fbbd6dd35d8bde9}
-      \strng{bibnamehash}{6e8d424e3338b02a9fbbd6dd35d8bde9}
-      \strng{authorbibnamehash}{6e8d424e3338b02a9fbbd6dd35d8bde9}
-      \strng{authornamehash}{6e8d424e3338b02a9fbbd6dd35d8bde9}
-      \strng{authorfullhash}{6e8d424e3338b02a9fbbd6dd35d8bde9}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{edition}{1}
-      \field{isbn}{978-0-470-97395-0 978-1-119-99836-5}
-      \field{langid}{english}
-      \field{month}{3}
-      \field{title}{Elements of Modern X‐ray Physics}
-      \field{urlday}{29}
-      \field{urlmonth}{3}
-      \field{urlyear}{2021}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1002/9781119998365
-      \endverb
-      \verb{file}
-      \verb Als‐Nielsen and McMorrow - 2011 - Elements of Modern X‐ray Physics.pdf:/home/andrei/Zotero/storage/VPUSLL3K/Als‐Nielsen and McMorrow - 2011 - Elements of Modern X‐ray Physics.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/9781119998365
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/9781119998365
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
-    \entry{onuki_undulators_2003}{book}{}
-      \name{author}{2}{}{%
-        {{hash=80bb46fe589560bbcb081ceb1778915e}{%
-           family={Ōnuki},
-           familyi={Ō\bibinitperiod},
-           given={Hideo},
-           giveni={H\bibinitperiod}}}%
-        {{hash=1046dc0b40507f3b939468ecd17cd50a}{%
-           family={Elleaume},
-           familyi={E\bibinitperiod},
-           given={Pascal},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Taylor \& Francis}%
-      }
-      \strng{namehash}{f11431851e667374a8dac35b33a1b6b8}
-      \strng{fullhash}{f11431851e667374a8dac35b33a1b6b8}
-      \strng{bibnamehash}{f11431851e667374a8dac35b33a1b6b8}
-      \strng{authorbibnamehash}{f11431851e667374a8dac35b33a1b6b8}
-      \strng{authornamehash}{f11431851e667374a8dac35b33a1b6b8}
-      \strng{authorfullhash}{f11431851e667374a8dac35b33a1b6b8}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0-203-21823-5 978-0-203-27377-7}
-      \field{langid}{english}
-      \field{note}{{OCLC}: 941215200}
-      \field{title}{Undulators, wigglers, and their applications}
-      \field{urlday}{29}
-      \field{urlmonth}{3}
-      \field{urlyear}{2021}
-      \field{year}{2003}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Ōnuki and Elleaume - 2003 - Undulators, wigglers, and their applications.pdf:/home/andrei/Zotero/storage/GSQL4W2V/Ōnuki and Elleaume - 2003 - Undulators, wigglers, and their applications.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.crcnetbase.com/isbn/9780203218235
-      \endverb
-      \verb{url}
-      \verb http://www.crcnetbase.com/isbn/9780203218235
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
-    \entry{wiedemann_particle_2015}{book}{}
-      \name{author}{1}{}{%
-        {{hash=f7d524a2ec35fb3f9eff2cd2aa8fca36}{%
-           family={Wiedemann},
-           familyi={W\bibinitperiod},
-           given={Helmut},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{fullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{bibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{authorbibnamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{authornamehash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \strng{authorfullhash}{f7d524a2ec35fb3f9eff2cd2aa8fca36}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-3-319-18316-9 978-3-319-18317-6}
-      \field{langid}{english}
-      \field{series}{Graduate Texts in Physics}
-      \field{title}{Particle Accelerator Physics}
-      \field{urlday}{29}
-      \field{urlmonth}{3}
-      \field{urlyear}{2021}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1007/978-3-319-18317-6
-      \endverb
-      \verb{file}
-      \verb Wiedemann - 2015 - Particle Accelerator Physics.pdf:/home/andrei/Zotero/storage/JW5MEZRX/Wiedemann - 2015 - Particle Accelerator Physics.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-3-319-18317-6
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-3-319-18317-6
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
-    \entry{goodman_introduction_2005}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ea089cff3a4a0b9bc1f4dacc668444db}{%
-           family={Goodman},
-           familyi={G\bibinitperiod},
-           given={J.W.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {W. H. Freeman}%
-      }
-      \strng{namehash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{fullhash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{bibnamehash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{authorbibnamehash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{authornamehash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{authorfullhash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0-9747077-2-3}
-      \field{series}{{McGraw}-Hill physical and quantum electronics series}
-      \field{title}{Introduction to Fourier Optics}
-      \field{year}{2005}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://books.google.ru/books?id=ow5xs_Rtt9AC
-      \endverb
-      \verb{url}
-      \verb https://books.google.ru/books?id=ow5xs_Rtt9AC
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
     \entry{geloni_fourier_2007}{article}{useauthor=false}
       \name{author}{4}{}{%
         {{hash=5a05d1b32a5ab9ab3a0977e3d257043d}{%
@@ -266,8 +45,8 @@
       \strng{authorbibnamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
       \strng{authornamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
       \strng{authorfullhash}{cb2a2ee1b424edcf36da3ccf7e7dbbce}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{day}{1}
       \field{journaltitle}{Optics Communications}
@@ -298,6 +77,67 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0030401807003367
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{geloni_transverse_2008}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=5a05d1b32a5ab9ab3a0977e3d257043d}{%
+           family={Geloni},
+           familyi={G\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b0c2fa5275195f50d83f3f61d1cae82d}{%
+           family={Saldin},
+           familyi={S\bibinitperiod},
+           given={Evgeni},
+           giveni={E\bibinitperiod}}}%
+        {{hash=225a398b2898755adcf910180bdfbf75}{%
+           family={Schneidmiller},
+           familyi={S\bibinitperiod},
+           given={Evgeni},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ba7ddba92ac65867af6ef3f11a33683a}{%
+           family={Yurkov},
+           familyi={Y\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
+      \strng{authornamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
+      \strng{authorfullhash}{cb2a2ee1b424edcf36da3ccf7e7dbbce}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{title}{Transverse coherence properties of X-ray beams in third-generation synchrotron radiation sources}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{463\bibrangedash 493}
+      \range{pages}{31}
+      \field{volume}{588}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.nima.2008.01.089
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/andrei/Zotero/storage/MJD6TP87/Geloni et al. - 2008 - Transverse coherence properties of X-ray beams in .pdf:application/pdf;ScienceDirect Snapshot:/home/andrei/Zotero/storage/RPTGXG2K/S0168900208001605.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900208001605
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900208001605
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry

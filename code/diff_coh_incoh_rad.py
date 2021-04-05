@@ -36,17 +36,19 @@ sigma_rp = np.sqrt(xlamds/2/L_w) #natural radiation divergence at the waist
 # ebeam_sigma_xp = 10e-06
 # ebeam_sigma_yp = 50e-06
 #### #3
-ebeam_sigma_x = 0.1e-6#38e-06
-ebeam_sigma_y = 0.1e-6#4.68e-06
+ebeam_sigma_x = 1e-8#38e-06
+ebeam_sigma_y = 1e-8#4.68e-06
 ebeam_sigma_xp = 25e-06
 ebeam_sigma_yp = 20e-06
+# ebeam_sigma_xp = 10e-06
+# ebeam_sigma_yp = 10e-06
 
 ebeam_sigma_z = 2000e-6
 ebeam_sigma_gamma = 1e-4 #TODO: relative electron energy spread
 
 N_b = 100 #number of statistical realizations
-N_e = 200 #number of macro electrons 
-Nz, Ny, Nx = N_b, 151, 151 # the shape of the dfl.fld
+N_e = 100 #number of macro electrons 
+Nz, Ny, Nx = N_b, 101, 101 # the shape of the dfl.fld
 
 # Nz, Ny, Nx = N_b, 100, 100 # the shape of the dfl.fld
 # seed=1
@@ -92,7 +94,7 @@ dfl_incoh = undulator_field_dfl_MP(dfl, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N
 filePath = '/home/andrei/Documents/diploma/Diploma/images/'
 
 plot_two_dfls(dfl_incoh, dfl_coh, domains='s', scale='mm', label_first="некогерентное", label_second="когерентное",
-              slice_xy=False, fig_name='diff_coh_incoh_rad', filePath=filePath, savefig=True)
+              slice_xy=True, fig_name='diff_coh_incoh_rad', filePath=filePath, savefig=False)
 # plot_dfl(dfl_coh, domains='kf', phase=True, fig_name = fieldname_MC, cbar=True)
 # plot_dfl(dfl_incoh, domains='kf', phase=True, fig_name = fieldname_MC)
 

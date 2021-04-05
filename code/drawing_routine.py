@@ -211,7 +211,14 @@ def plot_two_dfls(dfl_first, dfl_second, domains='s', scale='mm', label_first=No
     else: 
         raise AttributeError('slice_xy is a boolean type')
         _logger.error(ind_str + 'slice_xy is a boolean type')
-       
+    std_1x = std_moment(dfl1.scale_x()*scale_order, I_1x)  
+    std_2x = std_moment(dfl2.scale_x()*scale_order, I_2x) 
+    print(std_1x, std_2x, std_1x/std_2x)
+    
+    std_1y = std_moment(dfl1.scale_x()*scale_order, I_1y)  
+    std_2y = std_moment(dfl2.scale_x()*scale_order, I_2y) 
+    print(std_1y, std_2y, std_1y/std_2y)
+    
     ax_x.plot(dfl1.scale_x()*scale_order, I_1x, c='b', label=label_first)
     ax_x2.plot(dfl2.scale_x()*scale_order, I_2x, c='green', label=label_second)
     
@@ -291,11 +298,11 @@ def plot_dfls(dfls, labels=None, domains='s', scale='mm', title=None,
 
     cmap_ph = plt.get_cmap('hsv')
         
-    figsize = 12
+    figsize = 6
     # fig = plt.figure(fig_name)
     plt.clf()
      
-    fig.set_size_inches(figsize, figsize, forward=True)
+    fig.set_size_inches(2*figsize, figsize, forward=True)
     if title is not None: 
         fig.suptitle(title, fontsize=18, ha='right')
         
@@ -322,6 +329,25 @@ def plot_dfls(dfls, labels=None, domains='s', scale='mm', title=None,
             label_x = r'$x, мм$'
             label_y = r'$y, мм$'
             scale_order = 1e3       
+            
+    if None in [x_lim, y_lim]:
+        scale_x = []
+        scale_y = []
+        for dfl in dfls:
+            scale_x = scale_x + [np.max(dfl.scale_x())]
+            scale_y = scale_y + [np.max(dfl.scale_y())]
+            
+        x_lim = min(scale_x)*scale_order
+        y_lim = min(scale_y)*scale_order
+        # x_lim = min(np.max(dfl1.scale_x()), np.max(dfl2.scale_x()))*scale_order
+        # y_lim = min(np.max(dfl1.scale_y()), np.max(dfl2.scale_y()))*scale_order
+
+    _logger.debug(ind_str + "x_lim = {}, y_lim = {}".format(x_lim, y_lim))
+    ax_y.set_xlim(-y_lim, y_lim)
+    ax_x.set_xlim(-x_lim, x_lim)
+    
+    ax_y.grid()
+    ax_x.grid()
     
     for dfl in dfls:
         I_x = 0 
@@ -337,9 +363,8 @@ def plot_dfls(dfls, labels=None, domains='s', scale='mm', title=None,
         else: 
             raise AttributeError('slice_xy is a boolean type')
             _logger.error(ind_str + 'slice_xy is a boolean type')
-           
-            ax_x.plot(dfl.scale_x()*scale_order, I_x, c='b')#, label=label_first)
-            ax_y.plot(dfl.scale_y()*scale_order, I_y, c='b')#, label=label_first)
+        ax_x.plot(dfl.scale_x()*scale_order, I_x)#, label=label_first)
+        ax_y.plot(dfl.scale_y()*scale_order, I_y)#, label=label_first)
     
     # if None not in [label_first, label_second]:
     #     ax_y2.legend(fontsize=12, bbox_to_anchor=(0, 0.92), loc='upper left')#, loc=1)
@@ -350,32 +375,27 @@ def plot_dfls(dfls, labels=None, domains='s', scale='mm', title=None,
     # ax_xy1.set_title(label_first, fontsize=14, color='b')      
     # ax_xy2.set_title(label_second, fontsize=14, color='green')
           
-    # ax_xy1.set_ylabel(label_y, fontsize=16)
-    # ax_xy1.set_xlabel(label_x, fontsize=16)
-    # ax_xy2.set_ylabel(label_y, fontsize=16)
-    # ax_xy2.set_xlabel(label_x, fontsize=16)
-    # ax_x.set_xlabel(label_x, fontsize=16)
-    # ax_y.set_xlabel(label_y, fontsize=16)
-    # ax_x.set_ylabel('пр.е', fontsize=16)
-    # ax_y.set_ylabel('пр.е', fontsize=16)
-    # ax_x.set_ylim(0)
-    # ax_y.set_ylim(0)
-    # ax_x2.set_ylim(0)
-    # ax_y2.set_ylim(0)
+    ax_x.set_xlabel(label_x, fontsize=16)
+    ax_y.set_xlabel(label_y, fontsize=16)
+    ax_x.set_ylabel('пр.е', fontsize=16)
+    ax_y.set_ylabel('пр.е', fontsize=16)
+    ax_x.set_ylim(0)
+    ax_y.set_ylim(0)
+
     
     # ax_x.set_box_aspect(1)
     # ax_y.set_box_aspect(1)
-    # ax_xy1.set_box_aspect(1)
-    # ax_xy2.set_box_aspect(1)
+    ax_x.set_box_aspect(1)
+    ax_y.set_box_aspect(1)
     
     plt.tight_layout()
     
-    # if savefig != False:
-    #     if savefig == True:
-    #         savefig = 'png'
-    #     _logger.debug(ind_str + 'saving *{:}.{:}'.format(fig_name, savefig))
-    #     fig.savefig(filePath + fig_name + '.' + str(savefig), format=savefig)
-    # _logger.debug(ind_str + 'done in {:.2f} seconds'.format(time.time() - start_time))
+    if savefig != False:
+        if savefig == True:
+            savefig = 'png'
+        _logger.debug(ind_str + 'saving *{:}.{:}'.format(fig_name, savefig))
+        fig.savefig(filePath + fig_name + '.' + str(savefig), format=savefig)
+    _logger.debug(ind_str + 'done in {:.2f} seconds'.format(time.time() - start_time))
 
     plt.draw()
     plt.show()

@@ -44,8 +44,8 @@ ebeam_sigma_yp = 20e-06
 ebeam_sigma_z = 2000e-6
 ebeam_sigma_gamma = 1e-4 #TODO: relative electron energy spread
 
-N_b = 100 #number of statistical realizations
-N_e = 100 #number of macro electrons 
+N_b = 50 #number of statistical realizations
+N_e = 50 #number of macro electrons 
 Nz, Ny, Nx = N_b, 101, 101 # the shape of the dfl.fld
 
 # Nz, Ny, Nx = N_b, 100, 100 # the shape of the dfl.fld
@@ -79,16 +79,16 @@ fieldname_MC = ''
 approximation = "far_field"
 # approximation = "near_field"
 
-ebeam_sigma_x = 38e-06
-ebeam_sigma_y = 4.68e-06
+ebeam_sigma_x = 1e-06
+ebeam_sigma_y = 1e-06
 ebeam_sigma_xp = 0.01e-06
 ebeam_sigma_yp = 0.01e-06
 dfl_coh = undulator_field_dfl_MP(dfl1, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N_b,
                                             sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp, C=0,
                                             approximation=approximation, mode='coh')
 
-ebeam_sigma_x = 100e-6#38e-06
-ebeam_sigma_y = 100e-6#4.68e-06
+ebeam_sigma_x = 50e-6#38e-06
+ebeam_sigma_y = 50e-6#4.68e-06
 ebeam_sigma_xp = 0.01e-06
 ebeam_sigma_yp = 0.01e-06
 dfl_incoh = undulator_field_dfl_MP(dfl, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N_b,
@@ -97,8 +97,9 @@ dfl_incoh = undulator_field_dfl_MP(dfl, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N
 
 filePath = '/home/andrei/Documents/diploma/Diploma/images/'
 
-plot_two_dfls(dfl_incoh, dfl_coh, domains='s', scale='mm', label_first="некогерентное", label_second="когерентное",
-              slice_xy=False, fig_name='diff_divergence_incoh', filePath=filePath, savefig=True)
+plot_dfls([dfl_incoh, dfl_coh], domains='s', scale='mm',
+              slice_xy=True, fig_name='diff_divergence_coh', filePath=filePath, savefig=True)
+
 
 
 

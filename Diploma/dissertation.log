@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  3 APR 2021 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  5 APR 2021 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1678,6 +1678,15 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 
 LaTeX Warning: Label `fig:SRW_scheme' multiply defined.
 
+
+LaTeX Warning: Label `fig:diff_coh_incoh_rad' multiply defined.
+
+
+LaTeX Warning: Label `fig:diff_coh_incoh_rad' multiply defined.
+
+
+LaTeX Warning: Label `eq:single_electron_near_field_z=0' multiply defined.
+
 \c@totalcount@figure@totc=\count505
 \c@totalcount@table@totc=\count506
 \c@TotPages@totc=\count507
@@ -1851,24 +1860,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./introduction.tex [1.1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(./lit_rew.tex [2.2
-
-]
-Underfull \hbox (badness 1019) in paragraph at lines 9--10
-[]\T2A/cmr/m/n/14.4 Общих под-ход при мо-де-ли-ро-ва-нии рас-про-стра-не-ния во
-л-но-во-го
- []
-
-) (./part1.tex [3.3
+(./part1.tex [2.2
 
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-[4.4
+[3.3
 
 ]) (./part2.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
-LaTeX Warning: Command \l invalid in math mode on input line 11.
+LaTeX Warning: Command \l invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 10.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 10.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 10.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 10.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 10.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 10.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 10.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 10.
 
 
 LaTeX Warning: Command \l invalid in math mode on input line 11.
@@ -1882,329 +1916,298 @@ LaTeX Warning: Command \l invalid in math mode on input line 11.
 
 LaTeX Warning: Command \l invalid in math mode on input line 11.
 
-
-LaTeX Warning: Command \l invalid in math mode on input line 11.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 11.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 11.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 12.
-
-[5.5
+[4.4
 
 ]
 
-LaTeX Warning: Command \l invalid in math mode on input line 17.
+LaTeX Warning: Command \l invalid in math mode on input line 16.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 17.
+LaTeX Warning: Command \l invalid in math mode on input line 16.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 17.
+LaTeX Warning: Command \l invalid in math mode on input line 16.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 17.
+LaTeX Warning: Command \l invalid in math mode on input line 16.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 23.
+LaTeX Warning: Command \l invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 31.
+LaTeX Warning: Command \l invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 31.
+LaTeX Warning: Command \l invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 31.
+LaTeX Warning: Command \l invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 31.
+LaTeX Warning: Command \l invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 31.
+LaTeX Warning: Command \l invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 31.
+LaTeX Warning: Command \l invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 31.
+LaTeX Warning: Command \l invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 31.
+LaTeX Warning: Command \l invalid in math mode on input line 27.
+
+[5.5]
+
+LaTeX Warning: Command \l invalid in math mode on input line 33.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 33.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 33.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 33.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 33.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 33.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 33.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 33.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 42.
 
 [6.6]
-
-LaTeX Warning: Command \l invalid in math mode on input line 38.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 38.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 38.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 38.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 38.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 38.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 38.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 38.
-
-<images/MC_scheme.png, id=149, 933.4875pt x 468.75125pt>
+<images/MC_scheme.png, id=139, 933.4875pt x 468.75125pt>
 File: images/MC_scheme.png Graphic file (type png)
 <use images/MC_scheme.png>
-Package pdftex.def Info: images/MC_scheme.png  used on input line 40.
+Package pdftex.def Info: images/MC_scheme.png  used on input line 44.
 (pdftex.def)             Requested size: 450.69417pt x 226.3141pt.
-[7.7 <./images/MC_scheme.png>]
+ [7.7 <./images/MC_scheme.png>]
 
-LaTeX Warning: Command \l invalid in math mode on input line 50.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 50.
+LaTeX Warning: Command \l invalid in math mode on input line 54.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 50.
+LaTeX Warning: Command \l invalid in math mode on input line 54.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 50.
+LaTeX Warning: Command \l invalid in math mode on input line 54.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 50.
+LaTeX Warning: Command \l invalid in math mode on input line 54.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 50.
+LaTeX Warning: Command \l invalid in math mode on input line 54.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 50.
+LaTeX Warning: Command \l invalid in math mode on input line 54.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 50.
+LaTeX Warning: Command \l invalid in math mode on input line 54.
 
-<images/SRW_scheme.png, id=165, 965.6075pt x 483.8075pt>
+
+LaTeX Warning: Command \l invalid in math mode on input line 54.
+
+<images/SRW_scheme.png, id=156, 965.6075pt x 483.8075pt>
 File: images/SRW_scheme.png Graphic file (type png)
 <use images/SRW_scheme.png>
-Package pdftex.def Info: images/SRW_scheme.png  used on input line 52.
+Package pdftex.def Info: images/SRW_scheme.png  used on input line 56.
 (pdftex.def)             Requested size: 450.69417pt x 225.81712pt.
-<images/diff_coh_incoh_rad.png, id=167, 867.24pt x 867.24pt>
+[8.8 <./images/SRW_scheme.png>]
+<images/diff_divergence_coh.png, id=167, 867.24pt x 433.62pt>
+File: images/diff_divergence_coh.png Graphic file (type png)
+<use images/diff_divergence_coh.png>
+Package pdftex.def Info: images/diff_divergence_coh.png  used on input line 67.
+
+(pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
+<images/diff_divergence_incoh.png, id=168, 867.24pt x 433.62pt>
+File: images/diff_divergence_incoh.png Graphic file (type png)
+<use images/diff_divergence_incoh.png>
+Package pdftex.def Info: images/diff_divergence_incoh.png  used on input line 7
+4.
+(pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
+ [9.9 <./images/diff_divergence_coh.png> <./images/diff_divergence_incoh.png>]
+<images/diff_coh_incoh_rad.png, id=178, 867.24pt x 867.24pt>
 File: images/diff_coh_incoh_rad.png Graphic file (type png)
 <use images/diff_coh_incoh_rad.png>
-Package pdftex.def Info: images/diff_coh_incoh_rad.png  used on input line 63.
+Package pdftex.def Info: images/diff_coh_incoh_rad.png  used on input line 86.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
-[8.8 <./images/SRW_scheme.png>] [9.9 <./images/diff_coh_incoh_rad.png>]
-<images/1-X_noise.png, id=182, 578.16pt x 578.16pt>
+ [10.10] [11.11 <./images/diff_coh_incoh_rad.png>]
+<images/1-X_noise.png, id=189, 578.16pt x 578.16pt>
 File: images/1-X_noise.png Graphic file (type png)
 <use images/1-X_noise.png>
-Package pdftex.def Info: images/1-X_noise.png  used on input line 75.
+Package pdftex.def Info: images/1-X_noise.png  used on input line 101.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-
-[10.10]
-<images/2-X_e-beam-size.png, id=188, 578.16pt x 578.16pt>
+ [12.12]
+<images/2-X_e-beam-size.png, id=195, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-size.png Graphic file (type png)
 <use images/2-X_e-beam-size.png>
-Package pdftex.def Info: images/2-X_e-beam-size.png  used on input line 84.
+Package pdftex.def Info: images/2-X_e-beam-size.png  used on input line 110.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/2-X_e-beam-divergence.png, id=189, 578.16pt x 578.16pt>
+<images/2-X_e-beam-divergence.png, id=196, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-divergence.png Graphic file (type png)
 <use images/2-X_e-beam-divergence.png>
-Package pdftex.def Info: images/2-X_e-beam-divergence.png  used on input line 9
-0.
+Package pdftex.def Info: images/2-X_e-beam-divergence.png  used on input line 1
+16.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/3-X_radaition_divergence.png, id=190, 578.16pt x 578.16pt>
+<images/3-X_radaition_divergence.png, id=197, 578.16pt x 578.16pt>
 File: images/3-X_radaition_divergence.png Graphic file (type png)
 <use images/3-X_radaition_divergence.png>
 Package pdftex.def Info: images/3-X_radaition_divergence.png  used on input lin
-e 100.
+e 126.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/3-X_radaition_size.png, id=191, 578.16pt x 578.16pt>
+<images/3-X_radaition_size.png, id=198, 578.16pt x 578.16pt>
 File: images/3-X_radaition_size.png Graphic file (type png)
 <use images/3-X_radaition_size.png>
-Package pdftex.def Info: images/3-X_radaition_size.png  used on input line 106.
+Package pdftex.def Info: images/3-X_radaition_size.png  used on input line 132.
 
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
- [11.11 <./images/1-X_noise.png> <./images/2-X_e-beam-size.png> <./images/2-X_e
+ [13.13 <./images/1-X_noise.png> <./images/2-X_e-beam-size.png> <./images/2-X_e
 -beam-divergence.png>]
 
-LaTeX Warning: Command \l invalid in math mode on input line 120.
+LaTeX Warning: Command \l invalid in math mode on input line 146.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 120.
+LaTeX Warning: Command \l invalid in math mode on input line 146.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 120.
+LaTeX Warning: Command \l invalid in math mode on input line 146.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 120.
+LaTeX Warning: Command \l invalid in math mode on input line 146.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 120.
+LaTeX Warning: Command \l invalid in math mode on input line 146.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 120.
+LaTeX Warning: Command \l invalid in math mode on input line 146.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 120.
+LaTeX Warning: Command \l invalid in math mode on input line 146.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 120.
+LaTeX Warning: Command \l invalid in math mode on input line 146.
 
-[12.12 <./images/3-X_radaition_divergence.png> <./images/3-X_radaition_size.png
+[14.14 <./images/3-X_radaition_divergence.png> <./images/3-X_radaition_size.png
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
-) (./part3.tex [13.13] [14.14]
+) (./part3.tex [15.15] [16.16]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[15.15
+[17.17
 
-]) (./conclusion.tex) (./references.tex [16.16
+]) (./conclusion.tex) (./references.tex [18.18
 
 
 ])
@@ -2224,7 +2227,7 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 259.
 See the caption package documentation for explanation.
 
-[17.17
+[19.19
 
 
 ]
@@ -2234,7 +2237,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 58F82F1AF2B56B3503CD4648D9410CBF;5845.
+(rerunfilecheck)             Checksum: 445135AB1E40D6FEDDDF3817FDF7315E;6222.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2245,11 +2248,11 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 39824 strings out of 481239
- 744327 string characters out of 5920376
- 1641689 words of memory out of 5000000
- 54239 multiletter control sequences out of 15000+600000
- 541967 words of font info for 47 fonts, out of 8000000 for 9000
+ 39806 strings out of 481239
+ 743671 string characters out of 5920376
+ 1642307 words of memory out of 5000000
+ 54224 multiletter control sequences out of 15000+600000
+ 540746 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,13n,92p,2049b,3787s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
@@ -2262,15 +2265,14 @@ fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
-440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on dissertation.pdf (17 pages, 865946 bytes).
+/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfrm1440.pfb>
+Output written on dissertation.pdf (19 pages, 895358 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

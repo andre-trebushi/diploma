@@ -1,28 +1,23 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'dissertation.blg'
-[94] biber:322> INFO - === Tue Mar 30, 2021, 12:54:54
-[112] Biber.pm:415> INFO - Reading 'dissertation.bcf'
-[208] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
-[221] Biber.pm:4256> INFO - Processing section 0
-[222] Utils.pm:75> INFO - Globbing data source '../biblio/othercites.bib'
-[222] Utils.pm:91> INFO - Globbed data source '../biblio/othercites.bib' to ../biblio/othercites.bib
-[222] Utils.pm:75> INFO - Globbing data source '../biblio/authorpapersVAK.bib'
-[222] Utils.pm:91> INFO - Globbed data source '../biblio/authorpapersVAK.bib' to ../biblio/authorpapersVAK.bib
-[222] Utils.pm:75> INFO - Globbing data source '../biblio/authorpapers.bib'
-[222] Utils.pm:91> INFO - Globbed data source '../biblio/authorpapers.bib' to ../biblio/authorpapers.bib
-[222] Utils.pm:75> INFO - Globbing data source '../biblio/authorconferences.bib'
-[222] Utils.pm:91> INFO - Globbed data source '../biblio/authorconferences.bib' to ../biblio/authorconferences.bib
-[232] Biber.pm:4455> INFO - Looking for bibtex format file '../biblio/othercites.bib' for section 0
-[234] bibtex.pm:1653> INFO - LaTeX decoding ...
-[257] bibtex.pm:1471> INFO - Found BibTeX data source '../biblio/othercites.bib'
-[275] Utils.pm:293> WARN - ISBN '978-1-119-28037-8 978-1-119-28038-5' in entry 'willmott_introduction_2019' is invalid - run biber with '--validate_datamodel' for details.
-[302] Utils.pm:293> WARN - ISBN '978-0-470-97395-0 978-1-119-99836-5' in entry 'alsnielsen_elements_2011' is invalid - run biber with '--validate_datamodel' for details.
-[308] Utils.pm:293> WARN - ISBN '978-0-203-21823-5 978-0-203-27377-7' in entry 'onuki_undulators_2003' is invalid - run biber with '--validate_datamodel' for details.
-[314] Utils.pm:293> WARN - ISBN '978-3-319-18316-9 978-3-319-18317-6' in entry 'wiedemann_particle_2015' is invalid - run biber with '--validate_datamodel' for details.
-[338] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[338] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[338] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[338] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
-[347] bbl.pm:652> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
-[351] bbl.pm:755> INFO - Output to dissertation.bbl
-[351] Biber.pm:128> INFO - WARNINGS: 4
+[70] biber:322> INFO - === Mon Apr  5, 2021, 19:30:32
+[89] Biber.pm:415> INFO - Reading 'dissertation.bcf'
+[186] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
+[200] Biber.pm:4256> INFO - Processing section 0
+[201] Utils.pm:75> INFO - Globbing data source '../biblio/othercites.bib'
+[201] Utils.pm:91> INFO - Globbed data source '../biblio/othercites.bib' to ../biblio/othercites.bib
+[201] Utils.pm:75> INFO - Globbing data source '../biblio/authorpapersVAK.bib'
+[201] Utils.pm:91> INFO - Globbed data source '../biblio/authorpapersVAK.bib' to ../biblio/authorpapersVAK.bib
+[201] Utils.pm:75> INFO - Globbing data source '../biblio/authorpapers.bib'
+[201] Utils.pm:91> INFO - Globbed data source '../biblio/authorpapers.bib' to ../biblio/authorpapers.bib
+[201] Utils.pm:75> INFO - Globbing data source '../biblio/authorconferences.bib'
+[201] Utils.pm:91> INFO - Globbed data source '../biblio/authorconferences.bib' to ../biblio/authorconferences.bib
+[211] Biber.pm:4455> INFO - Looking for bibtex format file '../biblio/othercites.bib' for section 0
+[213] bibtex.pm:1653> INFO - LaTeX decoding ...
+[236] bibtex.pm:1471> INFO - Found BibTeX data source '../biblio/othercites.bib'
+[277] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[277] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[277] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[277] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
+[283] bbl.pm:652> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
+[285] bbl.pm:755> INFO - Output to dissertation.bbl
