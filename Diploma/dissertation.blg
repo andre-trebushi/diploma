@@ -1,9 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'dissertation.blg'
-[70] biber:322> INFO - === Mon Apr  5, 2021, 19:30:32
-[89] Biber.pm:415> INFO - Reading 'dissertation.bcf'
-[186] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
-[200] Biber.pm:4256> INFO - Processing section 0
+[68] biber:322> INFO - === Fri Apr 23, 2021, 14:09:59
+[83] Biber.pm:415> INFO - Reading 'dissertation.bcf'
+[186] Biber.pm:943> INFO - Found 12 citekeys in bib section 0
+[201] Biber.pm:4256> INFO - Processing section 0
 [201] Utils.pm:75> INFO - Globbing data source '../biblio/othercites.bib'
 [201] Utils.pm:91> INFO - Globbed data source '../biblio/othercites.bib' to ../biblio/othercites.bib
 [201] Utils.pm:75> INFO - Globbing data source '../biblio/authorpapersVAK.bib'
@@ -12,12 +12,12 @@
 [201] Utils.pm:91> INFO - Globbed data source '../biblio/authorpapers.bib' to ../biblio/authorpapers.bib
 [201] Utils.pm:75> INFO - Globbing data source '../biblio/authorconferences.bib'
 [201] Utils.pm:91> INFO - Globbed data source '../biblio/authorconferences.bib' to ../biblio/authorconferences.bib
-[211] Biber.pm:4455> INFO - Looking for bibtex format file '../biblio/othercites.bib' for section 0
-[213] bibtex.pm:1653> INFO - LaTeX decoding ...
-[236] bibtex.pm:1471> INFO - Found BibTeX data source '../biblio/othercites.bib'
-[277] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[277] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[277] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[277] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
-[283] bbl.pm:652> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
-[285] bbl.pm:755> INFO - Output to dissertation.bbl
+[210] Biber.pm:4455> INFO - Looking for bibtex format file '../biblio/othercites.bib' for section 0
+[214] bibtex.pm:1653> INFO - LaTeX decoding ...
+[263] bibtex.pm:1471> INFO - Found BibTeX data source '../biblio/othercites.bib'
+[369] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[369] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[369] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[369] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
+[382] bbl.pm:652> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
+[388] bbl.pm:755> INFO - Output to dissertation.bbl
