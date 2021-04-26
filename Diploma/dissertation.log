@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  5 APR 2021 19:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  23 APR 2021 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1373,10 +1373,29 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks62
 \AP@partial=\box95
 \AP@footins=\box96
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+))
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+\csq@reset=\count350
+\csq@gtype=\count351
+\csq@glevel=\count352
+\csq@qlevel=\count353
+\csq@maxlvl=\count354
+\csq@tshold=\count355
+\csq@ltx@everypar=\toks63
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
 (./preamblenames.tex) (../common/styles.tex
 Package hyperref Info: Option `linktocpage' set `true' on input line 79.
 Package hyperref Info: Option `plainpages' set `false' on input line 79.
@@ -1392,59 +1411,59 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 ) (./userstyles.tex
 \twless=\skip136
 \lmarg=\skip137
-\c@ListingEnv=\count350
+\c@ListingEnv=\count356
 ) (../biblio/bibliopreamble.tex (../biblio/biblatex.tex
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count351
+\lrq@indent=\count357
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count352
-\c@listtotal=\count353
-\c@listcount=\count354
-\c@liststart=\count355
-\c@liststop=\count356
-\c@citecount=\count357
-\c@citetotal=\count358
-\c@multicitecount=\count359
-\c@multicitetotal=\count360
-\c@instcount=\count361
-\c@maxnames=\count362
-\c@minnames=\count363
-\c@maxitems=\count364
-\c@minitems=\count365
-\c@citecounter=\count366
-\c@maxcitecounter=\count367
-\c@savedcitecounter=\count368
-\c@uniquelist=\count369
-\c@uniquename=\count370
-\c@refsection=\count371
-\c@refsegment=\count372
-\c@maxextratitle=\count373
-\c@maxextratitleyear=\count374
-\c@maxextraname=\count375
-\c@maxextradate=\count376
-\c@maxextraalpha=\count377
-\c@abbrvpenalty=\count378
-\c@highnamepenalty=\count379
-\c@lownamepenalty=\count380
-\c@maxparens=\count381
-\c@parenlevel=\count382
-\blx@tempcnta=\count383
-\blx@tempcntb=\count384
-\blx@tempcntc=\count385
-\blx@maxsection=\count386
-\blx@maxsegment@0=\count387
-\blx@notetype=\count388
-\blx@parenlevel@text=\count389
-\blx@parenlevel@foot=\count390
-\blx@sectionciteorder@0=\count391
-\blx@entrysetcounter=\count392
+\c@tabx@nest=\count358
+\c@listtotal=\count359
+\c@listcount=\count360
+\c@liststart=\count361
+\c@liststop=\count362
+\c@citecount=\count363
+\c@citetotal=\count364
+\c@multicitecount=\count365
+\c@multicitetotal=\count366
+\c@instcount=\count367
+\c@maxnames=\count368
+\c@minnames=\count369
+\c@maxitems=\count370
+\c@minitems=\count371
+\c@citecounter=\count372
+\c@maxcitecounter=\count373
+\c@savedcitecounter=\count374
+\c@uniquelist=\count375
+\c@uniquename=\count376
+\c@refsection=\count377
+\c@refsegment=\count378
+\c@maxextratitle=\count379
+\c@maxextratitleyear=\count380
+\c@maxextraname=\count381
+\c@maxextradate=\count382
+\c@maxextraalpha=\count383
+\c@abbrvpenalty=\count384
+\c@highnamepenalty=\count385
+\c@lownamepenalty=\count386
+\c@maxparens=\count387
+\c@parenlevel=\count388
+\blx@tempcnta=\count389
+\blx@tempcntb=\count390
+\blx@tempcntc=\count391
+\blx@maxsection=\count392
+\blx@maxsegment@0=\count393
+\blx@notetype=\count394
+\blx@parenlevel@text=\count395
+\blx@parenlevel@foot=\count396
+\blx@sectionciteorder@0=\count397
+\blx@entrysetcounter=\count398
 \labelnumberwidth=\skip138
 \labelalphawidth=\skip139
 \biblabelsep=\skip140
@@ -1456,9 +1475,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read5
 \blx@bcfout=\write5
 \blx@langwohyphens=\language85
-\c@mincomprange=\count393
-\c@maxcomprange=\count394
-\c@mincompwidth=\count395
+\c@mincomprange=\count399
+\c@maxcomprange=\count400
+\c@mincompwidth=\count401
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1478,96 +1497,96 @@ File: biblatex-gost.dbx 2018/02/20 v1.17 biblatex-gost data model
 ))
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count396
-\c@savedafterword=\count397
-\c@annotator=\count398
-\c@savedannotator=\count399
-\c@author=\count400
-\c@savedauthor=\count401
-\c@bookauthor=\count402
-\c@savedbookauthor=\count403
-\c@commentator=\count404
-\c@savedcommentator=\count405
-\c@editor=\count406
-\c@savededitor=\count407
-\c@editora=\count408
-\c@savededitora=\count409
-\c@editorb=\count410
-\c@savededitorb=\count411
-\c@editorc=\count412
-\c@savededitorc=\count413
-\c@foreword=\count414
-\c@savedforeword=\count415
-\c@holder=\count416
-\c@savedholder=\count417
-\c@introduction=\count418
-\c@savedintroduction=\count419
-\c@namea=\count420
-\c@savednamea=\count421
-\c@nameb=\count422
-\c@savednameb=\count423
-\c@namec=\count424
-\c@savednamec=\count425
-\c@translator=\count426
-\c@savedtranslator=\count427
-\c@shortauthor=\count428
-\c@savedshortauthor=\count429
-\c@shorteditor=\count430
-\c@savedshorteditor=\count431
-\c@booktranslator=\count432
-\c@savedbooktranslator=\count433
-\c@bookcommentator=\count434
-\c@savedbookcommentator=\count435
-\c@bookannotator=\count436
-\c@savedbookannotator=\count437
-\c@bookintroduction=\count438
-\c@savedbookintroduction=\count439
-\c@bookforeword=\count440
-\c@savedbookforeword=\count441
-\c@bookafterword=\count442
-\c@savedbookafterword=\count443
-\c@labelname=\count444
-\c@savedlabelname=\count445
-\c@institution=\count446
-\c@savedinstitution=\count447
-\c@lista=\count448
-\c@savedlista=\count449
-\c@listb=\count450
-\c@savedlistb=\count451
-\c@listc=\count452
-\c@savedlistc=\count453
-\c@listd=\count454
-\c@savedlistd=\count455
-\c@liste=\count456
-\c@savedliste=\count457
-\c@listf=\count458
-\c@savedlistf=\count459
-\c@location=\count460
-\c@savedlocation=\count461
-\c@organization=\count462
-\c@savedorganization=\count463
-\c@origlocation=\count464
-\c@savedoriglocation=\count465
-\c@origpublisher=\count466
-\c@savedorigpublisher=\count467
-\c@publisher=\count468
-\c@savedpublisher=\count469
-\c@language=\count470
-\c@savedlanguage=\count471
-\c@origlanguage=\count472
-\c@savedoriglanguage=\count473
-\c@bookoriglanguage=\count474
-\c@savedbookoriglanguage=\count475
-\c@specdata=\count476
-\c@savedspecdata=\count477
-\c@credits=\count478
-\c@savedcredits=\count479
-\c@bookcredits=\count480
-\c@savedbookcredits=\count481
-\c@editioncredits=\count482
-\c@savededitioncredits=\count483
-\c@pageref=\count484
-\c@savedpageref=\count485
+\c@afterword=\count402
+\c@savedafterword=\count403
+\c@annotator=\count404
+\c@savedannotator=\count405
+\c@author=\count406
+\c@savedauthor=\count407
+\c@bookauthor=\count408
+\c@savedbookauthor=\count409
+\c@commentator=\count410
+\c@savedcommentator=\count411
+\c@editor=\count412
+\c@savededitor=\count413
+\c@editora=\count414
+\c@savededitora=\count415
+\c@editorb=\count416
+\c@savededitorb=\count417
+\c@editorc=\count418
+\c@savededitorc=\count419
+\c@foreword=\count420
+\c@savedforeword=\count421
+\c@holder=\count422
+\c@savedholder=\count423
+\c@introduction=\count424
+\c@savedintroduction=\count425
+\c@namea=\count426
+\c@savednamea=\count427
+\c@nameb=\count428
+\c@savednameb=\count429
+\c@namec=\count430
+\c@savednamec=\count431
+\c@translator=\count432
+\c@savedtranslator=\count433
+\c@shortauthor=\count434
+\c@savedshortauthor=\count435
+\c@shorteditor=\count436
+\c@savedshorteditor=\count437
+\c@booktranslator=\count438
+\c@savedbooktranslator=\count439
+\c@bookcommentator=\count440
+\c@savedbookcommentator=\count441
+\c@bookannotator=\count442
+\c@savedbookannotator=\count443
+\c@bookintroduction=\count444
+\c@savedbookintroduction=\count445
+\c@bookforeword=\count446
+\c@savedbookforeword=\count447
+\c@bookafterword=\count448
+\c@savedbookafterword=\count449
+\c@labelname=\count450
+\c@savedlabelname=\count451
+\c@institution=\count452
+\c@savedinstitution=\count453
+\c@lista=\count454
+\c@savedlista=\count455
+\c@listb=\count456
+\c@savedlistb=\count457
+\c@listc=\count458
+\c@savedlistc=\count459
+\c@listd=\count460
+\c@savedlistd=\count461
+\c@liste=\count462
+\c@savedliste=\count463
+\c@listf=\count464
+\c@savedlistf=\count465
+\c@location=\count466
+\c@savedlocation=\count467
+\c@organization=\count468
+\c@savedorganization=\count469
+\c@origlocation=\count470
+\c@savedoriglocation=\count471
+\c@origpublisher=\count472
+\c@savedorigpublisher=\count473
+\c@publisher=\count474
+\c@savedpublisher=\count475
+\c@language=\count476
+\c@savedlanguage=\count477
+\c@origlanguage=\count478
+\c@savedoriglanguage=\count479
+\c@bookoriglanguage=\count480
+\c@savedbookoriglanguage=\count481
+\c@specdata=\count482
+\c@savedspecdata=\count483
+\c@credits=\count484
+\c@savedcredits=\count485
+\c@bookcredits=\count486
+\c@savedbookcredits=\count487
+\c@editioncredits=\count488
+\c@savededitioncredits=\count489
+\c@pageref=\count490
+\c@savedpageref=\count491
 \shorthandwidth=\skip146
 \shortjournalwidth=\skip147
 \shortserieswidth=\skip148
@@ -1593,19 +1612,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count486
-\c@textcitetotal=\count487
-\c@textcitemaxnames=\count488
-\c@biburlbigbreakpenalty=\count489
-\c@biburlbreakpenalty=\count490
-\c@biburlnumpenalty=\count491
-\c@biburlucpenalty=\count492
-\c@biburllcpenalty=\count493
+\c@textcitecount=\count492
+\c@textcitetotal=\count493
+\c@textcitemaxnames=\count494
+\c@biburlbigbreakpenalty=\count495
+\c@biburlbreakpenalty=\count496
+\c@biburlnumpenalty=\count497
+\c@biburlucpenalty=\count498
+\c@biburllcpenalty=\count499
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count494
+\c@smartand=\count500
 )
 Package biblatex Info: Trying to load bibliography style 'gost-numeric'...
 Package biblatex Info: ... file 'gost-numeric.bbx' found.
@@ -1623,9 +1642,9 @@ Package biblatex Info: ... file 'biblatex-gost.def' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex-gost/biblatex-gost.def
 File: biblatex-gost.def 2018/02/20 v1.17 biblatex-gost styles
 )
-\c@blx@gost@pointer=\count495
-\c@bbx:relatedcount=\count496
-\c@bbx:relatedtotal=\count497
+\c@blx@gost@pointer=\count501
+\c@bbx:relatedcount=\count502
+\c@bbx:relatedtotal=\count503
 Package biblatex Info: Redefining autocite command 'footnote'.
 Package biblatex Info: Redefining autocite command 'superscript'.
 ))
@@ -1639,8 +1658,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count498
-\c@cbx@tempcntb=\count499
+\c@cbx@tempcnta=\count504
+\c@cbx@tempcntb=\count505
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1659,22 +1678,24 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-\c@citenum=\count500
-\c@citenum@totc=\count501
+\c@citenum=\count506
+\c@citenum@totc=\count507
 ))
 (../common/data.tex)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'russian'.
 
-Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
-(biblatex)                Loading 'csquotes' recommended.
-
-\@quotelevel=\count502
-\@quotereset=\count503
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count504
+\l__kernel_color_stack_int=\count508
 \l__pdf_internal_box=\box97
 )
 (./dissertation.aux
+
+LaTeX Warning: Label `eq:single_electron_near_field_z=0' multiply defined.
+
 
 LaTeX Warning: Label `fig:SRW_scheme' multiply defined.
 
@@ -1684,12 +1705,9 @@ LaTeX Warning: Label `fig:diff_coh_incoh_rad' multiply defined.
 
 LaTeX Warning: Label `fig:diff_coh_incoh_rad' multiply defined.
 
-
-LaTeX Warning: Label `eq:single_electron_near_field_z=0' multiply defined.
-
-\c@totalcount@figure@totc=\count505
-\c@totalcount@table@totc=\count506
-\c@TotPages@totc=\count507
+\c@totalcount@figure@totc=\count509
+\c@totalcount@table@totc=\count510
+\c@TotPages@totc=\count511
 )
 \openout1 = `dissertation.aux'.
 
@@ -1715,17 +1733,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count508
+\scratchcounter=\count512
 \scratchdimen=\dimen343
 \scratchbox=\box98
-\nofMPsegments=\count509
-\nofMParguments=\count510
-\everyMPshowfont=\toks63
-\MPscratchCnt=\count511
+\nofMPsegments=\count513
+\nofMParguments=\count514
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count515
 \MPscratchDim=\dimen344
-\MPnumerator=\count512
-\makeMPintoPDFobject=\count513
-\everyMPtoPDFconversion=\toks64
+\MPnumerator=\count516
+\makeMPintoPDFobject=\count517
+\everyMPtoPDFconversion=\toks65
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1769,7 +1787,7 @@ Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\c@section@level=\count514
+\c@section@level=\count518
 )
 LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
@@ -1787,14 +1805,14 @@ Package caption Info: Fixing longtable code of `floatrow' package.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count515
+\c@lstlisting=\count519
 
 (/usr/share/texlive/texmf-dist/tex/latex/floatrow/fr-longtable.sty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
 \flrow@LT@lasthead=\box100
 \flrow@LT@prelastfoot=\box101
-\c@FBLTpage=\count516
+\c@FBLTpage=\count520
 )
 Package biblatex Info: Trying to load language 'russian' -> 'russian-gost'...
 Package biblatex Info: ... file 'russian-gost.lbx' found.
@@ -1859,50 +1877,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (./introduction.tex [1.1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(./part1.tex [2.2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2.2
 
-]
+] [3.3
+
+] [4.4] [5.5]) (./part1.tex [6.6]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-[3.3
 
-]) (./part2.tex
+Package biblatex Warning: No hyphenation patterns for 'de' on input line 3.
+
+[7.7
+
+] [8.8] [9.9]) (./part2.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
-LaTeX Warning: Command \l invalid in math mode on input line 6.
+LaTeX Warning: Command \l invalid in math mode on input line 7.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 6.
+LaTeX Warning: Command \l invalid in math mode on input line 7.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 6.
+LaTeX Warning: Command \l invalid in math mode on input line 7.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 10.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 10.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 10.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 10.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 10.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 10.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 10.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 10.
+LaTeX Warning: Command \l invalid in math mode on input line 7.
 
 
 LaTeX Warning: Command \l invalid in math mode on input line 11.
@@ -1916,299 +1915,342 @@ LaTeX Warning: Command \l invalid in math mode on input line 11.
 
 LaTeX Warning: Command \l invalid in math mode on input line 11.
 
-[4.4
+
+LaTeX Warning: Command \l invalid in math mode on input line 11.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 11.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 11.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 11.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 12.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 12.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 12.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 12.
+
+[10.10
 
 ]
 
-LaTeX Warning: Command \l invalid in math mode on input line 16.
+LaTeX Warning: Command \l invalid in math mode on input line 17.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 16.
+LaTeX Warning: Command \l invalid in math mode on input line 17.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 16.
+LaTeX Warning: Command \l invalid in math mode on input line 17.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 16.
+LaTeX Warning: Command \l invalid in math mode on input line 17.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 21.
+LaTeX Warning: Command \l invalid in math mode on input line 22.
 
+[11.11]
 
-LaTeX Warning: Command \l invalid in math mode on input line 27.
+LaTeX Warning: Command \l invalid in math mode on input line 28.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 27.
+LaTeX Warning: Command \l invalid in math mode on input line 28.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 27.
+LaTeX Warning: Command \l invalid in math mode on input line 28.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 27.
+LaTeX Warning: Command \l invalid in math mode on input line 28.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 27.
+LaTeX Warning: Command \l invalid in math mode on input line 28.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 27.
+LaTeX Warning: Command \l invalid in math mode on input line 28.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 27.
+LaTeX Warning: Command \l invalid in math mode on input line 28.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 27.
+LaTeX Warning: Command \l invalid in math mode on input line 28.
 
-[5.5]
 
-LaTeX Warning: Command \l invalid in math mode on input line 33.
+LaTeX Warning: Command \l invalid in math mode on input line 34.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 33.
+LaTeX Warning: Command \l invalid in math mode on input line 34.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 33.
+LaTeX Warning: Command \l invalid in math mode on input line 34.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 33.
+LaTeX Warning: Command \l invalid in math mode on input line 34.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 33.
+LaTeX Warning: Command \l invalid in math mode on input line 34.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 33.
+LaTeX Warning: Command \l invalid in math mode on input line 34.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 33.
+LaTeX Warning: Command \l invalid in math mode on input line 34.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 33.
+LaTeX Warning: Command \l invalid in math mode on input line 34.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 42.
+LaTeX Warning: Command \l invalid in math mode on input line 43.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 42.
+LaTeX Warning: Command \l invalid in math mode on input line 43.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 42.
+LaTeX Warning: Command \l invalid in math mode on input line 43.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 42.
+LaTeX Warning: Command \l invalid in math mode on input line 43.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 42.
+LaTeX Warning: Command \l invalid in math mode on input line 43.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 42.
+LaTeX Warning: Command \l invalid in math mode on input line 43.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 42.
+LaTeX Warning: Command \l invalid in math mode on input line 43.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 42.
+LaTeX Warning: Command \l invalid in math mode on input line 43.
 
-[6.6]
-<images/MC_scheme.png, id=139, 933.4875pt x 468.75125pt>
+[12.12]
+<images/MC_scheme.png, id=214, 933.4875pt x 468.75125pt>
 File: images/MC_scheme.png Graphic file (type png)
 <use images/MC_scheme.png>
-Package pdftex.def Info: images/MC_scheme.png  used on input line 44.
+Package pdftex.def Info: images/MC_scheme.png  used on input line 45.
 (pdftex.def)             Requested size: 450.69417pt x 226.3141pt.
- [7.7 <./images/MC_scheme.png>]
+ [13.13 <./images/MC_scheme.png>]
 
-LaTeX Warning: Command \l invalid in math mode on input line 54.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 54.
+LaTeX Warning: Command \l invalid in math mode on input line 55.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 54.
+LaTeX Warning: Command \l invalid in math mode on input line 55.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 54.
+LaTeX Warning: Command \l invalid in math mode on input line 55.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 54.
+LaTeX Warning: Command \l invalid in math mode on input line 55.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 54.
+LaTeX Warning: Command \l invalid in math mode on input line 55.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 54.
+LaTeX Warning: Command \l invalid in math mode on input line 55.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 54.
+LaTeX Warning: Command \l invalid in math mode on input line 55.
 
-<images/SRW_scheme.png, id=156, 965.6075pt x 483.8075pt>
+
+LaTeX Warning: Command \l invalid in math mode on input line 55.
+
+<images/SRW_scheme.png, id=229, 965.6075pt x 483.8075pt>
 File: images/SRW_scheme.png Graphic file (type png)
 <use images/SRW_scheme.png>
-Package pdftex.def Info: images/SRW_scheme.png  used on input line 56.
+Package pdftex.def Info: images/SRW_scheme.png  used on input line 57.
 (pdftex.def)             Requested size: 450.69417pt x 225.81712pt.
-[8.8 <./images/SRW_scheme.png>]
-<images/diff_divergence_coh.png, id=167, 867.24pt x 433.62pt>
+[14.14 <./images/SRW_scheme.png>]
+<images/diff_divergence_coh.png, id=238, 867.24pt x 433.62pt>
 File: images/diff_divergence_coh.png Graphic file (type png)
 <use images/diff_divergence_coh.png>
-Package pdftex.def Info: images/diff_divergence_coh.png  used on input line 67.
+Package pdftex.def Info: images/diff_divergence_coh.png  used on input line 68.
 
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-<images/diff_divergence_incoh.png, id=168, 867.24pt x 433.62pt>
+<images/diff_divergence_incoh.png, id=239, 867.24pt x 433.62pt>
 File: images/diff_divergence_incoh.png Graphic file (type png)
 <use images/diff_divergence_incoh.png>
 Package pdftex.def Info: images/diff_divergence_incoh.png  used on input line 7
-4.
+5.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [9.9 <./images/diff_divergence_coh.png> <./images/diff_divergence_incoh.png>]
-<images/diff_coh_incoh_rad.png, id=178, 867.24pt x 867.24pt>
+ [15.15 <./images/diff_divergence_coh.png> <./images/diff_divergence_incoh.png>
+]
+<images/diff_coh_incoh_rad.png, id=249, 867.24pt x 867.24pt>
 File: images/diff_coh_incoh_rad.png Graphic file (type png)
 <use images/diff_coh_incoh_rad.png>
-Package pdftex.def Info: images/diff_coh_incoh_rad.png  used on input line 86.
+Package pdftex.def Info: images/diff_coh_incoh_rad.png  used on input line 87.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [10.10] [11.11 <./images/diff_coh_incoh_rad.png>]
-<images/1-X_noise.png, id=189, 578.16pt x 578.16pt>
+ [16.16] [17.17 <./images/diff_coh_incoh_rad.png>]
+<images/1-X_noise.png, id=260, 578.16pt x 578.16pt>
 File: images/1-X_noise.png Graphic file (type png)
 <use images/1-X_noise.png>
-Package pdftex.def Info: images/1-X_noise.png  used on input line 101.
+Package pdftex.def Info: images/1-X_noise.png  used on input line 102.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
- [12.12]
-<images/2-X_e-beam-size.png, id=195, 578.16pt x 578.16pt>
+ [18.18]
+<images/2-X_e-beam-size.png, id=266, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-size.png Graphic file (type png)
 <use images/2-X_e-beam-size.png>
-Package pdftex.def Info: images/2-X_e-beam-size.png  used on input line 110.
+Package pdftex.def Info: images/2-X_e-beam-size.png  used on input line 111.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/2-X_e-beam-divergence.png, id=196, 578.16pt x 578.16pt>
+<images/2-X_e-beam-divergence.png, id=267, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-divergence.png Graphic file (type png)
 <use images/2-X_e-beam-divergence.png>
 Package pdftex.def Info: images/2-X_e-beam-divergence.png  used on input line 1
-16.
+17.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/3-X_radaition_divergence.png, id=197, 578.16pt x 578.16pt>
+<images/3-X_radaition_divergence.png, id=268, 578.16pt x 578.16pt>
 File: images/3-X_radaition_divergence.png Graphic file (type png)
 <use images/3-X_radaition_divergence.png>
 Package pdftex.def Info: images/3-X_radaition_divergence.png  used on input lin
-e 126.
+e 127.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/3-X_radaition_size.png, id=198, 578.16pt x 578.16pt>
+<images/3-X_radaition_size.png, id=269, 578.16pt x 578.16pt>
 File: images/3-X_radaition_size.png Graphic file (type png)
 <use images/3-X_radaition_size.png>
-Package pdftex.def Info: images/3-X_radaition_size.png  used on input line 132.
+Package pdftex.def Info: images/3-X_radaition_size.png  used on input line 133.
 
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
- [13.13 <./images/1-X_noise.png> <./images/2-X_e-beam-size.png> <./images/2-X_e
+ [19.19 <./images/1-X_noise.png> <./images/2-X_e-beam-size.png> <./images/2-X_e
 -beam-divergence.png>]
 
-LaTeX Warning: Command \l invalid in math mode on input line 146.
+LaTeX Warning: Command \l invalid in math mode on input line 147.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 146.
+LaTeX Warning: Command \l invalid in math mode on input line 147.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 146.
+LaTeX Warning: Command \l invalid in math mode on input line 147.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 146.
+LaTeX Warning: Command \l invalid in math mode on input line 147.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 146.
+LaTeX Warning: Command \l invalid in math mode on input line 147.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 146.
+LaTeX Warning: Command \l invalid in math mode on input line 147.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 146.
+LaTeX Warning: Command \l invalid in math mode on input line 147.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 146.
+LaTeX Warning: Command \l invalid in math mode on input line 147.
 
-[14.14 <./images/3-X_radaition_divergence.png> <./images/3-X_radaition_size.png
+[20.20 <./images/3-X_radaition_divergence.png> <./images/3-X_radaition_size.png
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-) (./part3.tex [15.15] [16.16]
+) (./part3.tex [21.21] [22.22]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[17.17
+[23.23
 
-]) (./conclusion.tex) (./references.tex [18.18
+]) (./conclusion.tex) (./references.tex [24.24
 
+
+]
+Underfull \hbox (badness 2753) in paragraph at lines 7--7
+[]\T2A/cmr/m/it/14.4 Chubar O.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Elleaume P
+. \T2A/cmr/m/n/14.4 Accurate and efficient computation of
+ []
+
+
+Package biblatex Warning: No hyphenation patterns for 'de' on input line 7.
+
+[25.25
+
+
+]
+
+Package biblatex Warning: No hyphenation patterns for 'de' on input line 7.
+
+) (./glossarium.tex [26.26] [27.27
 
 ])
 
@@ -2227,17 +2269,13 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 259.
 See the caption package documentation for explanation.
 
-[19.19
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
- (./dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
+(./dissertation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 445135AB1E40D6FEDDDF3817FDF7315E;6222.
+(rerunfilecheck)             Checksum: FA11F3096CEF25A091D133CFB7D30CAE;6802.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2245,18 +2283,21 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
 \openout1 = `dissertation.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 39806 strings out of 481239
- 743671 string characters out of 5920376
- 1642307 words of memory out of 5000000
- 54224 multiletter control sequences out of 15000+600000
- 540746 words of font info for 45 fonts, out of 8000000 for 9000
+ 40431 strings out of 481239
+ 755469 string characters out of 5920376
+ 1661132 words of memory out of 5000000
+ 54807 multiletter control sequences out of 15000+600000
+ 541967 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,13n,92p,2049b,3787s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+ 66i,14n,92p,3550b,3804s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
@@ -2265,14 +2306,15 @@ fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm1440.pfb>
-Output written on dissertation.pdf (19 pages, 895358 bytes).
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
+440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on dissertation.pdf (27 pages, 972072 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
