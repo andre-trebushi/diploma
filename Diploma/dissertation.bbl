@@ -440,61 +440,67 @@
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry
-    \entry{geloni_fourier_2007}{article}{useauthor=false}
-      \name{author}{4}{}{%
+    \entry{geloni_effects_2018}{article}{useauthor=false}
+      \name{author}{5}{}{%
         {{hash=5a05d1b32a5ab9ab3a0977e3d257043d}{%
            family={Geloni},
            familyi={G\bibinitperiod},
            given={Gianluca},
            giveni={G\bibinitperiod}}}%
+        {{hash=f3e551eb0e2cffec6ba5019ec744546a}{%
+           family={Serkez},
+           familyi={S\bibinitperiod},
+           given={Svitozar},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e32ea53f6887218d5867865a69122938}{%
+           family={Khubbutdinov},
+           familyi={K\bibinitperiod},
+           given={Ruslan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c4248caef9caf44f29de5d8973d41ab2}{%
+           family={Kocharyan},
+           familyi={K\bibinitperiod},
+           given={Vitali},
+           giveni={V\bibinitperiod}}}%
         {{hash=b0c2fa5275195f50d83f3f61d1cae82d}{%
            family={Saldin},
            familyi={S\bibinitperiod},
            given={Evgeni},
            giveni={E\bibinitperiod}}}%
-        {{hash=225a398b2898755adcf910180bdfbf75}{%
-           family={Schneidmiller},
-           familyi={S\bibinitperiod},
-           given={Evgeni},
-           giveni={E\bibinitperiod}}}%
-        {{hash=ba7ddba92ac65867af6ef3f11a33683a}{%
-           family={Yurkov},
-           familyi={Y\bibinitperiod},
-           given={Mikhail},
-           giveni={M\bibinitperiod}}}%
       }
       \strng{authorbibnamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
       \strng{authornamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
-      \strng{authorfullhash}{cb2a2ee1b424edcf36da3ccf7e7dbbce}
+      \strng{authorfullhash}{a2bfe2e774dee0443eacd527ad1b6677}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Optics Communications}
-      \field{langid}{english}
-      \field{month}{8}
-      \field{title}{Fourier treatment of near-field synchrotron radiation theory}
-      \field{urlday}{26}
-      \field{urlmonth}{2}
+      \field{annotation}{Comment: Preprint accepted for publication in the Journal of Synchrotron radiation, 30 pages, 8 figures}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{month}{9}
+      \field{note}{arXiv: 1808.05019}
+      \field{title}{Effects of energy spread on {Brightness} and {Coherence} of undulator sources}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
       \field{urlyear}{2021}
-      \field{year}{2007}
+      \field{year}{2018}
       \field{urldateera}{ce}
-      \field{number}{1}
+      \field{number}{5}
       \range{number}{1}
-      \field{pages}{167\bibrangedash 179}
-      \range{pages}{13}
-      \field{volume}{276}
+      \field{pages}{1335\bibrangedash 1345}
+      \range{pages}{11}
+      \field{volume}{25}
       \range{volume}{1}
       \verb{doi}
-      \verb 10.1016/j.optcom.2007.03.051
+      \verb 10.1107/S1600577518010330
       \endverb
       \verb{file}
-      \verb ScienceDirect Full Text PDF:/home/andrei/Zotero/storage/5SMSTEM7/Geloni et al. - 2007 - Fourier treatment of near-field synchrotron radiat.pdf:application/pdf;ScienceDirect Snapshot:/home/andrei/Zotero/storage/UUBBXFFA/S0030401807003367.html:text/html
+      \verb arXiv Fulltext PDF:/home/andrei/Zotero/storage/7YI3YTEH/Geloni et al. - 2018 - Effects of energy spread on Brightness and Coheren.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0030401807003367
+      \verb http://arxiv.org/abs/1808.05019
       \endverb
       \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0030401807003367
+      \verb http://arxiv.org/abs/1808.05019
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry
@@ -544,6 +550,343 @@
       \endverb
       \verb{url}
       \verb http://arxiv.org/abs/1407.4591
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{chubar_simulation_2006}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b5d5016305fa638811ab5097f3540e71}{%
+           family={Chubar},
+           familyi={C\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5d5016305fa638811ab5097f3540e71}
+      \strng{fullhash}{b5d5016305fa638811ab5097f3540e71}
+      \strng{bibnamehash}{b5d5016305fa638811ab5097f3540e71}
+      \strng{authorbibnamehash}{b5d5016305fa638811ab5097f3540e71}
+      \strng{authornamehash}{b5d5016305fa638811ab5097f3540e71}
+      \strng{authorfullhash}{b5d5016305fa638811ab5097f3540e71}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Infrared Physics \& Technology}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{series}{International {Workshop} on {Infrared} {Microscopy} and {Spectroscopy} with {Accelerator}-{Based} {Sources}}
+      \field{title}{Simulation of emission and propagation of coherent synchrotron radiation wave fronts using the methods of wave optics}
+      \field{urlday}{3}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{96\bibrangedash 103}
+      \range{pages}{8}
+      \field{volume}{49}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.infrared.2006.01.010
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/andrei/Zotero/storage/LLRTFXSK/S1350449506000120.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1350449506000120
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1350449506000120
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{singer_modelling_2011}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=c38b2ec9fd23f2d60c427b82665fd560}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Andrej},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aa35e71651c9bc0421839c043e5e21a7}{%
+           family={Vartanyants},
+           familyi={V\bibinitperiod},
+           given={Ivan\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {International Society for Optics}%
+        {Photonics}%
+      }
+      \strng{namehash}{ae3f123624ce6a7a7895b363b760b091}
+      \strng{fullhash}{ae3f123624ce6a7a7895b363b760b091}
+      \strng{bibnamehash}{ae3f123624ce6a7a7895b363b760b091}
+      \strng{authorbibnamehash}{ae3f123624ce6a7a7895b363b760b091}
+      \strng{authornamehash}{ae3f123624ce6a7a7895b363b760b091}
+      \strng{authorfullhash}{ae3f123624ce6a7a7895b363b760b091}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in {Computational} {Methods} for {X}-{Ray} {Optics} {II}}
+      \field{month}{9}
+      \field{title}{Modelling of partially coherent radiation based on the coherent mode decomposition}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{814106}
+      \range{pages}{1}
+      \field{volume}{8141}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1117/12.893618
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/andrei/Zotero/storage/G6Z83P2M/12.893618.html:text/html;Full Text PDF:/home/andrei/Zotero/storage/WZWL2LGB/Singer and Vartanyants - 2011 - Modelling of partially coherent radiation based on.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8141/814106/Modelling-of-partially-coherent-radiation-based-on-the-coherent-mode/10.1117/12.893618.short
+      \endverb
+      \verb{url}
+      \verb https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8141/814106/Modelling-of-partially-coherent-radiation-based-on-the-coherent-mode/10.1117/12.893618.short
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{hua_application_2012}{inproceedings}{useauthor=false}
+      \name{author}{5}{}{%
+        {{hash=66667e263e8a40c18d01ebd8b62e32c0}{%
+           family={Hua},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi Q.},
+           giveni={W\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=4ad15709f50ab359797d84408da8734e}{%
+           family={Bian},
+           familyi={B\bibinitperiod},
+           given={F.\bibnamedelimi G.},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=3fb3973981b1eda9b9f9232438a94d97}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d086bc10e65324a15639f7e556357734}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={YuZhu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fcd6114a30fda9801eef65b9d374f56b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{0551dc8e018c5fc36e158c5a25804ab3}
+      \strng{authornamehash}{0551dc8e018c5fc36e158c5a25804ab3}
+      \strng{authorfullhash}{59caef80bf8f80749a578f9ce0a930fa}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 {Symposium} on {Photonics} and {Optoelectronics}}
+      \field{month}{5}
+      \field{note}{ISSN: 2156-8480}
+      \field{title}{Application of {Gaussian} {Schell}-{Model} and {Its} {Coherent} {Mode} {Decomposition} on {Hard} {X}-{Ray} {Synchrotron} {Radiation}}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/SOPO.2012.6270955
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Full Text PDF:/home/andrei/Zotero/storage/2Y5K2A9C/Hua et al. - 2012 - Application of Gaussian Schell-Model and Its Coher.pdf:application/pdf;IEEE Xplore Abstract Record:/home/andrei/Zotero/storage/DPTT6NHP/6270955.html:text/html
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{khubbutdinov_coherence_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4e46f77e241396c0ba6b34c805585cc1}{%
+           family={Khubbutdinov},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3e062c323713aabe09d415fd51627a40}{%
+           family={Menushenkov},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=6cbae162c43a6f89a75ec5ed2890da8c}{%
+           family={Vartanyants},
+           familyi={V\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b7b5b9e15828709defdd6d67b4d5890}
+      \strng{fullhash}{8b7b5b9e15828709defdd6d67b4d5890}
+      \strng{bibnamehash}{8b7b5b9e15828709defdd6d67b4d5890}
+      \strng{authorbibnamehash}{8b7b5b9e15828709defdd6d67b4d5890}
+      \strng{authornamehash}{8b7b5b9e15828709defdd6d67b4d5890}
+      \strng{authorfullhash}{8b7b5b9e15828709defdd6d67b4d5890}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{note}{Number: 6 Publisher: International Union of Crystallography}
+      \field{title}{Coherence properties of the high-energy fourth-generation {X}-ray synchrotron sources}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{number}{6}
+      \range{number}{1}
+      \field{pages}{1851\bibrangedash 1862}
+      \range{pages}{12}
+      \field{volume}{26}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1107/S1600577519013079
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/andrei/Zotero/storage/Q7I7TZMU/Khubbutdinov et al. - 2019 - Coherence properties of the high-energy fourth-gen.pdf:application/pdf;Snapshot:/home/andrei/Zotero/storage/WYJYCZTU/paper.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.iucr.org/s/issues/2019/06/00/pp5149/
+      \endverb
+      \verb{url}
+      \verb https://journals.iucr.org/s/issues/2019/06/00/pp5149/
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{noauthor_iucr_nodate}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{({IUCr}) {Genuine}-field modeling of partially coherent {X}-ray imaging systems}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb (IUCr) Genuine-field modeling of partially coherent X-ray imaging systems:/home/andrei/Zotero/storage/ER2UGUV7/S1600577520006979.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/iucr/doi/10.1107/S1600577520006979
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/iucr/doi/10.1107/S1600577520006979
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{geloni_fourier_2007}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=5a05d1b32a5ab9ab3a0977e3d257043d}{%
+           family={Geloni},
+           familyi={G\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b0c2fa5275195f50d83f3f61d1cae82d}{%
+           family={Saldin},
+           familyi={S\bibinitperiod},
+           given={Evgeni},
+           giveni={E\bibinitperiod}}}%
+        {{hash=225a398b2898755adcf910180bdfbf75}{%
+           family={Schneidmiller},
+           familyi={S\bibinitperiod},
+           given={Evgeni},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ba7ddba92ac65867af6ef3f11a33683a}{%
+           family={Yurkov},
+           familyi={Y\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
+      \strng{authornamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
+      \strng{authorfullhash}{cb2a2ee1b424edcf36da3ccf7e7dbbce}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics Communications}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Fourier treatment of near-field synchrotron radiation theory}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{167\bibrangedash 179}
+      \range{pages}{13}
+      \field{volume}{276}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.optcom.2007.03.051
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/andrei/Zotero/storage/5SMSTEM7/Geloni et al. - 2007 - Fourier treatment of near-field synchrotron radiat.pdf:application/pdf;ScienceDirect Snapshot:/home/andrei/Zotero/storage/UUBBXFFA/S0030401807003367.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0030401807003367
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0030401807003367
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{schneidmiller_baseline_2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b0c0f49e7c45b114d4470568c7d08111}{%
+           family={Schneidmiller},
+           familyi={S\bibinitperiod},
+           given={Evgeny},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ba7ddba92ac65867af6ef3f11a33683a}{%
+           family={Yurkov},
+           familyi={Y\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ab90fd22feaafcfe63c166588d81aff}
+      \strng{fullhash}{9ab90fd22feaafcfe63c166588d81aff}
+      \strng{bibnamehash}{9ab90fd22feaafcfe63c166588d81aff}
+      \strng{authorbibnamehash}{9ab90fd22feaafcfe63c166588d81aff}
+      \strng{authornamehash}{9ab90fd22feaafcfe63c166588d81aff}
+      \strng{authorfullhash}{9ab90fd22feaafcfe63c166588d81aff}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{SeriesInformation Proceedings of the 38th Int. Free Electron Laser Conf., FEL2017, Santa Fe, NM, USA}
+      \field{journaltitle}{Proceedings of the 38th Int. Free Electron Laser Conf.}
+      \field{langid}{english}
+      \field{note}{Artwork Size: 4 pages, 0.397 MB ISBN: 9783954501793 Medium: PDF Publisher: JACoW, Geneva, Switzerland}
+      \field{title}{Baseline {Parameters} of the {European} {XFEL}}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{4 pages\bibrangessep 0.397 MB}
+      \range{pages}{-1}
+      \field{volume}{FEL2017}
+      \range{volume}{-1}
+      \verb{doi}
+      \verb 10.18429/JACOW-FEL2017-MOP033
+      \endverb
+      \verb{file}
+      \verb Schneidmiller and Yurkov - 2018 - Baseline Parameters of the European XFEL.pdf:/home/andrei/Zotero/storage/UUBNSZ89/Schneidmiller and Yurkov - 2018 - Baseline Parameters of the European XFEL.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://jacow.org/fel2017/doi/JACoW-FEL2017-MOP033.html
+      \endverb
+      \verb{url}
+      \verb http://jacow.org/fel2017/doi/JACoW-FEL2017-MOP033.html
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry

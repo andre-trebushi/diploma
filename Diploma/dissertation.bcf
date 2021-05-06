@@ -3576,11 +3576,19 @@
     <bcf:citekey order="9">goodman_statistical_2015</bcf:citekey>
     <bcf:citekey order="10">cullity_elements_1956</bcf:citekey>
     <bcf:citekey order="11">cullity_elements_1956</bcf:citekey>
-    <bcf:citekey order="12">geloni_fourier_2007</bcf:citekey>
+    <bcf:citekey order="12">geloni_effects_2018</bcf:citekey>
     <bcf:citekey order="13">geloni_brightness_2014</bcf:citekey>
-    <bcf:citekey order="14">geloni_transverse_2008</bcf:citekey>
-    <bcf:citekey order="15">geloni_fourier_2007</bcf:citekey>
-    <bcf:citekey order="16">geloni_transverse_2008</bcf:citekey>
+    <bcf:citekey order="14">chubar_accurate_1998</bcf:citekey>
+    <bcf:citekey order="15">chubar_simulation_2006</bcf:citekey>
+    <bcf:citekey order="16">singer_modelling_2011</bcf:citekey>
+    <bcf:citekey order="17">hua_application_2012</bcf:citekey>
+    <bcf:citekey order="18">khubbutdinov_coherence_2019</bcf:citekey>
+    <bcf:citekey order="19">noauthor_iucr_nodate</bcf:citekey>
+    <bcf:citekey order="20">khubbutdinov_coherence_2019</bcf:citekey>
+    <bcf:citekey order="21">noauthor_iucr_nodate</bcf:citekey>
+    <bcf:citekey order="22">geloni_transverse_2008</bcf:citekey>
+    <bcf:citekey order="23">geloni_fourier_2007</bcf:citekey>
+    <bcf:citekey order="24">geloni_transverse_2008</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

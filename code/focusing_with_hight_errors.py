@@ -1,24 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Apr  3 18:54:10 2021
+Created on Mon Apr 19 15:15:25 2021
 
 @author: andrei
 """
-import numpy as np
+
 import matplotlib.pyplot as plt
-from drawing_routine import *
+import numpy as np
 from ocelot.optics.wave import *
-from ocelot.gui.dfl_plot import *
-from ocelot.common.globals import *  # import of constants like "h_eV_s" and
-import scipy.special as sc
-from scipy import signal
-from scipy import misc
-import copy
+from ocelot.gui.dfl_plot import plot_dfl, plot_1d_hprofile
+ocelog.setLevel(logging.INFO)
+from copy import deepcopy
 
 ocelog.setLevel(logging.INFO)
 _logger = logging.getLogger(__name__)
-
 
 def undulator_field_dfl_SERVAL(dfl, L_w, sig_x=0, sig_y=0, sig_xp=0, sig_yp=0, k_support = 'intensity', s_support='conv_intensities', showfig=False, seed=None):
     filePath = '/home/andrei/Documents/diploma/Diploma/images/'
@@ -107,11 +103,11 @@ def undulator_field_dfl_SERVAL(dfl, L_w, sig_x=0, sig_y=0, sig_xp=0, sig_yp=0, k
                       fig_name = '3-X_radaition_divergence', filePath=filePath)
     return dfl 
 
-n_s = 200
+n_s = 100
 l_w = 0.018 # [m] undulator period 
 L_w = l_w * n_s
 
-E_ph = 2167 # eV
+E_ph = 1240 # eV
 w = E_ph / hr_eV_s 
 xlamds = 2 * np.pi * speed_of_light / w
 
@@ -125,22 +121,32 @@ sigma_rp = np.sqrt(xlamds/2/L_w) #natural radiation divergence at the waist
 # ebeam_sigma_xp = 5e-07
 # ebeam_sigma_yp = 7e-06
 #### #2
-# ebeam_sigma_x = 50e-6
-# ebeam_sigma_y = 10e-6
-# ebeam_sigma_xp = 10e-06
-# ebeam_sigma_yp = 50e-06
+# ebeam_sigma_x = 0.0001
+# ebeam_sigma_y = 2e-05
+# ebeam_sigma_xp = 2.5e-06
+# ebeam_sigma_yp = 2.5e-05
 #### #3
-ebeam_sigma_x = 38e-06
-ebeam_sigma_y = 4.68e-06
+# ebeam_sigma_x = 100e-06
+# ebeam_sigma_y = 200e-06
+# ebeam_sigma_xp = 50e-06
+# ebeam_sigma_yp = 25e-06
+#### #4
+ebeam_sigma_x = 1e-06
+ebeam_sigma_y = 1e-06
 ebeam_sigma_xp = 25e-06
-ebeam_sigma_yp = 20e-06
+ebeam_sigma_yp = 25e-06
+
+# ebeam_sigma_x = 0.1e-06
+# ebeam_sigma_y = 0.1e-06
+# ebeam_sigma_xp = 25e-06
+# ebeam_sigma_yp = 20e-06
 
 ebeam_sigma_z = 2000e-6
 ebeam_sigma_gamma = 1e-4 #TODO: relative electron energy spread
 
-N_b = 200 #number of statistical realizations
+N_b = 100 #number of statistical realizations
 N_e = 100 #number of macro electrons 
-Nz, Ny, Nx = 1, 101, 101 # the shape of the dfl.fld
+Nz, Ny, Nx = N_b, 101, 101 # the shape of the dfl.fld
 
 str_simulation_param = 'ebeam_sigma_x = {}\n'.format(ebeam_sigma_x) + \
                        'ebeam_sigma_y = {}\n'.format(ebeam_sigma_y) + \
@@ -151,6 +157,7 @@ str_simulation_param = 'ebeam_sigma_x = {}\n'.format(ebeam_sigma_x) + \
                        'grid mesh x = {}\n'.format(Nx) + 'grid mesh y = {}\n'.format(Ny) 
 
 script_name = os.path.basename(__file__)
+
 simulation_name = "{:.2E}".format(ebeam_sigma_x) + '_um_' + \
                   "{:.2E}".format(ebeam_sigma_y) + '_um_' + \
                   "{:.2E}".format(ebeam_sigma_xp) + '_urad_' + \
@@ -161,151 +168,123 @@ e_beam_param = r'$N_x$ = {}, '.format(round((ebeam_sigma_x)**2/xlamds/L_w, 3)) +
                r'$N_b$ = {} '.format(N_b) + r'$N_e = {}$'.format(N_e)
 print(e_beam_param)
 
-#%% 
+
 ### make a directory on your machine        
 ###saving simulation parameters in a .txt file
 filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/'
-# os.makedirs(filePath, exist_ok=True)
-# f = open(filePath + 'prm.txt', "w")
-# f.write(str_simulation_param)
-# f.close()
+os.makedirs(filePath, exist_ok=True)
+f = open(filePath + 'prm.txt', "w")
+f.write(str_simulation_param)
+f.close()
 
 script_dir = os.getcwd() + '/' + script_name
 new_script_dir = filePath + script_name
 ### seed for comparing fields
 seed = 1234
 ###
-#%%
 
+
+#%%
 # Define mesh size
-Lz, Ly, Lx = 10000e-6, 140e-6, 300e-6 #size of realspace grid [m]
+Lz, Ly, Lx = 10000e-6, 400e-6, 400e-6 #size of realspace grid [m]
 dx, dy, dz = Lx / Nx, Ly / Ny, Lz / Nz
 
 # create radiation field
-dfl_SERVAL = RadiationField((150, 251, 251))  
+dfl_SERVAL = RadiationField((N_b, Ny, Nx))  
 dfl_SERVAL.dx, dfl_SERVAL.dy, dfl_SERVAL.dz = dx, dy, dz
 dfl_SERVAL.xlamds = xlamds # SVEA carrieer frequency
 
 dfl_SERVAL.fld = np.random.randn(dfl_SERVAL.Nz(), dfl_SERVAL.Ny(), dfl_SERVAL.Nx()) + 1j * np.random.randn(dfl_SERVAL.Nz(), dfl_SERVAL.Ny(), dfl_SERVAL.Nx()) # Gaussian noise
+# dfl_SERVAL.fld = np.random.randn(dfl_SERVAL.Nz(), dfl_SERVAL.Ny(), dfl_SERVAL.Nx()) + 1j * np.random.randn(dfl_SERVAL.Nz(), dfl_SERVAL.Ny(), dfl_SERVAL.Nx()) # Gaussian noise
 
 dfl_SERVAL.filePath = filePath+'.dfl'
 # dfl_omega_0 = 2*np.pi * speed_of_light / dfl.xlamds # set undulator resonance to SVEA carrier frequency (to the middle of the photon energy domain mesh)
 # radiation_omega_resonance = dfl_omega_0 * 1.01 # shift undulator resonance to the right
 
-dfl1 = deepcopy(dfl_SERVAL)
-dfl2 = deepcopy(dfl_SERVAL)
-dfl3 = deepcopy(dfl_SERVAL)
+fieldname_SERVAL = '0-source_SERVAL'
+dfl_SERVAL = undulator_field_dfl_SERVAL(dfl_SERVAL, L_w=L_w, 
+                                        sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, 
+                                        sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp,
+                                        k_support = 'intensity', s_support='intensity', showfig=False)
 
-Lz, Ly, Lx = 10000e-6, 7500e-6, 7500e-6 #size of realspace grid [m]
+plot_dfl(dfl_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
+plot_dfl(dfl_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
+
+dfl_prop_SERVAL = deepcopy(dfl_SERVAL)
+fieldname_SERVAL = '1-far_zone_25_m_SERVAL'
+dfl_prop_SERVAL.prop_m(25, m=[20, 20])
+
+dfl_prop_SERVAL.to_domain(domains='sf') 
+
+plot_dfl(dfl_prop_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
+plot_dfl(dfl_prop_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
+#%%
+Lz, Ly, Lx = 100000e-6, 6000e-6, 6000e-6 #size of realspace grid [m]
 dx, dy, dz = Lx / Nx, Ly / Ny, Lz / Nz
-dfl4 = RadiationField((N_b, Ny, Nx)) 
-dfl4.dx, dfl4.dy, dfl4.dz = dx, dy, dz
-dfl4.xlamds = xlamds # SVEA carrieer frequency
 
+### creating RadiationField object
+dfl_MC = RadiationField((Nz, 151, 151))
+dfl_MC.dx, dfl_MC.dy, dfl_MC.dz = dx, dy, dz
+dfl_MC.xlamds = xlamds
+dfl_MC.filePath = filePath
+dfl_MC.to_domain('sf')
 
-fieldname_SERVAL = '1-far_zone_50_m_SERVAL'
-approximation = 'far_field'
-dfl_SERVAL_conv_intensity = undulator_field_dfl_SERVAL(dfl1, L_w=L_w, 
-                                        sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, 
-                                        sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp,
-                                        k_support = 'intensity', s_support='conv_intensities', showfig=False)
+fieldname_MC = '1-far_zone_50_m_MC'
+# approximation = "near_field"
+approximation = "far_field"
 
-plot_dfl(dfl_SERVAL_conv_intensity, domains='sf', fig_name='dfl_SERVAL_conv_intensity')
-plot_dfl(dfl_SERVAL_conv_intensity, domains='kf', fig_name='dfl_SERVAL_conv_intensity')
+dfl_MC = undulator_field_dfl_MP(dfl_MC, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N_b,
+                                            sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp, 
+                                            approximation=approximation, mode='incoh', seed=seed)
+plot_dfl(dfl_MC, domains='sf', phase=True, fig_name = fieldname_MC)
 #%%
-dfl_SERVAL_conv_amplitude = undulator_field_dfl_SERVAL(dfl2, L_w=L_w, 
-                                        sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, 
-                                        sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp,
-                                        k_support = 'intensity', s_support='conv_amplitudes', showfig=False)
-
-# plot_dfl(dfl_SERVAL_conv_amplitude, domains='sf', fig_name='dfl_SERVAL_conv_intensity')
-
-dfl_SERVAL_beam = undulator_field_dfl_SERVAL(dfl3, L_w=L_w, 
-                                        sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, 
-                                        sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp,
-                                        k_support = 'intensity', s_support='beam', showfig=False)
-
-# plot_dfl(dfl_SERVAL_beam, domains='sf', fig_name='dfl_SERVAL_beam')
-
-
-dfl_SP = undulator_field_dfl_MP(dfl4, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N_b,
-                                            sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp, C=0,
-                                            approximation=approximation, mode='incoh')
-
-# plot_dfl(dfl_SP, domains='sf', fig_name='before prop')
-dfl_SP.prop_m(-25, m=[0.04, 0.02])
-# plot_dfl(dfl_SERVAL_intensity_conv)
-# plot_dfl(dfl_SERVAL_amplitude_beam)
-# plot_dfl(dfl_SP, domains='sf')
-# plot_dfl(dfl_SP, domains='kf')
-#%%
-dfl_SERVAL_conv_intensity.to_domain('sf')
-dfl_SERVAL_conv_amplitude.to_domain('sf')
-dfl_SERVAL_beam.to_domain('sf')
-dfl_SP.to_domain('sf')
-
-filePath = '/home/andrei/Documents/diploma/Diploma/images/'
-fig_name = 'SERVAL_envelopes_comparison_source'
-dfls_labels = [r'свёртка интесивностей', r'свёртка амплитуд',r'электронный пучок',r'М.С.А']
-
-plot_dfls([dfl_SERVAL_conv_intensity, dfl_SERVAL_conv_amplitude, dfl_SERVAL_beam, dfl_SP], dfls_labels,
-          x_lim=150e-3, y_lim=50e-3, slice_xy=True, savefig=False, filePath=filePath, fig_name=fig_name)#, dfl_SERVAL_amplitude_beam, dfl_SP])
-
-
-dfl_SP_prop = deepcopy(dfl_SP)
-dfl_SERVAL_conv_intensity_prop = deepcopy(dfl_SERVAL_conv_intensity)
-dfl_SERVAL_conv_amplitude_prop = deepcopy(dfl_SERVAL_conv_amplitude)
-dfl_SERVAL_beam_prop = deepcopy(dfl_SERVAL_beam)
-
-m=[8, 12]
-dfl_SP_prop.prop_m(25, m=[1/0.04, 1/0.02])
-dfl_SERVAL_conv_intensity_prop.prop_m(25, m=m)
-# dfl_SERVAL_conv_amplitude_prop.prop_m(25, m=m)
-# dfl_SERVAL_beam_prop.prop_m(25, m=m)
-
-dfl_SERVAL_conv_intensity_prop.to_domain('sf')
-plot_dfl(dfl_SERVAL_conv_intensity_prop, domains='sf', fig_name='dfl_SERVAL_conv_intensity_prop')
-plot_dfl(dfl_SERVAL_conv_intensity_prop, domains='kf', fig_name='dfl_SERVAL_conv_intensity_prop')
-
-dfl_SERVAL_conv_amplitude_prop.prop_m(25, m=m)
-dfl_SERVAL_beam_prop.prop_m(25, m=m)
-
-dfls_labels = [r'SERVAL', r'МСА']
-
-fig_name = 'SERVAL_envelopes_comparison_far_zone'
-plot_dfls([dfl_SERVAL_conv_intensity_prop, dfl_SP_prop], dfls_labels,
-          x_lim=3000e-3, y_lim=3000e-3, slice_xy=True, savefig=False, filePath=filePath, fig_name=fig_name)#, dfl_SERVAL_amplitude_beam, dfl_SP])
+corr_SERVAL = dfl_xy_corr(dfl_MC, norm=1)
+plot_dfl(corr_SERVAL, domains='sf', phase=True, fig_name = 'corr')
 
 #%%
-corr_SERVAL_conv_intensity = dfl_xy_corr(dfl_SERVAL_conv_intensity_prop, norm=0)
-corr_SERVAL_conv_amplitude = dfl_xy_corr(dfl_SERVAL_conv_amplitude_prop, norm=0)
-corr_SERVAL_beam = dfl_xy_corr(dfl_SERVAL_beam_prop, norm=0)
-corr_SP = dfl_xy_corr(dfl_SP_prop, norm=0)
+# generating highly polished mirror by height errors RMS
+hprofile = generate_1d_profile(hrms=3e-9,               # [m] height errors root mean square
+                               length=0.3,             # [m] length of the mirror surface
+                               points_number=5001,      # number of points (pixels) at the mirror surface
+                               wavevector_cutoff=0,     # [1/m] point on k axis for cut off large wave lengths in the PSD (with default value 0 effects on nothing)
+                               psd=None,                # [m^3] 1d array; power spectral density of surface (if not specified, will be generated)
+                               seed=666)                # seed for np.random.seed() to allow reproducibility
 
-plot_dfl(corr_SERVAL_conv_intensity, domains='sf', phase=True, fig_name = 'corr_MC')
-plot_dfl(corr_SP, domains='sf', phase=True, fig_name = 'corr_SERVAL')
-
-dfls_labels = [r'свёртка интесивностей', r'свёртка амплитуд',r'электронный пучок',r'М.С.А']
-
-fig_name = 'SERVAL_corr_comparison'
-
-plot_dfls([corr_SERVAL_conv_intensity, corr_SERVAL_conv_amplitude, corr_SERVAL_beam, corr_SP], dfls_labels,
-          x_lim=500e-3, y_lim=1500e-3, slice_xy=True, savefig=True, filePath=filePath, fig_name=fig_name)#, dfl_SERVAL_amplitude_beam, dfl_SP])
+# plotting 1d height profile
+# plot_1d_hprofile(hprofile, fig_name='mirror1 height profile and PSD')
 
 
+# plotting generated RadiationField
+dfl = deepcopy(dfl_prop_SERVAL)
 
+# plot_dfl(dfl, phase=1, fig_name='radiation before mirror1')
+# reflecting generated RadiationField from the imperfect mirror
+f = 25 * 25 /(25 + 25)
 
+dfl.curve_wavefront(r=12.5)
+dfl_reflect_surface(dfl,                        # ocelot.optics.wave.RadiationField, which will be reflected from imperfect mirror surface (hprofile2)
+                    angle=np.pi * 1 / 180,      # [radians] angle of incidence with respect to the surface
+                    hrms=None,                  # [m] height errors root mean square
+                    height_profile=hprofile,    # HeightProfile object of the reflecting surface (if not specified, will be generated using hrms)
+                    axis='x')                   # direction along which reflection takes place
 
+# plotting RadiationField after reflection
+# plot_dfl(dfl, phase=1, domains='sf',fig_name='radiation after reflection from mirror1')
+# plot_dfl(dfl, phase=1, domains='kf', fig_name='radiation after reflection from mirror1')
 
+# propagating RadiationField for 5 meters
+dfl.prop_m(z=12.5, m=0.5)
 
+# plotting RadiationField after propagation
+plot_dfl(dfl, domains='sf', phase=1, fig_name='radiation after reflection from mirror1 and propagation at 5 m')
+plot_dfl(dfl, domains='kf', phase=1, fig_name='radiation after reflection from mirror1 and propagation at 5 m')
 
+#%%
+dfl2 = deepcopy(dfl)
 
+dfl2.prop_m(z=12.5, m=[0.25, 0.05])
 
-
-
-
-
-
-
-
+# plotting RadiationField after propagation
+plot_dfl(dfl2, phase=1, fig_name='radiation in focus')
+plot_dfl(dfl2, phase=1, domains='kf', fig_name='radiation in focus')
 
