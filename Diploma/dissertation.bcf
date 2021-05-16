@@ -3589,6 +3589,21 @@
     <bcf:citekey order="22">geloni_transverse_2008</bcf:citekey>
     <bcf:citekey order="23">geloni_fourier_2007</bcf:citekey>
     <bcf:citekey order="24">geloni_transverse_2008</bcf:citekey>
+    <bcf:citekey order="25">tanaka_spectra_2001</bcf:citekey>
+    <bcf:citekey order="26">goodman_statistical_2015</bcf:citekey>
+    <bcf:citekey order="27">goodman_statistical_2015</bcf:citekey>
+    <bcf:citekey order="28">serkez_design_2015</bcf:citekey>
+    <bcf:citekey order="29">serkez_design_2015</bcf:citekey>
+    <bcf:citekey order="30">church_specification_1993</bcf:citekey>
+    <bcf:citekey order="31">angeisky_fractal_nodate</bcf:citekey>
+    <bcf:citekey order="32">pardini_effect_2015</bcf:citekey>
+    <bcf:citekey order="33">serkez_design_2015</bcf:citekey>
+    <bcf:citekey order="34">heimann_linac_2011</bcf:citekey>
+    <bcf:citekey order="35">hua_using_2013</bcf:citekey>
+    <bcf:citekey order="36">xu_statistical_2012</bcf:citekey>
+    <bcf:citekey order="37">barty_predicting_2009</bcf:citekey>
+    <bcf:citekey order="38">strocov_high-resolution_2010</bcf:citekey>
+    <bcf:citekey order="39">sankari_hippie_nodate</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

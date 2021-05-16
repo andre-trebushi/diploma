@@ -16,7 +16,7 @@ import scipy.special as sc
 from scipy import signal
 from scipy import misc
 import copy
-from drawing_routine import *
+# from drawing_routine import *
 
 ocelog.setLevel(logging.INFO)
 _logger = logging.getLogger(__name__)
@@ -255,6 +255,55 @@ write_field_file(dfl_prop_SERVAL, filePath=filePath)
 filePath_SERVAL = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/' + 'SERVAL'
 dfl_prop_SERVAL = read_field_file(filePath_SERVAL)
 
+from drawing_routine import plot_2D_1D
+plot_dfl_2Dsf(dfl_prop_SERVAL, scale='mm', domains='sf', fig_name='all')
+
+copy_dfl_prop_SERVAL = deepcopy(dfl_prop_SERVAL)
+
+copy_dfl_prop_SERVAL.fld = dfl_prop_SERVAL.fld[3:4,:,:]
+plot_dfl_2Dsf(copy_dfl_prop_SERVAL, scale='mm', domains='sf', fig_name='1')
+
+copy_dfl_prop_SERVAL.fld = dfl_prop_SERVAL.fld[4:5,:,:]
+plot_dfl_2Dsf(copy_dfl_prop_SERVAL, scale='mm', domains='sf', fig_name='2')
+
+copy_dfl_prop_SERVAL.fld = dfl_prop_SERVAL.fld[5:6,:,:]
+plot_dfl_2Dsf(copy_dfl_prop_SERVAL, scale='mm', domains='sf', fig_name='3')
+
+copy_dfl_prop_SERVAL.fld = dfl_prop_SERVAL.fld[6:7,:,:]
+plot_dfl_2Dsf(copy_dfl_prop_SERVAL, scale='mm', domains='sf', fig_name='4')
+# plot_dfl(dfl_SERVAL_slit, domains='sf', phase=True, fig_name = 'slit')
+# plot_dfl(dfl_SERVAL_slit, domains='kf', phase=True, fig_name = 'slit')
+Lz, Ly, Lx = 100000e-6, 6000e-6, 6000e-6 #size of realspace grid [m]
+dx, dy, dz = Lx / Nx, Ly / Ny, Lz / Nz
+#%%
+### creating RadiationField object
+Lz, Ly, Lx = 10000e-6, 6000e-6, 6000e-6 #size of realspace grid [m]
+dx, dy, dz = Lx / Nx, Ly / Ny, Lz / Nz
+
+dfl_MC = RadiationField((Nz, Ny, Nx))
+dfl_MC.dx, dfl_MC.dy, dfl_MC.dz = dx, dy, dz
+dfl_MC.xlamds = xlamds
+dfl_MC.filePath = filePath
+dfl_MC.to_domain('sf')
+fieldname_MC = '1-far_zone_50_m_MC'
+# approximation = "near_field"
+approximation = "far_field"
+#%%
+dfl_MC = undulator_field_dfl_MP(dfl_MC, z=25, L_w=L_w, E_ph=E_ph, N_e=1, N_b=1,
+                                            sig_x=0, sig_y=0, sig_xp=0, sig_yp=0, 
+                                            approximation=approximation, mode='incoh', seed=seed)
+plot_dfl_2Dsf(dfl_MC, scale='mm', domains='sf', fig_name='SINGLE')
+#%%
+dfl_SRW =deepcopy(dfl_MC)
+dfl_SRW = undulator_field_dfl_SP(dfl_SRW, z=25, L_w=L_w, E_ph=E_ph, N_e=1500,
+                                            sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp, 
+                                            approximation=approximation, mode='incoh', seed=seed)
+#%%
+from drawing_routine import plot_2D_1D,plot_dfl_2Dsf
+plot_dfl_2Dsf(dfl_SRW, scale='mm', domains='sf', fig_name='SRW')
+
+#%%
+
 # corr_MC = dfl_xy_corr(dfl_MC, norm=0)
 corr_SERVAL = dfl_xy_corr(dfl_prop_SERVAL, norm=0)
 
@@ -305,7 +354,7 @@ fig.savefig(filePath + fig_name + '.' + 'png', format='png', dpi=300)
 
 fig_name="field_before_slit"
 fig = plot_dfl_2Dsf(dfl_prop_SERVAL, scale='mm', domains='sf',
-              x_lim=1250e-3, y_lim=1250e-3, savefig=False, show_fig=0, filePath=None, fig_name=fig_name)
+              x_lim=1500e-3, y_lim=1500e-3, savefig=False, show_fig=0, filePath=None, fig_name=fig_name)
 
 ax = fig.axes[0]
 
@@ -378,9 +427,9 @@ dfl_SERVAL1 = deepcopy(dfl_prop_SERVAL)
 dfl_SERVAL2 = deepcopy(dfl_prop_SERVAL)
 
 slit_width = 30e-6
-slit_separation = 300e-6
-dfl_SERVAL1 = dfl_ap_rect(dfl_SERVAL1, ap_y=slit_width, ap_x=1e-3, center=(0, -slit_separation/2))
-dfl_SERVAL2 = dfl_ap_rect(dfl_SERVAL2, ap_y=slit_width, ap_x=1e-3, center=(0, slit_separation/2))
+slit_separation = 75e-6
+dfl_SERVAL1 = dfl_ap_rect(dfl_SERVAL1, ap_x=slit_width, ap_y=1e-3, center=(-slit_separation/2, 0))
+dfl_SERVAL2 = dfl_ap_rect(dfl_SERVAL2, ap_x=slit_width, ap_y=1e-3, center=( slit_separation/2, 0))
 dfl_SERVAL1.fld = dfl_SERVAL1.fld/(np.max(dfl_SERVAL1.intensity(), axis=(1,2))[:,np.newaxis,np.newaxis])**(1/2)
 dfl_SERVAL2.fld = dfl_SERVAL2.fld/(np.max(dfl_SERVAL2.intensity(), axis=(1,2))[:,np.newaxis,np.newaxis])**(1/2)
 # plot_dfl(dfl_SERVAL1, domains='sf', phase=True, fig_name = 'slit 1')
@@ -390,6 +439,23 @@ dfl_SERVAL_slit = deepcopy(dfl_prop_SERVAL)
 dfl_SERVAL_slit.fld = dfl_SERVAL1.fld + dfl_SERVAL2.fld
 del(dfl_SERVAL1)
 del(dfl_SERVAL2)
+#%%
+from drawing_routine import plot_2D_1D
+plot_dfl_2Dsf(dfl_SERVAL_slit, scale='urad', domains='kf', fig_name='all')
+
+copy_dfl_SERVAL_slit = deepcopy(dfl_SERVAL_slit)
+
+copy_dfl_SERVAL_slit.fld = dfl_SERVAL_slit.fld[3:4,:,:]
+plot_dfl_2Dsf(copy_dfl_SERVAL_slit, scale='urad', domains='kf', fig_name='1')
+#%%
+copy_dfl_SERVAL_slit.fld = dfl_SERVAL_slit.fld[4:5,:,:]
+plot_dfl_2Dsf(copy_dfl_SERVAL_slit, scale='urad', domains='kf', fig_name='2')
+
+copy_dfl_SERVAL_slit.fld = dfl_SERVAL_slit.fld[5:6,:,:]
+plot_dfl_2Dsf(copy_dfl_SERVAL_slit, scale='urad', domains='kf', fig_name='3')
+
+copy_dfl_SERVAL_slit.fld = dfl_SERVAL_slit.fld[6:7,:,:]
+plot_dfl_2Dsf(copy_dfl_SERVAL_slit, scale='urad', domains='kf', fig_name='4')
 # plot_dfl(dfl_SERVAL_slit, domains='sf', phase=True, fig_name = 'slit')
 # plot_dfl(dfl_SERVAL_slit, domains='kf', phase=True, fig_name = 'slit')
 #%%
@@ -424,6 +490,8 @@ dfl_SERVAL_slit = deepcopy(dfl_prop_SERVAL)
 dfl_SERVAL_slit.fld = dfl_SERVAL1.fld + dfl_SERVAL2.fld
 del(dfl_SERVAL1)
 del(dfl_SERVAL2)
+#%%
+plot_dfl_2Dsf(dfl_SERVAL_slit, domains='k', scale='urad')
 #%%
 from drawing_routine import plot_2D_1D
 

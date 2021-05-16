@@ -138,9 +138,9 @@ ebeam_sigma_yp = 20e-06
 ebeam_sigma_z = 2000e-6
 ebeam_sigma_gamma = 1e-4 #TODO: relative electron energy spread
 
-N_b = 200 #number of statistical realizations
-N_e = 100 #number of macro electrons 
-Nz, Ny, Nx = 1, 101, 101 # the shape of the dfl.fld
+N_b = 400 #number of statistical realizations
+N_e = 150 #number of macro electrons 
+Nz, Ny, Nx = 1, 301, 301 # the shape of the dfl.fld
 
 str_simulation_param = 'ebeam_sigma_x = {}\n'.format(ebeam_sigma_x) + \
                        'ebeam_sigma_y = {}\n'.format(ebeam_sigma_y) + \
@@ -165,10 +165,10 @@ print(e_beam_param)
 ### make a directory on your machine        
 ###saving simulation parameters in a .txt file
 filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/'
-# os.makedirs(filePath, exist_ok=True)
-# f = open(filePath + 'prm.txt', "w")
-# f.write(str_simulation_param)
-# f.close()
+os.makedirs(filePath, exist_ok=True)
+f = open(filePath + 'prm.txt', "w")
+f.write(str_simulation_param)
+f.close()
 
 script_dir = os.getcwd() + '/' + script_name
 new_script_dir = filePath + script_name
@@ -182,7 +182,7 @@ Lz, Ly, Lx = 10000e-6, 140e-6, 300e-6 #size of realspace grid [m]
 dx, dy, dz = Lx / Nx, Ly / Ny, Lz / Nz
 
 # create radiation field
-dfl_SERVAL = RadiationField((150, 251, 251))  
+dfl_SERVAL = RadiationField((501, 451, 451))  
 dfl_SERVAL.dx, dfl_SERVAL.dy, dfl_SERVAL.dz = dx, dy, dz
 dfl_SERVAL.xlamds = xlamds # SVEA carrieer frequency
 
@@ -210,8 +210,8 @@ dfl_SERVAL_conv_intensity = undulator_field_dfl_SERVAL(dfl1, L_w=L_w,
                                         sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp,
                                         k_support = 'intensity', s_support='conv_intensities', showfig=False)
 
-plot_dfl(dfl_SERVAL_conv_intensity, domains='sf', fig_name='dfl_SERVAL_conv_intensity')
-plot_dfl(dfl_SERVAL_conv_intensity, domains='kf', fig_name='dfl_SERVAL_conv_intensity')
+# plot_dfl(dfl_SERVAL_conv_intensity, domains='sf', fig_name='dfl_SERVAL_conv_intensity')
+# plot_dfl(dfl_SERVAL_conv_intensity, domains='kf', fig_name='dfl_SERVAL_conv_intensity')
 #%%
 dfl_SERVAL_conv_amplitude = undulator_field_dfl_SERVAL(dfl2, L_w=L_w, 
                                         sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, 
@@ -228,12 +228,15 @@ dfl_SERVAL_beam = undulator_field_dfl_SERVAL(dfl3, L_w=L_w,
 # plot_dfl(dfl_SERVAL_beam, domains='sf', fig_name='dfl_SERVAL_beam')
 
 
-dfl_SP = undulator_field_dfl_MP(dfl4, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N_b,
-                                            sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp, C=0,
-                                            approximation=approximation, mode='incoh')
+# dfl_SP = undulator_field_dfl_MP(dfl4, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N_b,
+#                                             sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp, C=0,
+#                                             approximation=approximation, mode='incoh')
+#%%
+filePath_SP = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamline/' + 'MCA'
+dfl_SP = read_field_file(filePath_SP)
 
 # plot_dfl(dfl_SP, domains='sf', fig_name='before prop')
-dfl_SP.prop_m(-25, m=[0.04, 0.02])
+dfl_SP.prop_m(-25, m=[0.05, 0.02])
 # plot_dfl(dfl_SERVAL_intensity_conv)
 # plot_dfl(dfl_SERVAL_amplitude_beam)
 # plot_dfl(dfl_SP, domains='sf')
@@ -243,38 +246,46 @@ dfl_SERVAL_conv_intensity.to_domain('sf')
 dfl_SERVAL_conv_amplitude.to_domain('sf')
 dfl_SERVAL_beam.to_domain('sf')
 dfl_SP.to_domain('sf')
-
+#%%
 filePath = '/home/andrei/Documents/diploma/Diploma/images/'
 fig_name = 'SERVAL_envelopes_comparison_source'
-dfls_labels = [r'свёртка интесивностей', r'свёртка амплитуд',r'электронный пучок',r'М.С.А']
+dfls_labels = [r'свёртка интесивностей', r'свёртка амплитуд',r'электронный пучок',r'МСА']
+colors = ['green','orange', 'red', 'blue']
 
-plot_dfls([dfl_SERVAL_conv_intensity, dfl_SERVAL_conv_amplitude, dfl_SERVAL_beam, dfl_SP], dfls_labels,
-          x_lim=150e-3, y_lim=50e-3, slice_xy=True, savefig=False, filePath=filePath, fig_name=fig_name)#, dfl_SERVAL_amplitude_beam, dfl_SP])
+from drawing_routine import plot_dfls
+filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/'
 
+plot_dfls([dfl_SERVAL_conv_intensity, dfl_SERVAL_conv_amplitude, dfl_SERVAL_beam, dfl_SP], dfls_labels, colors,
+          x_lim=150e-3, y_lim=50e-3, slice_xy=True, savefig=True, filePath=filePath, fig_name=fig_name)#, dfl_SERVAL_amplitude_beam, dfl_SP])
+#%%
 
 dfl_SP_prop = deepcopy(dfl_SP)
 dfl_SERVAL_conv_intensity_prop = deepcopy(dfl_SERVAL_conv_intensity)
 dfl_SERVAL_conv_amplitude_prop = deepcopy(dfl_SERVAL_conv_amplitude)
 dfl_SERVAL_beam_prop = deepcopy(dfl_SERVAL_beam)
 
-m=[8, 12]
-dfl_SP_prop.prop_m(25, m=[1/0.04, 1/0.02])
+m=[14, 20]
+dfl_SP_prop.prop_m(25, m=[1/0.04, 1/0.015])
 dfl_SERVAL_conv_intensity_prop.prop_m(25, m=m)
 # dfl_SERVAL_conv_amplitude_prop.prop_m(25, m=m)
 # dfl_SERVAL_beam_prop.prop_m(25, m=m)
 
 dfl_SERVAL_conv_intensity_prop.to_domain('sf')
-plot_dfl(dfl_SERVAL_conv_intensity_prop, domains='sf', fig_name='dfl_SERVAL_conv_intensity_prop')
-plot_dfl(dfl_SERVAL_conv_intensity_prop, domains='kf', fig_name='dfl_SERVAL_conv_intensity_prop')
+# plot_dfl(dfl_SERVAL_conv_intensity_prop, domains='sf', fig_name='dfl_SERVAL_conv_intensity_prop')
+# plot_dfl(dfl_SERVAL_conv_intensity_prop, domains='kf', fig_name='dfl_SERVAL_conv_intensity_prop')
 
 dfl_SERVAL_conv_amplitude_prop.prop_m(25, m=m)
 dfl_SERVAL_beam_prop.prop_m(25, m=m)
-
-dfls_labels = [r'SERVAL', r'МСА']
-
+#%%
+dfls_labels = [r'СЕРВАЛ', r'МСА']
+colors = ['green', 'blue']
 fig_name = 'SERVAL_envelopes_comparison_far_zone'
-plot_dfls([dfl_SERVAL_conv_intensity_prop, dfl_SP_prop], dfls_labels,
-          x_lim=3000e-3, y_lim=3000e-3, slice_xy=True, savefig=False, filePath=filePath, fig_name=fig_name)#, dfl_SERVAL_amplitude_beam, dfl_SP])
+
+from drawing_routine import plot_dfls
+filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/'
+
+plot_dfls([dfl_SERVAL_conv_intensity_prop, dfl_SP_prop], dfls_labels, colors, 
+          x_lim=3000e-3, y_lim=3000e-3, slice_xy=True, savefig=True, filePath=filePath, fig_name=fig_name)#, dfl_SERVAL_amplitude_beam, dfl_SP])
 
 #%%
 corr_SERVAL_conv_intensity = dfl_xy_corr(dfl_SERVAL_conv_intensity_prop, norm=0)
@@ -282,14 +293,18 @@ corr_SERVAL_conv_amplitude = dfl_xy_corr(dfl_SERVAL_conv_amplitude_prop, norm=0)
 corr_SERVAL_beam = dfl_xy_corr(dfl_SERVAL_beam_prop, norm=0)
 corr_SP = dfl_xy_corr(dfl_SP_prop, norm=0)
 
-plot_dfl(corr_SERVAL_conv_intensity, domains='sf', phase=True, fig_name = 'corr_MC')
-plot_dfl(corr_SP, domains='sf', phase=True, fig_name = 'corr_SERVAL')
+# plot_dfl(corr_SERVAL_conv_intensity, domains='sf', phase=True, fig_name = 'corr_MC')
+# plot_dfl(corr_SP, domains='sf', phase=True, fig_name = 'corr_SERVAL')
 
 dfls_labels = [r'свёртка интесивностей', r'свёртка амплитуд',r'электронный пучок',r'М.С.А']
+colors = ['green','orange', 'red', 'blue']
 
 fig_name = 'SERVAL_corr_comparison'
 
-plot_dfls([corr_SERVAL_conv_intensity, corr_SERVAL_conv_amplitude, corr_SERVAL_beam, corr_SP], dfls_labels,
+from drawing_routine import plot_dfls
+filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/'
+
+plot_dfls([corr_SERVAL_conv_intensity, corr_SERVAL_conv_amplitude, corr_SERVAL_beam, corr_SP], dfls_labels, colors,
           x_lim=500e-3, y_lim=1500e-3, slice_xy=True, savefig=True, filePath=filePath, fig_name=fig_name)#, dfl_SERVAL_amplitude_beam, dfl_SP])
 
 

@@ -28,7 +28,7 @@ def undulator_field_dfl_SERVAL(dfl, L_w, sig_x=0, sig_y=0, sig_xp=0, sig_yp=0, k
     
     if showfig:
         plot_dfl_2Dsf(dfl, scale='um', domains='sf', savefig=True, 
-                      fig_name = '1-X_noise', filePath=filePath)
+                      x_lim=150, y_lim=150, fig_name = '1-X_noise', filePath=filePath)
         # plot_dfl(dfl, line_off_xy = False, fig_name = '1-X_noise')
     
     dfl.to_domain('sf')
@@ -60,10 +60,10 @@ def undulator_field_dfl_SERVAL(dfl, L_w, sig_x=0, sig_y=0, sig_xp=0, sig_yp=0, k
     if showfig:
         # plot_dfl(dfl, domains='s', line_off_xy = False, fig_name = '2-X_e-beam-size')
         plot_dfl_2Dsf(dfl, scale='um', domains='sf', savefig=True,
-                      fig_name = '2-X_e-beam-size', filePath=filePath)
+                      x_lim=150, y_lim=150, fig_name = '2-X_e-beam-size', filePath=filePath)
         # plot_dfl(dfl, domains='k', line_off_xy = False, fig_name = '2-X_e-beam-size')
         plot_dfl_2Dsf(dfl, scale='um', domains='kf', savefig=True,
-                      fig_name = '2-X_e-beam-divergence', filePath=filePath)
+                      x_lim=150, y_lim=150, fig_name = '2-X_e-beam-divergence', filePath=filePath)
                 
     dfl.to_domain('kf')
 
@@ -97,10 +97,10 @@ def undulator_field_dfl_SERVAL(dfl, L_w, sig_x=0, sig_y=0, sig_xp=0, sig_yp=0, k
     if showfig:
         # plot_dfl(dfl, domains='s', fig_name = '3-X_radaition_size')
         plot_dfl_2Dsf(dfl, scale='um', domains='sf', savefig=True, 
-                      fig_name = '3-X_radaition_size', filePath=filePath)
+                      x_lim=150, y_lim=150, fig_name = '3-X_radaition_size', filePath=filePath)
         # plot_dfl(dfl, domains='k', fig_name = '3-X_radiation_divergence')
         plot_dfl_2Dsf(dfl, scale='um', domains='kf', savefig=True,
-                      fig_name = '3-X_radaition_divergence', filePath=filePath)
+                      x_lim=100, y_lim=100,fig_name = '3-X_radaition_divergence', filePath=filePath)
     return dfl 
 #%%
 n_s = 200
@@ -134,9 +134,9 @@ ebeam_sigma_yp = 20e-06
 ebeam_sigma_z = 2000e-6
 ebeam_sigma_gamma = 1e-4 #TODO: relative electron energy spread
 
-N_b = 20 #number of statistical realizations
+N_b = 1 #number of statistical realizations
 N_e = 1 #number of macro electrons 
-Nz, Ny, Nx = 1, 301, 301 # the shape of the dfl.fld
+Nz, Ny, Nx = 1, 1001, 1001 # the shape of the dfl.fld
 
 str_simulation_param = 'ebeam_sigma_x = {}\n'.format(ebeam_sigma_x) + \
                        'ebeam_sigma_y = {}\n'.format(ebeam_sigma_y) + \

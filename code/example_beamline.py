@@ -55,8 +55,10 @@ def plot_two_dfls(dfl_first, dfl_second, domains='s', scale='mm', label_first=No
     _logger.info('Plotting two dfls in process...')
     start_time = time.time()
 
-    cmap_ph = plt.get_cmap('hsv')
-    
+    cmap_ph = 'gray_r'
+    # cmap_ph = 'hsv'
+    cmap_ph = plt.get_cmap('gray_r')
+
     dfl1 = deepcopy(dfl_first)
     dfl2 = deepcopy(dfl_second)
     
@@ -136,13 +138,14 @@ def plot_two_dfls(dfl_first, dfl_second, domains='s', scale='mm', label_first=No
     else: 
         raise AttributeError('slice_xy is a boolean type')
         _logger.error(ind_str + 'slice_xy is a boolean type')
-    std_1x = std_moment(dfl1.scale_x()*scale_order, I_1x)  
-    std_2x = std_moment(dfl2.scale_x()*scale_order, I_2x) 
-    print(std_1x, std_2x, std_1x/std_2x)
     
-    std_1y = std_moment(dfl1.scale_x()*scale_order, I_1y)  
-    std_2y = std_moment(dfl2.scale_x()*scale_order, I_2y) 
-    print(std_1y, std_2y, std_1y/std_2y)
+    std_1x = fwhm(dfl1.scale_x()*scale_order, I_1x/np.max(I_1x))  
+    std_2x = fwhm(dfl2.scale_x()*scale_order, I_2x/np.max(I_2x)) 
+    print(' $FWHM_x$ = {} мкм'.format(round(std_1x)),  '$FWHM_x$ = {} мкм'.format(round(std_2x)), std_1x/std_2x)
+    
+    std_1y = fwhm(dfl1.scale_y()*scale_order, I_1y/np.max(I_1y))  
+    std_2y = fwhm(dfl2.scale_y()*scale_order, I_2y/np.max(I_2y)) 
+    print(' $FWHM_y$ = {} мкм'.format(round(std_1y)), ' $FWHM_y = {}$ мкм'.format(round(std_2y)), std_1y/std_2y)
     
     ax_x.plot(dfl1.scale_x()*scale_order, I_1x, c='b', label=label_first)
     ax_x2.plot(dfl2.scale_x()*scale_order, I_2x, c='green', label=label_second)
@@ -165,8 +168,8 @@ def plot_two_dfls(dfl_first, dfl_second, domains='s', scale='mm', label_first=No
         ax_xy1.pcolormesh(dfl1.scale_x()*scale_order, dfl1.scale_y()*scale_order, xy_proj_ph1, cmap=cmap_ph, vmin=-np.pi, vmax=np.pi)        
         ax_xy2.pcolormesh(dfl2.scale_x()*scale_order, dfl2.scale_y()*scale_order, xy_proj_ph2, cmap=cmap_ph, vmin=-np.pi, vmax=np.pi)
     else:
-        ax_xy1.pcolormesh(dfl1.scale_x()*scale_order, dfl1.scale_y()*scale_order, np.sum(dfl1.intensity(), axis=0))         
-        ax_xy2.pcolormesh(dfl2.scale_x()*scale_order, dfl2.scale_y()*scale_order, np.sum(dfl2.intensity(), axis=0))
+        ax_xy1.pcolormesh(dfl1.scale_x()*scale_order, dfl1.scale_y()*scale_order, np.sum(dfl1.intensity(), axis=0), cmap=cmap_ph)         
+        ax_xy2.pcolormesh(dfl2.scale_x()*scale_order, dfl2.scale_y()*scale_order, np.sum(dfl2.intensity(), axis=0), cmap=cmap_ph)
 
     ax_xy2.set_xlim(-x_lim, x_lim)
     ax_xy2.set_ylim(-y_lim, y_lim)
@@ -368,6 +371,7 @@ f = open(filePath + 'prm.txt', "w")
 f.write(str_simulation_param)
 f.close()
 
+
 script_dir = os.getcwd() + '/' + script_name
 new_script_dir = filePath + script_name
 ### seed for comparing fields
@@ -430,17 +434,19 @@ filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/3.80E-05_um_4.68
 #%%
 filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamline/SERVAL'
 dfl_SERVAL = read_field_file(filePath)
-
-
+savefig = True
+plot_dfl(dfl_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
+plot_dfl(dfl_SERVAL, domains='f', phase=True, fig_name = fieldname_SERVAL)
+#%%
 dfl_prop_SERVAL = deepcopy(dfl_SERVAL)
 fieldname_SERVAL = '1-far_zone_25_m_SERVAL'
-dfl_prop_SERVAL.prop_m(25, m=[15, 15])
+dfl_prop_SERVAL.prop_m(25, m=[15, 20])
 dfl_prop_SERVAL.to_domain('st')
 
 dfl_prop_SERVAL.to_domain(domains='sf') 
 
-plot_dfl(dfl_prop_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
-plot_dfl(dfl_prop_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
+# plot_dfl(dfl_prop_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
+# plot_dfl(dfl_prop_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
 
 filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/'
 # write_field_file(dfl_prop_SERVAL, filePath=filePath, fileName=fieldname_SERVAL)
@@ -462,19 +468,19 @@ filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_n
 filePath_MC = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamline/MCA'
 dfl_MC = read_field_file(filePath_MC)
 
-plot_two_dfls(dfl_MC, dfl_prop_SERVAL, domains='s', fig_name='1-far_zone_25_m' + simulation_name, 
-              slice_xy=False, phase=False, label_first='МСA', 
-              label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=True)
+# plot_two_dfls(dfl_MC, dfl_prop_SERVAL, domains='s', fig_name='1-far_zone_25_m' + simulation_name, 
+#               slice_xy=False, phase=False, label_first='МСA', scale ='um',
+#               label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=savefig)
 
-corr_MC = dfl_xy_corr(dfl_MC, norm=1)
-corr_SERVAL = dfl_xy_corr(dfl_prop_SERVAL, norm=1)
+# corr_MC = dfl_xy_corr(dfl_MC, norm=1)
+# corr_SERVAL = dfl_xy_corr(dfl_prop_SERVAL, norm=1)
 
 # # plot_dfl(corr_MC, domains='sf', phase=True, fig_name = 'corr_MC')
 # # plot_dfl(corr_SERVAL, domains='sf', phase=True, fig_name = 'corr_SERVAL')
 
-plot_two_dfls(corr_MC, corr_SERVAL, domains='s', fig_name='corr'+ simulation_name, 
-              slice_xy=True, phase=False, label_first='МСА', 
-              label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=True)
+# plot_two_dfls(corr_MC, corr_SERVAL, domains='s', fig_name='corr'+ simulation_name, 
+#               slice_xy=True, phase=False, label_first='МСА', scale ='um', 
+#               label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=savefig)
 
 #%%
 dfl2_MC = deepcopy(dfl_MC)
@@ -493,42 +499,36 @@ dfl_ap_rect(dfl2_SERVAL, ap_x=ap_x, ap_y=ap_y)
 # dfl_interp(dfl2_MC, interpN=(1, interpN), interpL=(1, interpL), method='quintic')
 # dfl_interp(dfl2_SERVAL, interpN=(1, interpN), interpL=(1, interpL), method='quintic')
 
-dfl2_MC.prop(10)
-dfl2_SERVAL.prop(10)
-
-fieldname = '2-far_zone_60_m_after_aperture'
-# plot_dfl(dfl2_SRW, domains='sf', phase=True, fig_name = fieldname)
-# plot_dfl(dfl2_SRW, domains='kf', phase=True, fig_name = fieldname)
-
-# plot_dfl(dfl2_MC, domains='s', phase=True, fig_name = filePath + fieldname)
-
-#%%
-plot_two_dfls(dfl2_MC, dfl2_SERVAL, domains='s', fig_name=fieldname + simulation_name, 
-              slice_xy=False, phase=False, label_first='MCA', 
-              label_second='SERVAL', title=None, filePath=filePath, savefig=True)
-
-# plot_two_dfls(dfl2_MC, dfl2_SERVAL, domains='k', fig_name=fieldname + simulation_name, 
-#               slice_xy=False, phase=False, label_first='MCA', 
-#               label_second='SERVAL', title=None, filePath=filePath, savefig=False)
-
-#%%
 dfl3_MC = deepcopy(dfl2_MC)
 dfl3_SERVAL = deepcopy(dfl2_SERVAL)
 
-f = 35*10/(35+10)
+f = 25*25/(25+25)
 dfl3_MC.curve_wavefront(r=f)
 dfl3_SERVAL.curve_wavefront(r=f)
 
-m_x = 0.03
-m_y = 0.02
-dfl3_MC.prop_m(10, m=[m_x, m_y])
-dfl3_SERVAL.prop_m(10, m=[m_x, m_y])
+dfl3_MC.prop_m(12.5, m=0.25)
+dfl3_SERVAL.prop_m(12.5, m=0.25)
+
+fieldname = '2-far_zone_12_5_m_after_aperture'
+#%%
+plot_two_dfls(dfl3_MC, dfl3_SERVAL, domains='s', fig_name=fieldname + simulation_name, 
+              slice_xy=False, phase=False, label_first='MCA', scale='um',
+              label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=savefig)
+
+#%%
+dfl4_MC = deepcopy(dfl3_MC)
+dfl4_SERVAL = deepcopy(dfl3_SERVAL)
+
+m_x = 0.3
+m_y = 0.3
+dfl4_MC.prop_m(12.5, m=[m_x, m_y])
+dfl4_SERVAL.prop_m(12.5, m=[m_x, m_y])
 
 #%%
 fieldname = '3-70_m_focal_plane'
-plot_two_dfls(dfl3_MC, dfl3_SERVAL, domains='s', fig_name=fieldname  + simulation_name, 
-              slice_xy=True, phase=False, label_first='MCA', 
-              label_second='SERVAL', title=None, filePath=filePath, savefig=True)
+plot_two_dfls(dfl4_MC, dfl4_SERVAL, domains='s', fig_name=fieldname  + simulation_name, 
+              slice_xy=True, phase=False, label_first='MCA', scale='um',
+              label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=savefig)
 
 
 # save of your python script in the simulation directory

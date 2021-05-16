@@ -34,6 +34,7 @@ def plot_dfl_2Dsf(dfl, scale='mm', domains='sf',
     fig = plt.figure(fig_name)
     plt.clf()
     fig.set_size_inches((4*figsize, 4*figsize))#, forward=True)
+    
     cmap_ph = 'gray_r'
     # cmap_ph = 'viridis'
     
@@ -67,8 +68,9 @@ def plot_dfl_2Dsf(dfl, scale='mm', domains='sf',
         # elif scale=='мкрад':
         xlabel = 'x, [мкрад]'
         ylabel = 'y, [мкрад]'
-        x = dfl.scale_x()*1e6
-        y = dfl.scale_y()*1e6
+        scale_order= 1e6
+        x = dfl.scale_x()*scale_order
+        y = dfl.scale_y()*scale_order
     # else:
     #     print('domains and scales must match each other')
 
@@ -144,7 +146,8 @@ def plot_two_dfls(dfl_first, dfl_second, domains='s', scale='mm', label_first=No
     _logger.info('Plotting two dfls in process...')
     start_time = time.time()
 
-    cmap_ph = plt.get_cmap('hsv')
+    cmap_ph = 'gray_r'   
+    cmap_ph = plt.get_cmap('gray_r')
     
     dfl1 = deepcopy(dfl_first)
     dfl2 = deepcopy(dfl_second)
@@ -254,8 +257,8 @@ def plot_two_dfls(dfl_first, dfl_second, domains='s', scale='mm', label_first=No
         ax_xy1.pcolormesh(dfl1.scale_x()*scale_order, dfl1.scale_y()*scale_order, xy_proj_ph1, cmap=cmap_ph, vmin=-np.pi, vmax=np.pi)        
         ax_xy2.pcolormesh(dfl2.scale_x()*scale_order, dfl2.scale_y()*scale_order, xy_proj_ph2, cmap=cmap_ph, vmin=-np.pi, vmax=np.pi)
     else:
-        ax_xy1.pcolormesh(dfl1.scale_x()*scale_order, dfl1.scale_y()*scale_order, np.sum(dfl1.intensity(), axis=0))         
-        ax_xy2.pcolormesh(dfl2.scale_x()*scale_order, dfl2.scale_y()*scale_order, np.sum(dfl2.intensity(), axis=0))
+        ax_xy1.pcolormesh(dfl1.scale_x()*scale_order, dfl1.scale_y()*scale_order, np.sum(dfl1.intensity(), axis=0), cmap=cmap_ph)         
+        ax_xy2.pcolormesh(dfl2.scale_x()*scale_order, dfl2.scale_y()*scale_order, np.sum(dfl2.intensity(), axis=0), cmap=cmap_ph)
 
     ax_xy2.set_xlim(-x_lim, x_lim)
     ax_xy2.set_ylim(-y_lim, y_lim)
@@ -302,12 +305,12 @@ def plot_two_dfls(dfl_first, dfl_second, domains='s', scale='mm', label_first=No
         plt.close(fig)   
     _logger.info(ind_str + 'plotting two dfls done in {:.2f} seconds'.format(time.time() - start_time))
     
-def plot_dfls(dfls, dfls_labels, domains='s', scale='mm', title=None,
+def plot_dfls(dfls, dfls_labels, colors, domains='s', scale='mm', title=None, norm='unity',
             x_lim=None, y_lim=None, slice_xy=True, phase=False, savefig=False, showfig=True, filePath=None, fig_name=None, show_fig=1, **kwargs):
  
     _logger.info('Plotting two dfls in process...')
     start_time = time.time()
-    fig = plt.figure('Radiation comparison')
+    fig = plt.figure(fig_name)
 
     cmap_ph = plt.get_cmap('hsv')
         
@@ -358,11 +361,15 @@ def plot_dfls(dfls, dfls_labels, domains='s', scale='mm', title=None,
     for dfl, i in zip(dfls, range(len(dfls))):
         I_x = 0 
         I_y = 0
-        I0 =  np.sum(dfl.intensity(), axis=0)/np.sum(dfl.intensity())
+        if norm=='unity':
+            I0 =  np.mean(dfl.intensity(), axis=0)
+            I0 = I0/np.max(I0)
+        else:    
+            I0 =  np.mean(dfl.intensity()/(np.mean(dfl.intensity(), axis=(1,2))[:, np.newaxis, np.newaxis]), axis=0)
         if slice_xy is True:   
             fig.text(0.01, 0.01, 'x- y- срез', fontsize=18)
-            I_x = I0[dfl.Ny()//2+1, :]
-            I_y = I0[:, dfl.Nx()//2+1]
+            I_x = I0[dfl.Ny()//2, :]
+            I_y = I0[:, dfl.Nx()//2]
         elif slice_xy is False:
             fig.text(0.01, 0.01, 'x- y- проекция', fontsize=18)
             I_x = np.mean(I0, axis=0)
@@ -372,8 +379,11 @@ def plot_dfls(dfls, dfls_labels, domains='s', scale='mm', title=None,
         else: 
             raise AttributeError('slice_xy is a boolean type')
             _logger.error(ind_str + 'slice_xy is a boolean type')
-        ax_x.plot(dfl.scale_x()*scale_order, I_x/np.max(I_x), label=dfls_labels[i], c='blue')
-        ax_y.plot(dfl.scale_y()*scale_order, I_y/np.max(I_y), label=dfls_labels[i], c='blue')
+        # ax_x.plot(dfl.scale_x()*scale_order, I_x/np.max(I_x), label=dfls_labels[i], c='blue')
+        # ax_y.plot(dfl.scale_y()*scale_order, I_y/np.max(I_y), label=dfls_labels[i], c='blue')
+
+        ax_x.plot(dfl.scale_x()*scale_order, I_x, label=dfls_labels[i], c=colors[i])
+        ax_y.plot(dfl.scale_y()*scale_order, I_y, label=dfls_labels[i], c=colors[i])
     
     if None not in dfls_labels:
         ax_x.legend(fontsize=12, bbox_to_anchor=(0, 0.98), loc='upper left')#, loc=1)
@@ -400,9 +410,9 @@ def plot_dfls(dfls, dfls_labels, domains='s', scale='mm', title=None,
     
     if savefig != False:
         if savefig == True:
-            savefig = 'pdf'
+            savefig = 'png'
         _logger.debug(ind_str + 'saving *{:}.{:}'.format(fig_name, savefig))
-        fig.savefig(filePath + fig_name + '.' + str(savefig), format=savefig)
+        fig.savefig(filePath + fig_name + '.' + str(savefig), format=savefig, dpi=300)
     _logger.debug(ind_str + 'done in {:.2f} seconds'.format(time.time() - start_time))
     
     if show_fig==1:

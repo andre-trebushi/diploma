@@ -103,14 +103,14 @@ def undulator_field_dfl_SERVAL(dfl, L_w, sig_x=0, sig_y=0, sig_xp=0, sig_yp=0, k
                       fig_name = '3-X_radaition_divergence', filePath=filePath)
     return dfl 
 
-n_s = 100
+n_s = 200
 l_w = 0.018 # [m] undulator period 
 L_w = l_w * n_s
 
-E_ph = 1240 # eV
+E_ph = 2167 # eV
 w = E_ph / hr_eV_s 
 xlamds = 2 * np.pi * speed_of_light / w
-
+#%%
 sigma_r = np.sqrt(2*xlamds*L_w)/4/np.pi #natural radiation size in the waist
 sigma_rp = np.sqrt(xlamds/2/L_w) #natural radiation divergence at the waist
 
@@ -131,22 +131,17 @@ sigma_rp = np.sqrt(xlamds/2/L_w) #natural radiation divergence at the waist
 # ebeam_sigma_xp = 50e-06
 # ebeam_sigma_yp = 25e-06
 #### #4
-ebeam_sigma_x = 1e-06
-ebeam_sigma_y = 1e-06
+ebeam_sigma_x = 38e-06
+ebeam_sigma_y = 4.68e-06
 ebeam_sigma_xp = 25e-06
-ebeam_sigma_yp = 25e-06
-
-# ebeam_sigma_x = 0.1e-06
-# ebeam_sigma_y = 0.1e-06
-# ebeam_sigma_xp = 25e-06
-# ebeam_sigma_yp = 20e-06
+ebeam_sigma_yp = 20e-06
 
 ebeam_sigma_z = 2000e-6
 ebeam_sigma_gamma = 1e-4 #TODO: relative electron energy spread
 
-N_b = 100 #number of statistical realizations
+N_b = 800 #number of statistical realizations
 N_e = 100 #number of macro electrons 
-Nz, Ny, Nx = N_b, 101, 101 # the shape of the dfl.fld
+Nz, Ny, Nx = N_b, 351, 351 # the shape of the dfl.fld
 
 str_simulation_param = 'ebeam_sigma_x = {}\n'.format(ebeam_sigma_x) + \
                        'ebeam_sigma_y = {}\n'.format(ebeam_sigma_y) + \
@@ -205,56 +200,79 @@ fieldname_SERVAL = '0-source_SERVAL'
 dfl_SERVAL = undulator_field_dfl_SERVAL(dfl_SERVAL, L_w=L_w, 
                                         sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, 
                                         sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp,
-                                        k_support = 'intensity', s_support='intensity', showfig=False)
+                                        k_support = 'intensity', s_support='conv_intensities', showfig=False)
 
-plot_dfl(dfl_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
-plot_dfl(dfl_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
+# plot_dfl(dfl_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
+# plot_dfl(dfl_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
 
 dfl_prop_SERVAL = deepcopy(dfl_SERVAL)
 fieldname_SERVAL = '1-far_zone_25_m_SERVAL'
-dfl_prop_SERVAL.prop_m(25, m=[20, 20])
+dfl_prop_SERVAL.prop_m(25, m=[12, 12])
 
 dfl_prop_SERVAL.to_domain(domains='sf') 
 
 plot_dfl(dfl_prop_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
 plot_dfl(dfl_prop_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
-#%%
-Lz, Ly, Lx = 100000e-6, 6000e-6, 6000e-6 #size of realspace grid [m]
-dx, dy, dz = Lx / Nx, Ly / Ny, Lz / Nz
 
-### creating RadiationField object
-dfl_MC = RadiationField((Nz, 151, 151))
-dfl_MC.dx, dfl_MC.dy, dfl_MC.dz = dx, dy, dz
-dfl_MC.xlamds = xlamds
-dfl_MC.filePath = filePath
-dfl_MC.to_domain('sf')
-
-fieldname_MC = '1-far_zone_50_m_MC'
-# approximation = "near_field"
-approximation = "far_field"
-
-dfl_MC = undulator_field_dfl_MP(dfl_MC, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N_b,
-                                            sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp, 
-                                            approximation=approximation, mode='incoh', seed=seed)
-plot_dfl(dfl_MC, domains='sf', phase=True, fig_name = fieldname_MC)
-#%%
-corr_SERVAL = dfl_xy_corr(dfl_MC, norm=1)
+corr_SERVAL = dfl_xy_corr(dfl_prop_SERVAL, norm=1)
 plot_dfl(corr_SERVAL, domains='sf', phase=True, fig_name = 'corr')
 
 #%%
+filePath_SERVAL = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/' + 'SERVAL'
+write_field_file(dfl_prop_SERVAL, filePath=filePath_SERVAL)
+
+#%%
+# ebeam_sigma_x = 1e-10
+# ebeam_sigma_y = 1e-10
+# ebeam_sigma_xp = 1e-10
+# ebeam_sigma_yp = 1e-10
+
+# Lz, Ly, Lx = 100000e-6, 2000e-6, 2000e-6 #size of realspace grid [m]
+# dx, dy, dz = Lx / Nx, Ly / Ny, Lz / Nz
+
+# ### creating RadiationField object
+# dfl_MC = RadiationField((1, 551, 551))
+# dfl_MC.dx, dfl_MC.dy, dfl_MC.dz = dx, dy, dz
+# dfl_MC.xlamds = xlamds
+# dfl_MC.filePath = filePath
+# dfl_MC.to_domain('sf')
+
+# fieldname_MC = '1-far_zone_50_m_MC'
+# # approximation = "near_field"
+# approximation = "far_field"
+
+# dfl_MC = undulator_field_dfl_MP(dfl_MC, z=25, L_w=L_w, E_ph=E_ph, N_e=100, N_b=1,
+#                                             sig_x=ebeam_sigma_x, sig_y=ebeam_sigma_y, sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp, 
+#                                             approximation=approximation, mode='incoh', seed=seed)
+# plot_dfl(dfl_MC, domains='sf', phase=True, fig_name = fieldname_MC)
+# #%%
+# corr_SERVAL = dfl_xy_corr(dfl_MC, norm=1)
+# plot_dfl(corr_SERVAL, domains='sf', phase=True, fig_name = 'corr')
+
+#%%
+fieldname_SERVAL = 'SERVAL'
+filePath_SERVAL = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/' + 'SERVAL'
+dfl_SERVAL = read_field_file(filePath_SERVAL)
+
+plot_dfl(dfl_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
+plot_dfl(dfl_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
+#%%
 # generating highly polished mirror by height errors RMS
-hprofile = generate_1d_profile(hrms=3e-9,               # [m] height errors root mean square
-                               length=0.3,             # [m] length of the mirror surface
+hrms=3e-9
+hprofile = generate_1d_profile(hrms=hrms,               # [m] height errors root mean square
+                               length=0.4,             # [m] length of the mirror surface
                                points_number=5001,      # number of points (pixels) at the mirror surface
                                wavevector_cutoff=0,     # [1/m] point on k axis for cut off large wave lengths in the PSD (with default value 0 effects on nothing)
                                psd=None,                # [m^3] 1d array; power spectral density of surface (if not specified, will be generated)
                                seed=666)                # seed for np.random.seed() to allow reproducibility
 
 # plotting 1d height profile
-# plot_1d_hprofile(hprofile, fig_name='mirror1 height profile and PSD')
+plot_1d_hprofile(hprofile, fig_name='mirror1 height profile and PSD')
 
 
 # plotting generated RadiationField
+# dfl = deepcopy(dfl_SERVAL)
+# del(dfl_SERVAL)
 dfl = deepcopy(dfl_prop_SERVAL)
 
 # plot_dfl(dfl, phase=1, fig_name='radiation before mirror1')
@@ -273,18 +291,39 @@ dfl_reflect_surface(dfl,                        # ocelot.optics.wave.RadiationFi
 # plot_dfl(dfl, phase=1, domains='kf', fig_name='radiation after reflection from mirror1')
 
 # propagating RadiationField for 5 meters
+
+
 dfl.prop_m(z=12.5, m=0.5)
 
 # plotting RadiationField after propagation
 plot_dfl(dfl, domains='sf', phase=1, fig_name='radiation after reflection from mirror1 and propagation at 5 m')
 plot_dfl(dfl, domains='kf', phase=1, fig_name='radiation after reflection from mirror1 and propagation at 5 m')
 
-#%%
+filePath_SERVAL = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/' + 'x_SERVAL_radiaiton_after_reflection_and_12_5_of_free_space_{}_rms'.format(hrms*1e9)
+write_field_file(dfl, filePath=filePath_SERVAL)
+
+corr_SERVAL = dfl_xy_corr(dfl, norm=1)
+plot_dfl(corr_SERVAL, domains='sf', phase=True, fig_name = 'corr_after_reflection')
+
 dfl2 = deepcopy(dfl)
 
-dfl2.prop_m(z=12.5, m=[0.25, 0.05])
+dfl2.prop_m(z=12.5, m=[0.25, 0.25])
 
 # plotting RadiationField after propagation
 plot_dfl(dfl2, phase=1, fig_name='radiation in focus')
 plot_dfl(dfl2, phase=1, domains='kf', fig_name='radiation in focus')
+
+corr_SERVAL = dfl_xy_corr(dfl2, norm=0)
+plot_dfl(corr_SERVAL, domains='sf', phase=True, fig_name = 'corr_after_reflection')
+
+filePath_SERVAL = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/' + 'x_SERVAL_radiaiton_in_focus_{}_rms'.format(hrms*1e9)
+write_field_file(dfl2, filePath=filePath_SERVAL)
+
+
+
+
+
+
+
+
 
