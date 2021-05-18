@@ -508,9 +508,11 @@ def plot_2D_1D(dfl_orig, domains='s', scale='mm', label_first=None, label_second
     if None in [x_lim, y_lim]:
         x_lim = min(np.max(dfl.scale_x())*scale_order, np.max(dfl.scale_x())*scale_order)
         y_lim = min(np.max(dfl.scale_y())*scale_order, np.max(dfl.scale_y())*scale_order)
+        x_lim = [-x_lim, x_lim]
+        y_lim = [-y_lim, y_lim]
 
     _logger.debug(ind_str + "x_lim = {}, y_lim = {}".format(x_lim, y_lim))
-    ax_x.set_xlim(-x_lim, x_lim)
+    ax_x.set_xlim(x_lim[0], x_lim[1])
     
     ax_x.grid()
     
@@ -542,15 +544,15 @@ def plot_2D_1D(dfl_orig, domains='s', scale='mm', label_first=None, label_second
         ax_xy.set_ylabel(label_y, fontsize=16)
         ax_xy.set_xlabel(label_x, fontsize=16)
         ax_x.set_xlabel(label_x, fontsize=16)
-        ax_xy.set_xlim(-x_lim, x_lim)
-        ax_xy.set_ylim(-y_lim, y_lim)
+        ax_xy.set_xlim(x_lim[0], x_lim[1])
+        ax_xy.set_ylim(y_lim[0], y_lim[1])
     elif slice_over == 'y':
         ax_xy.pcolormesh(dfl.scale_y()*scale_order, dfl.scale_x()*scale_order, (np.mean(dfl.intensity(), axis=0)).T, cmap=cmap_ph)         
         ax_xy.set_ylabel(label_x, fontsize=16)
         ax_xy.set_xlabel(label_y, fontsize=16)
         ax_x.set_xlabel(label_y, fontsize=16)    
-        ax_xy.set_ylim(-x_lim, x_lim)
-        ax_xy.set_xlim(-y_lim, y_lim)
+        ax_xy.set_xlim(x_lim[0], x_lim[1])
+        ax_xy.set_ylim(y_lim[0], y_lim[1])
 
     ax_xy.set_title(label_first, fontsize=14, color='b')      
           

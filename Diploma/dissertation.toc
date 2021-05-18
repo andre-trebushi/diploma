@@ -13,14 +13,8 @@
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Теоретический базис}{7}{chapter.1}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Методы моделирования ондуляторного излучения от пучка с конечным эмиттансом}{11}{chapter.2}%
+\contentsline {section}{\numberline {1.1}Распространение функции взаимной когерентности и теорема Ван Циттерта - Цернике}{7}{section.1.1}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}
@@ -30,43 +24,11 @@
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Численное моделирование ондуляторного излучения}{12}{section.2.1}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Влияние размера электронного пучка на расходимость излучения}{16}{subsection.2.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Различие расходимости излучения для случая продольно полностью когерентного и некогерентного пучка}{17}{subsection.2.1.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Метод ограничения пространственных гармоник огибающими: СЕРВАЛ}{18}{section.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Алгоритм создания поля}{19}{subsection.2.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Выбор подходящих огибающих}{21}{subsection.2.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Применение СЕРВАЛа}{24}{chapter.3}%
+\contentsline {section}{\numberline {1.2}О статистических свойства синхротронного излучения}{10}{section.1.2}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Фокусирующая система с конечной апертурой}{25}{section.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Интерференционный эксперимент}{31}{section.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Отражение от неидеального зеркала}{35}{section.3.3}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
+\contentsline {chapter}{\numberline {2}Методы моделирования ондуляторного излучения от пучка с конечным эмиттансом}{13}{chapter.2}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}
@@ -76,59 +38,31 @@
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список литературы}{42}{section*.33}%
+\contentsline {section}{\numberline {2.1}Численное моделирование ондуляторного излучения}{14}{section.2.1}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}
 \babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Влияние размера электронного пучка на расходимость излучения}{18}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Различие расходимости излучения для случая продольно полностью когерентного и некогерентного пучка}{19}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Метод ограничения пространственных гармоник огибающими: СЕРВАЛ}{20}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Алгоритм создания поля}{21}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Выбор подходящих огибающих}{23}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Применение СЕРВАЛа}{26}{chapter.3}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Фокусирующая система с конечной апертурой}{27}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Интерференционный эксперимент}{33}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Отражение от неидеального зеркала}{37}{section.3.3}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}
@@ -150,8 +84,82 @@
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Глоссарий}{47}{chapter*.35}%
+\contentsline {chapter}{Список литературы}{44}{section*.35}%
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список рисунков}{48}{section*.36}%
+\contentsline {chapter}{Глоссарий}{49}{chapter*.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список таблиц}{50}{section*.37}%
+\contentsline {chapter}{Список рисунков}{50}{section*.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Список таблиц}{53}{section*.39}%

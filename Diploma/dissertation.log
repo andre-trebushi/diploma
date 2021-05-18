@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  16 MAY 2021 19:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  18 MAY 2021 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1891,110 +1891,96 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [3.3
 
-] [4.4]
-Underfull \hbox (badness 1189) in paragraph at lines 45--46
-\T2A/cmr/m/n/14.4 мо-де-ли-ро-ва-ния ча-стич-но ко-ге-рент-но-го син-хро-трон-н
-о-го из-лу-че-ния и
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 45--46
-\T2A/cmr/m/n/14.4 пре-де-ле-ни-ям по-пе-реч-ной дли-ны ко-ге-рент-но-сти. По-ст
-ав-лен-ные це-ли
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-[5.5]
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
-
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 50--53
-\T2A/cmr/m/n/14.4 G., Spatial-frequency features of radiation produced by a ste
-p-wise
- []
-
-
-Underfull \hbox (badness 4981) in paragraph at lines 50--53
-\T2A/cmr/m/n/14.4 tapered undulator, (2021), \T2A/cmr/m/it/14.4 J. Synchrotron 
-Rad\T2A/cmr/m/n/14.4 , vol 28., part 3.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
-
- []
-
-) (./part1.tex [6.6]
+] [4.4] [5.5]) (./part1.tex [6.6]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 
-Package biblatex Warning: No hyphenation patterns for 'de' on input line 3.
+Package biblatex Warning: No hyphenation patterns for 'de' on input line 4.
 
-<images/VCC_scheme.png, id=154, 988.69376pt x 300.12125pt>
-File: images/VCC_scheme.png Graphic file (type png)
-<use images/VCC_scheme.png>
-Package pdftex.def Info: images/VCC_scheme.png  used on input line 16.
-(pdftex.def)             Requested size: 450.69417pt x 136.80725pt.
 [7.7
 
- <./images/VCC_scheme.png>]
+]
+<images/VCC_incoh_scheme.png, id=180, 2464.20625pt x 741.77126pt>
+File: images/VCC_incoh_scheme.png Graphic file (type png)
+<use images/VCC_incoh_scheme.png>
+Package pdftex.def Info: images/VCC_incoh_scheme.png  used on input line 16.
+(pdftex.def)             Requested size: 450.69417pt x 135.66357pt.
+<images/VCC_partially_coh_scheme.png, id=184, 2056.68375pt x 763.85374pt>
+File: images/VCC_partially_coh_scheme.png Graphic file (type png)
+<use images/VCC_partially_coh_scheme.png>
+Package pdftex.def Info: images/VCC_partially_coh_scheme.png  used on input lin
+e 32.
+(pdftex.def)             Requested size: 450.69417pt x 167.38397pt.
+ [8.8 <./images/VCC_incoh_scheme.png>]
 
-LaTeX Warning: Command \l invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 33.
-
-[8.8]
-
-LaTeX Warning: Command \l invalid in math mode on input line 37.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 37.
+LaTeX Warning: Command \l invalid in math mode on input line 42.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 37.
+LaTeX Warning: Command \l invalid in math mode on input line 42.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 37.
+LaTeX Warning: Command \l invalid in math mode on input line 42.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 37.
+LaTeX Warning: Command \l invalid in math mode on input line 42.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 37.
+LaTeX Warning: Command \l invalid in math mode on input line 42.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 37.
+LaTeX Warning: Command \l invalid in math mode on input line 42.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 37.
+LaTeX Warning: Command \l invalid in math mode on input line 42.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 38.
+LaTeX Warning: Command \l invalid in math mode on input line 42.
+
+[9.9 <./images/VCC_partially_coh_scheme.png>]
+
+LaTeX Warning: Command \l invalid in math mode on input line 46.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 38.
+LaTeX Warning: Command \l invalid in math mode on input line 46.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 38.
+LaTeX Warning: Command \l invalid in math mode on input line 46.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 38.
+LaTeX Warning: Command \l invalid in math mode on input line 46.
 
-[9.9] [10.10]) (./part2.tex
+
+LaTeX Warning: Command \l invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 47.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 47.
+
+[10.10]
+<images/spikes.png, id=216, 1820.8025pt x 1253.68375pt>
+File: images/spikes.png Graphic file (type png)
+<use images/spikes.png>
+Package pdftex.def Info: images/spikes.png  used on input line 53.
+(pdftex.def)             Requested size: 450.69417pt x 310.30203pt.
+ [11.11 <./images/spikes.png>] [12.12]) (./part2.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-[11.11
+[13.13
 
 ]
 
@@ -2057,7 +2043,6 @@ LaTeX Warning: Command \l invalid in math mode on input line 20.
 
 LaTeX Warning: Command \l invalid in math mode on input line 20.
 
-[12.12]
 
 LaTeX Warning: Command \l invalid in math mode on input line 26.
 
@@ -2082,6 +2067,7 @@ LaTeX Warning: Command \l invalid in math mode on input line 26.
 
 LaTeX Warning: Command \l invalid in math mode on input line 26.
 
+[14.14]
 
 LaTeX Warning: Command \l invalid in math mode on input line 32.
 
@@ -2130,13 +2116,13 @@ LaTeX Warning: Command \l invalid in math mode on input line 41.
 
 LaTeX Warning: Command \l invalid in math mode on input line 41.
 
-[13.13]
-<images/MC_scheme.png, id=235, 1153.30875pt x 783.92876pt>
+[15.15]
+<images/MC_scheme.png, id=271, 1153.30875pt x 783.92876pt>
 File: images/MC_scheme.png Graphic file (type png)
 <use images/MC_scheme.png>
 Package pdftex.def Info: images/MC_scheme.png  used on input line 43.
 (pdftex.def)             Requested size: 450.69417pt x 306.353pt.
- [14.14 <./images/MC_scheme.png>]
+ [16.16 <./images/MC_scheme.png>]
 
 LaTeX Warning: Command \l invalid in math mode on input line 54.
 
@@ -2161,63 +2147,63 @@ LaTeX Warning: Command \l invalid in math mode on input line 54.
 
 LaTeX Warning: Command \l invalid in math mode on input line 54.
 
-<images/SRW_scheme.png, id=248, 936.49875pt x 675.52374pt>
+<images/SRW_scheme.png, id=285, 936.49875pt x 675.52374pt>
 File: images/SRW_scheme.png Graphic file (type png)
 <use images/SRW_scheme.png>
 Package pdftex.def Info: images/SRW_scheme.png  used on input line 56.
 (pdftex.def)             Requested size: 450.69417pt x 325.10324pt.
-[15.15 <./images/SRW_scheme.png>]
-<images/diff_divergence_coh.png, id=257, 867.24pt x 433.62pt>
+[17.17 <./images/SRW_scheme.png>]
+<images/diff_divergence_coh.png, id=294, 867.24pt x 433.62pt>
 File: images/diff_divergence_coh.png Graphic file (type png)
 <use images/diff_divergence_coh.png>
 Package pdftex.def Info: images/diff_divergence_coh.png  used on input line 67.
 
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-<images/diff_divergence_incoh.png, id=258, 867.24pt x 433.62pt>
+<images/diff_divergence_incoh.png, id=295, 867.24pt x 433.62pt>
 File: images/diff_divergence_incoh.png Graphic file (type png)
 <use images/diff_divergence_incoh.png>
 Package pdftex.def Info: images/diff_divergence_incoh.png  used on input line 7
 4.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [16.16 <./images/diff_divergence_coh.png>]
-<images/diff_coh_incoh_rad.png, id=266, 867.24pt x 867.24pt>
+ [18.18 <./images/diff_divergence_coh.png>]
+<images/diff_coh_incoh_rad.png, id=303, 867.24pt x 867.24pt>
 File: images/diff_coh_incoh_rad.png Graphic file (type png)
 <use images/diff_coh_incoh_rad.png>
 Package pdftex.def Info: images/diff_coh_incoh_rad.png  used on input line 86.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
 
-[17.17 <./images/diff_divergence_incoh.png>] [18.18 <./images/diff_coh_incoh_ra
+[19.19 <./images/diff_divergence_incoh.png>] [20.20 <./images/diff_coh_incoh_ra
 d.png>]
-<images/1-X_noise.png, id=279, 578.16pt x 578.16pt>
+<images/1-X_noise.png, id=318, 578.16pt x 578.16pt>
 File: images/1-X_noise.png Graphic file (type png)
 <use images/1-X_noise.png>
 Package pdftex.def Info: images/1-X_noise.png  used on input line 97.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/2-X_e-beam-size.png, id=280, 578.16pt x 578.16pt>
+<images/2-X_e-beam-size.png, id=319, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-size.png Graphic file (type png)
 <use images/2-X_e-beam-size.png>
 Package pdftex.def Info: images/2-X_e-beam-size.png  used on input line 106.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/2-X_e-beam-divergence.png, id=281, 578.16pt x 578.16pt>
+<images/2-X_e-beam-divergence.png, id=320, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-divergence.png Graphic file (type png)
 <use images/2-X_e-beam-divergence.png>
 Package pdftex.def Info: images/2-X_e-beam-divergence.png  used on input line 1
 12.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
- [19.19 <./images/1-X_noise.png>]
-<images/3-X_radaition_divergence.png, id=291, 578.16pt x 578.16pt>
+ [21.21 <./images/1-X_noise.png>]
+<images/3-X_radaition_divergence.png, id=330, 578.16pt x 578.16pt>
 File: images/3-X_radaition_divergence.png Graphic file (type png)
 <use images/3-X_radaition_divergence.png>
 Package pdftex.def Info: images/3-X_radaition_divergence.png  used on input lin
 e 122.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/3-X_radaition_size.png, id=292, 578.16pt x 578.16pt>
+<images/3-X_radaition_size.png, id=331, 578.16pt x 578.16pt>
 File: images/3-X_radaition_size.png Graphic file (type png)
 <use images/3-X_radaition_size.png>
 Package pdftex.def Info: images/3-X_radaition_size.png  used on input line 128.
 
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
- [20.20 <./images/2-X_e-beam-size.png> <./images/2-X_e-beam-divergence.png> <./
+ [22.22 <./images/2-X_e-beam-size.png> <./images/2-X_e-beam-divergence.png> <./
 images/3-X_radaition_divergence.png> <./images/3-X_radaition_size.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
@@ -2262,40 +2248,40 @@ LaTeX Warning: Command \l invalid in math mode on input line 155.
 
 LaTeX Warning: Command \l invalid in math mode on input line 155.
 
-[21.21]
-<images/SERVAL_envelopes_comparison_source.png, id=325, 867.24pt x 433.62pt>
+[23.23]
+<images/SERVAL_envelopes_comparison_source.png, id=363, 867.24pt x 433.62pt>
 File: images/SERVAL_envelopes_comparison_source.png Graphic file (type png)
 <use images/SERVAL_envelopes_comparison_source.png>
 Package pdftex.def Info: images/SERVAL_envelopes_comparison_source.png  used on
  input line 159.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-<images/SERVAL_corr_comparison.png, id=329, 867.24pt x 433.62pt>
+<images/SERVAL_corr_comparison.png, id=367, 867.24pt x 433.62pt>
 File: images/SERVAL_corr_comparison.png Graphic file (type png)
 <use images/SERVAL_corr_comparison.png>
 Package pdftex.def Info: images/SERVAL_corr_comparison.png  used on input line 
 165.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [22.22 <./images/SERVAL_envelopes_comparison_source.png>]
-<images/SERVAL_envelopes_comparison_far_zone.png, id=337, 867.24pt x 433.62pt>
+ [24.24 <./images/SERVAL_envelopes_comparison_source.png>]
+<images/SERVAL_envelopes_comparison_far_zone.png, id=375, 867.24pt x 433.62pt>
 File: images/SERVAL_envelopes_comparison_far_zone.png Graphic file (type png)
 <use images/SERVAL_envelopes_comparison_far_zone.png>
 Package pdftex.def Info: images/SERVAL_envelopes_comparison_far_zone.png  used 
 on input line 171.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [23.23 <./images/SERVAL_corr_comparison.png> <./images/SERVAL_envelopes_compar
+ [25.25 <./images/SERVAL_corr_comparison.png> <./images/SERVAL_envelopes_compar
 ison_far_zone.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[24.24
+[26.26
 
 ]
-<images/beamline.png, id=360, 1079.03125pt x 528.97626pt>
+<images/beamline.png, id=399, 1079.03125pt x 528.97626pt>
 File: images/beamline.png Graphic file (type png)
 <use images/beamline.png>
 Package pdftex.def Info: images/beamline.png  used on input line 204.
 (pdftex.def)             Requested size: 450.69417pt x 220.9497pt.
- [25.25]
+ [27.27]
 <images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_exam
-ple_beamline.png, id=369, 867.24pt x 867.24pt>
+ple_beamline.png, id=407, 867.24pt x 867.24pt>
 File: images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad
 _example_beamline.png Graphic file (type png)
 <use images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_
@@ -2352,9 +2338,9 @@ Missing character: There is no Р in font cmr12!
 Missing character: There is no В in font cmr12!
 Missing character: There is no А in font cmr12!
 Missing character: There is no Л in font cmr12!
-[26.26 <./images/beamline.png>]
+[28.28 <./images/beamline.png>]
 <images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamlin
-e.png, id=378, 867.24pt x 867.24pt>
+e.png, id=416, 867.24pt x 867.24pt>
 File: images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_be
 amline.png Graphic file (type png)
 <use images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_bea
@@ -2411,10 +2397,10 @@ Missing character: There is no Р in font cmr12!
 Missing character: There is no В in font cmr12!
 Missing character: There is no А in font cmr12!
 Missing character: There is no Л in font cmr12!
-[27.27 <./images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_
+[29.29 <./images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_
 urad_example_beamline.png>]
 <images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-05_urad_2
-.00E-05_urad_example_beamline.png, id=387, 867.24pt x 867.24pt>
+.00E-05_urad_example_beamline.png, id=425, 867.24pt x 867.24pt>
 File: images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-05_u
 rad_2.00E-05_urad_example_beamline.png Graphic file (type png)
 <use images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-05_ur
@@ -2472,10 +2458,10 @@ Missing character: There is no Р in font cmr12!
 Missing character: There is no В in font cmr12!
 Missing character: There is no А in font cmr12!
 Missing character: There is no Л in font cmr12!
-[28.28 <./images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_exampl
+[30.30 <./images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_exampl
 e_beamline.png>]
 <images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_e
-xample_beamline.png, id=394, 867.24pt x 867.24pt>
+xample_beamline.png, id=432, 867.24pt x 867.24pt>
 File: images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_u
 rad_example_beamline.png Graphic file (type png)
 <use images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_ur
@@ -2532,28 +2518,28 @@ Missing character: There is no Р in font cmr12!
 Missing character: There is no В in font cmr12!
 Missing character: There is no А in font cmr12!
 Missing character: There is no Л in font cmr12!
-[29.29 <./images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-
-05_urad_2.00E-05_urad_example_beamline.png>] [30.30 <./images/3-70_m_focal_plan
+[31.31 <./images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-
+05_urad_2.00E-05_urad_example_beamline.png>] [32.32 <./images/3-70_m_focal_plan
 e3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamline.png>]
-<images/field_before_slit.png, id=409, 578.16pt x 578.16pt>
+<images/field_before_slit.png, id=448, 578.16pt x 578.16pt>
 File: images/field_before_slit.png Graphic file (type png)
 <use images/field_before_slit.png>
 Package pdftex.def Info: images/field_before_slit.png  used on input line 242.
 (pdftex.def)             Requested size: 150.23138pt x 150.22983pt.
-<images/corr_before_slit.png, id=410, 578.16pt x 578.16pt>
+<images/corr_before_slit.png, id=449, 578.16pt x 578.16pt>
 File: images/corr_before_slit.png Graphic file (type png)
 <use images/corr_before_slit.png>
 Package pdftex.def Info: images/corr_before_slit.png  used on input line 248.
 (pdftex.def)             Requested size: 150.23138pt x 150.22983pt.
-<images/double_slit_scheme.png, id=412, 1079.03125pt x 565.11125pt>
+<images/double_slit_scheme.png, id=451, 1079.03125pt x 565.11125pt>
 File: images/double_slit_scheme.png Graphic file (type png)
 <use images/double_slit_scheme.png>
 Package pdftex.def Info: images/double_slit_scheme.png  used on input line 255.
 
 (pdftex.def)             Requested size: 450.69417pt x 236.04305pt.
 
-[31.31 <./images/field_before_slit.png> <./images/corr_before_slit.png>]
-<images/x_slits_width_3e-05_separation_7.5e-05_.png, id=426, 469.755pt x 867.24
+[33.33 <./images/field_before_slit.png> <./images/corr_before_slit.png>]
+<images/x_slits_width_3e-05_separation_7.5e-05_.png, id=465, 469.755pt x 867.24
 pt>
 File: images/x_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 )
@@ -2561,7 +2547,7 @@ File: images/x_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 Package pdftex.def Info: images/x_slits_width_3e-05_separation_7.5e-05_.png  us
 ed on input line 266.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/x_slits_width_3e-05_separation_0.00015_.png, id=427, 469.755pt x 867.24
+<images/x_slits_width_3e-05_separation_0.00015_.png, id=466, 469.755pt x 867.24
 pt>
 File: images/x_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 )
@@ -2569,7 +2555,7 @@ File: images/x_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 Package pdftex.def Info: images/x_slits_width_3e-05_separation_0.00015_.png  us
 ed on input line 272.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/x_slits_width_3e-05_separation_0.0003_.png, id=428, 469.755pt x 867.24p
+<images/x_slits_width_3e-05_separation_0.0003_.png, id=467, 469.755pt x 867.24p
 t>
 File: images/x_slits_width_3e-05_separation_0.0003_.png Graphic file (type png)
 
@@ -2578,7 +2564,7 @@ Package pdftex.def Info: images/x_slits_width_3e-05_separation_0.0003_.png  use
 d on input line 278.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
 
-[32.32 <./images/double_slit_scheme.png>]
+[34.34 <./images/double_slit_scheme.png>]
 File: images/field_before_slit.png Graphic file (type png)
 <use images/field_before_slit.png>
 Package pdftex.def Info: images/field_before_slit.png  used on input line 290.
@@ -2587,10 +2573,10 @@ File: images/corr_before_slit.png Graphic file (type png)
 <use images/corr_before_slit.png>
 Package pdftex.def Info: images/corr_before_slit.png  used on input line 296.
 (pdftex.def)             Requested size: 150.23138pt x 150.22983pt.
- [33.33 <./images/x_slits_width_3e-05_separation_7.5e-05_.png> <./images/x_slit
+ [35.35 <./images/x_slits_width_3e-05_separation_7.5e-05_.png> <./images/x_slit
 s_width_3e-05_separation_0.00015_.png> <./images/x_slits_width_3e-05_separation
 _0.0003_.png>]
-<images/y_slits_width_3e-05_separation_7.5e-05_.png, id=450, 469.755pt x 867.24
+<images/y_slits_width_3e-05_separation_7.5e-05_.png, id=489, 469.755pt x 867.24
 pt>
 File: images/y_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 )
@@ -2598,7 +2584,7 @@ File: images/y_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 Package pdftex.def Info: images/y_slits_width_3e-05_separation_7.5e-05_.png  us
 ed on input line 306.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/y_slits_width_3e-05_separation_0.00015_.png, id=451, 469.755pt x 867.24
+<images/y_slits_width_3e-05_separation_0.00015_.png, id=490, 469.755pt x 867.24
 pt>
 File: images/y_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 )
@@ -2606,7 +2592,7 @@ File: images/y_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 Package pdftex.def Info: images/y_slits_width_3e-05_separation_0.00015_.png  us
 ed on input line 312.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/y_slits_width_3e-05_separation_0.0003_.png, id=452, 469.755pt x 867.24p
+<images/y_slits_width_3e-05_separation_0.0003_.png, id=491, 469.755pt x 867.24p
 t>
 File: images/y_slits_width_3e-05_separation_0.0003_.png Graphic file (type png)
 
@@ -2614,14 +2600,14 @@ File: images/y_slits_width_3e-05_separation_0.0003_.png Graphic file (type png)
 Package pdftex.def Info: images/y_slits_width_3e-05_separation_0.0003_.png  use
 d on input line 318.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
- [34.34 <./images/y_slits_width_3e-05_separation_7.5e-05_.png> <./images/y_slit
+ [36.36 <./images/y_slits_width_3e-05_separation_7.5e-05_.png> <./images/y_slit
 s_width_3e-05_separation_0.00015_.png> <./images/y_slits_width_3e-05_separation
-_0.0003_.png>] [35.35]
-[36.36]
+_0.0003_.png>] [37.37]
+[38.38]
 
 Package biblatex Warning: No hyphenation patterns for 'EN' on input line 359.
 
-<images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=500, 578.16pt x 57
+<images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=539, 578.16pt x 57
 8.16pt>
 File: images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png Graphic file (typ
 e png)
@@ -2629,7 +2615,7 @@ e png)
 Package pdftex.def Info: images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.pn
 g  used on input line 370.
 (pdftex.def)             Requested size: 223.07211pt x 223.06425pt.
-<images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=501, 578.16pt x 57
+<images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=540, 578.16pt x 57
 8.16pt>
 File: images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png Graphic file (typ
 e png)
@@ -2637,37 +2623,37 @@ e png)
 Package pdftex.def Info: images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.pn
 g  used on input line 376.
 (pdftex.def)             Requested size: 223.07211pt x 223.06425pt.
-[37.37]
-<images/x_SERVAL_radiaiton_after_reflection.png, id=522, 867.24pt x 433.62pt>
+[39.39]
+<images/x_SERVAL_radiaiton_after_reflection.png, id=560, 867.24pt x 433.62pt>
 File: images/x_SERVAL_radiaiton_after_reflection.png Graphic file (type png)
 <use images/x_SERVAL_radiaiton_after_reflection.png>
 Package pdftex.def Info: images/x_SERVAL_radiaiton_after_reflection.png  used o
 n input line 386.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [38.38 <./images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png> <./images/y
+ [40.40 <./images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png> <./images/y
 _SERVAL_radiaiton_after_reflection_2d_3.0_A.png>]
-<images/y_SERVAL_radiaiton_after_reflection.png, id=533, 867.24pt x 433.62pt>
+<images/y_SERVAL_radiaiton_after_reflection.png, id=571, 867.24pt x 433.62pt>
 File: images/y_SERVAL_radiaiton_after_reflection.png Graphic file (type png)
 <use images/y_SERVAL_radiaiton_after_reflection.png>
 Package pdftex.def Info: images/y_SERVAL_radiaiton_after_reflection.png  used o
 n input line 392.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-<images/x_SERVAL_radiaiton_in_focus.png, id=534, 867.24pt x 433.62pt>
+<images/x_SERVAL_radiaiton_in_focus.png, id=572, 867.24pt x 433.62pt>
 File: images/x_SERVAL_radiaiton_in_focus.png Graphic file (type png)
 <use images/x_SERVAL_radiaiton_in_focus.png>
 Package pdftex.def Info: images/x_SERVAL_radiaiton_in_focus.png  used on input 
 line 398.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [39.39 <./images/x_SERVAL_radiaiton_after_reflection.png> <./images/y_SERVAL_r
+ [41.41 <./images/x_SERVAL_radiaiton_after_reflection.png> <./images/y_SERVAL_r
 adiaiton_after_reflection.png>]
-<images/y_SERVAL_radiaiton_in_focus.png, id=541, 867.24pt x 433.62pt>
+<images/y_SERVAL_radiaiton_in_focus.png, id=579, 867.24pt x 433.62pt>
 File: images/y_SERVAL_radiaiton_in_focus.png Graphic file (type png)
 <use images/y_SERVAL_radiaiton_in_focus.png>
 Package pdftex.def Info: images/y_SERVAL_radiaiton_in_focus.png  used on input 
 line 404.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-) (./conclusion.tex [40.40 <./images/x_SERVAL_radiaiton_in_focus.png> <./images
-/y_SERVAL_radiaiton_in_focus.png>]) (./references.tex [41.41
+) (./conclusion.tex [42.42 <./images/x_SERVAL_radiaiton_in_focus.png> <./images
+/y_SERVAL_radiaiton_in_focus.png>]) (./references.tex [43.43
 
 ]
 Underfull \hbox (badness 2753) in paragraph at lines 7--7
@@ -2678,10 +2664,10 @@ Underfull \hbox (badness 2753) in paragraph at lines 7--7
 
 Package biblatex Warning: No hyphenation patterns for 'de' on input line 7.
 
-[42.42
+[44.44
 
 
-] [43.43]
+] [45.45]
 Underfull \hbox (badness 7151) in paragraph at lines 7--7
 []\T2A/cmr/m/n/14.4 Application of Gaussian Schell-Model and Its Coherent Mode
  []
@@ -2692,61 +2678,37 @@ Underfull \hbox (badness 1127) in paragraph at lines 7--7
 maging
  []
 
-[44.44]
+[46.46]
 
 Package biblatex Warning: No hyphenation patterns for 'EN' on input line 7.
 
-[45.45]
+[47.47]
 
 Package biblatex Warning: No hyphenation patterns for 'de' on input line 7.
 
 
 Package biblatex Warning: No hyphenation patterns for 'EN' on input line 7.
 
-) (./glossarium.tex [46.46] [47.47
+) (./glossarium.tex [48.48] [49.49
 
 ]) (./lists.tex (./dissertation.lof
 
-LaTeX Warning: Command \CYRS invalid in math mode on input line 68.
+LaTeX Warning: Command \CYRS invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRE invalid in math mode on input line 68.
+LaTeX Warning: Command \CYRE invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRR invalid in math mode on input line 68.
+LaTeX Warning: Command \CYRR invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRV invalid in math mode on input line 68.
+LaTeX Warning: Command \CYRV invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRA invalid in math mode on input line 68.
+LaTeX Warning: Command \CYRA invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRL invalid in math mode on input line 68.
-
-Missing character: There is no С in font cmr12!
-Missing character: There is no Е in font cmr12!
-Missing character: There is no Р in font cmr12!
-Missing character: There is no В in font cmr12!
-Missing character: There is no А in font cmr12!
-Missing character: There is no Л in font cmr12!
-
-LaTeX Warning: Command \CYRS invalid in math mode on input line 68.
-
-
-LaTeX Warning: Command \CYRE invalid in math mode on input line 68.
-
-
-LaTeX Warning: Command \CYRR invalid in math mode on input line 68.
-
-
-LaTeX Warning: Command \CYRV invalid in math mode on input line 68.
-
-
-LaTeX Warning: Command \CYRA invalid in math mode on input line 68.
-
-
-LaTeX Warning: Command \CYRL invalid in math mode on input line 68.
+LaTeX Warning: Command \CYRL invalid in math mode on input line 76.
 
 Missing character: There is no С in font cmr12!
 Missing character: There is no Е in font cmr12!
@@ -2755,46 +2717,22 @@ Missing character: There is no В in font cmr12!
 Missing character: There is no А in font cmr12!
 Missing character: There is no Л in font cmr12!
 
-LaTeX Warning: Command \CYRS invalid in math mode on input line 70.
+LaTeX Warning: Command \CYRS invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRE invalid in math mode on input line 70.
+LaTeX Warning: Command \CYRE invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRR invalid in math mode on input line 70.
+LaTeX Warning: Command \CYRR invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRV invalid in math mode on input line 70.
+LaTeX Warning: Command \CYRV invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRA invalid in math mode on input line 70.
+LaTeX Warning: Command \CYRA invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \CYRL invalid in math mode on input line 70.
-
-Missing character: There is no С in font cmr12!
-Missing character: There is no Е in font cmr12!
-Missing character: There is no Р in font cmr12!
-Missing character: There is no В in font cmr12!
-Missing character: There is no А in font cmr12!
-Missing character: There is no Л in font cmr12!
-
-LaTeX Warning: Command \CYRS invalid in math mode on input line 70.
-
-
-LaTeX Warning: Command \CYRE invalid in math mode on input line 70.
-
-
-LaTeX Warning: Command \CYRR invalid in math mode on input line 70.
-
-
-LaTeX Warning: Command \CYRV invalid in math mode on input line 70.
-
-
-LaTeX Warning: Command \CYRA invalid in math mode on input line 70.
-
-
-LaTeX Warning: Command \CYRL invalid in math mode on input line 70.
+LaTeX Warning: Command \CYRL invalid in math mode on input line 76.
 
 Missing character: There is no С in font cmr12!
 Missing character: There is no Е in font cmr12!
@@ -2803,46 +2741,22 @@ Missing character: There is no В in font cmr12!
 Missing character: There is no А in font cmr12!
 Missing character: There is no Л in font cmr12!
 
-LaTeX Warning: Command \CYRS invalid in math mode on input line 72.
+LaTeX Warning: Command \CYRS invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRE invalid in math mode on input line 72.
+LaTeX Warning: Command \CYRE invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRR invalid in math mode on input line 72.
+LaTeX Warning: Command \CYRR invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRV invalid in math mode on input line 72.
+LaTeX Warning: Command \CYRV invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRA invalid in math mode on input line 72.
+LaTeX Warning: Command \CYRA invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRL invalid in math mode on input line 72.
-
-Missing character: There is no С in font cmr12!
-Missing character: There is no Е in font cmr12!
-Missing character: There is no Р in font cmr12!
-Missing character: There is no В in font cmr12!
-Missing character: There is no А in font cmr12!
-Missing character: There is no Л in font cmr12!
-
-LaTeX Warning: Command \CYRS invalid in math mode on input line 72.
-
-
-LaTeX Warning: Command \CYRE invalid in math mode on input line 72.
-
-
-LaTeX Warning: Command \CYRR invalid in math mode on input line 72.
-
-
-LaTeX Warning: Command \CYRV invalid in math mode on input line 72.
-
-
-LaTeX Warning: Command \CYRA invalid in math mode on input line 72.
-
-
-LaTeX Warning: Command \CYRL invalid in math mode on input line 72.
+LaTeX Warning: Command \CYRL invalid in math mode on input line 78.
 
 Missing character: There is no С in font cmr12!
 Missing character: There is no Е in font cmr12!
@@ -2851,22 +2765,46 @@ Missing character: There is no В in font cmr12!
 Missing character: There is no А in font cmr12!
 Missing character: There is no Л in font cmr12!
 
-LaTeX Warning: Command \CYRS invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRS invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRE invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRE invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRR invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRR invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRV invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRV invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRA invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRA invalid in math mode on input line 78.
 
 
-LaTeX Warning: Command \CYRL invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRL invalid in math mode on input line 78.
+
+Missing character: There is no С in font cmr12!
+Missing character: There is no Е in font cmr12!
+Missing character: There is no Р in font cmr12!
+Missing character: There is no В in font cmr12!
+Missing character: There is no А in font cmr12!
+Missing character: There is no Л in font cmr12!
+
+LaTeX Warning: Command \CYRS invalid in math mode on input line 80.
+
+
+LaTeX Warning: Command \CYRE invalid in math mode on input line 80.
+
+
+LaTeX Warning: Command \CYRR invalid in math mode on input line 80.
+
+
+LaTeX Warning: Command \CYRV invalid in math mode on input line 80.
+
+
+LaTeX Warning: Command \CYRA invalid in math mode on input line 80.
+
+
+LaTeX Warning: Command \CYRL invalid in math mode on input line 80.
 
 Missing character: There is no С in font cmr12!
 Missing character: There is no Е in font cmr12!
@@ -2875,22 +2813,22 @@ Missing character: There is no В in font cmr12!
 Missing character: There is no А in font cmr12!
 Missing character: There is no Л in font cmr12!
 
-LaTeX Warning: Command \CYRS invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRS invalid in math mode on input line 80.
 
 
-LaTeX Warning: Command \CYRE invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRE invalid in math mode on input line 80.
 
 
-LaTeX Warning: Command \CYRR invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRR invalid in math mode on input line 80.
 
 
-LaTeX Warning: Command \CYRV invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRV invalid in math mode on input line 80.
 
 
-LaTeX Warning: Command \CYRA invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRA invalid in math mode on input line 80.
 
 
-LaTeX Warning: Command \CYRL invalid in math mode on input line 74.
+LaTeX Warning: Command \CYRL invalid in math mode on input line 80.
 
 Missing character: There is no С in font cmr12!
 Missing character: There is no Е in font cmr12!
@@ -2898,17 +2836,65 @@ Missing character: There is no Р in font cmr12!
 Missing character: There is no В in font cmr12!
 Missing character: There is no А in font cmr12!
 Missing character: There is no Л in font cmr12!
-[48.48
 
-])
+LaTeX Warning: Command \CYRS invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRE invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRR invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRV invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRA invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRL invalid in math mode on input line 82.
+
+Missing character: There is no С in font cmr12!
+Missing character: There is no Е in font cmr12!
+Missing character: There is no Р in font cmr12!
+Missing character: There is no В in font cmr12!
+Missing character: There is no А in font cmr12!
+Missing character: There is no Л in font cmr12!
+
+LaTeX Warning: Command \CYRS invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRE invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRR invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRV invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRA invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \CYRL invalid in math mode on input line 82.
+
+Missing character: There is no С in font cmr12!
+Missing character: There is no Е in font cmr12!
+Missing character: There is no Р in font cmr12!
+Missing character: There is no В in font cmr12!
+Missing character: There is no А in font cmr12!
+Missing character: There is no Л in font cmr12!
+[50.50
+
+] [51.51])
 \tf@lof=\write8
 \openout8 = `dissertation.lof'.
 
- [49.49] (./dissertation.lot)
+ [52.52] (./dissertation.lot)
 \tf@lot=\write9
 \openout9 = `dissertation.lot'.
 
- [50.50
+ [53.53
 
 ])
 
@@ -2929,7 +2915,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 62F70DFDCFC5F09455636F3876343F1E;5608.
+(rerunfilecheck)             Checksum: 0236764CB1DB43FC7B0599A40A4AD64A;6747.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2940,15 +2926,18 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 40747 strings out of 481239
- 767828 string characters out of 5920376
- 1669512 words of memory out of 5000000
- 55021 multiletter control sequences out of 15000+600000
+ 40773 strings out of 481239
+ 768360 string characters out of 5920376
+ 1670323 words of memory out of 5000000
+ 55037 multiletter control sequences out of 15000+600000
  541967 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,92p,3550b,3804s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exi
+ 66i,15n,92p,3844b,3804s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
 , replaced by a fixed one
@@ -2985,10 +2974,10 @@ share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on dissertation.pdf (50 pages, 6521624 bytes).
+Output written on dissertation.pdf (53 pages, 6981004 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 648 compressed objects within 7 object streams
- 165 named destinations out of 1000 (max. 500000)
- 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 689 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 365 words of extra memory for PDF output out of 10000 (max. 10000000)
 
