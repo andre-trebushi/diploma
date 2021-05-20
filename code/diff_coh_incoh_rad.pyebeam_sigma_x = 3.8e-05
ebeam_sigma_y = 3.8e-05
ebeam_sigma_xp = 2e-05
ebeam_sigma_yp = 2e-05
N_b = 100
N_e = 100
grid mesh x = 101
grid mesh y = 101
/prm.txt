@@ -1,0 +1,8 @@
+ebeam_sigma_x = 3.8e-05
+ebeam_sigma_y = 3.8e-05
+ebeam_sigma_xp = 2e-05
+ebeam_sigma_yp = 2e-05
+N_b = 100
+N_e = 100
+grid mesh x = 101
+grid mesh y = 101

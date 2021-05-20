@@ -188,6 +188,40 @@
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry
+    \entry{goodman_statistical_2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ea089cff3a4a0b9bc1f4dacc668444db}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={J.W.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{ea089cff3a4a0b9bc1f4dacc668444db}
+      \strng{fullhash}{ea089cff3a4a0b9bc1f4dacc668444db}
+      \strng{bibnamehash}{ea089cff3a4a0b9bc1f4dacc668444db}
+      \strng{authorbibnamehash}{ea089cff3a4a0b9bc1f4dacc668444db}
+      \strng{authornamehash}{ea089cff3a4a0b9bc1f4dacc668444db}
+      \strng{authorfullhash}{ea089cff3a4a0b9bc1f4dacc668444db}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-119-00946-7}
+      \field{series}{Wiley {Series} in {Pure} and {Applied} {Optics}}
+      \field{title}{Statistical {Optics}}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://books.google.ru/books?id=9Ol8CAAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.ru/books?id=9Ol8CAAAQBAJ
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
     \entry{chubar_accurate_1998}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=fc48244f4037100974575b43bcfdef8d}{%
@@ -207,8 +241,8 @@
       \strng{authorbibnamehash}{93222a95d74aabeab98ee6970ae4bf2f}
       \strng{authornamehash}{93222a95d74aabeab98ee6970ae4bf2f}
       \strng{authorfullhash}{93222a95d74aabeab98ee6970ae4bf2f}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{proc. of the {EPAC98} {Conference}}
@@ -247,8 +281,8 @@
       \strng{authorbibnamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
       \strng{authornamehash}{33ea1fb1cea582d6122fd1bb54f5efb6}
       \strng{authorfullhash}{cb2a2ee1b424edcf36da3ccf7e7dbbce}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
       \field{langid}{english}
@@ -295,8 +329,8 @@
       \strng{authorbibnamehash}{82db145f1dab6c3e5087665793c84429}
       \strng{authornamehash}{82db145f1dab6c3e5087665793c84429}
       \strng{authorfullhash}{82db145f1dab6c3e5087665793c84429}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physica}
@@ -342,8 +376,8 @@
       \strng{authorbibnamehash}{32721f20a373299c249277d32a5328d3}
       \strng{authornamehash}{32721f20a373299c249277d32a5328d3}
       \strng{authorfullhash}{32721f20a373299c249277d32a5328d3}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physica}
@@ -372,40 +406,6 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0031891438802032
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
-    \entry{goodman_statistical_2015}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ea089cff3a4a0b9bc1f4dacc668444db}{%
-           family={Goodman},
-           familyi={G\bibinitperiod},
-           given={J.W.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{fullhash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{bibnamehash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{authorbibnamehash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{authornamehash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \strng{authorfullhash}{ea089cff3a4a0b9bc1f4dacc668444db}
-      \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-1-119-00946-7}
-      \field{series}{Wiley {Series} in {Pure} and {Applied} {Optics}}
-      \field{title}{Statistical {Optics}}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb https://books.google.ru/books?id=9Ol8CAAAQBAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.ru/books?id=9Ol8CAAAQBAJ
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry
@@ -727,8 +727,8 @@
       \strng{authorbibnamehash}{8b7b5b9e15828709defdd6d67b4d5890}
       \strng{authornamehash}{8b7b5b9e15828709defdd6d67b4d5890}
       \strng{authorfullhash}{8b7b5b9e15828709defdd6d67b4d5890}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Synchrotron Radiation}
@@ -762,8 +762,8 @@
       \keyw{biblioother,bibliofull}
     \endentry
     \entry{noauthor_iucr_nodate}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{title}{({IUCr}) {Genuine}-field modeling of partially coherent {X}-ray imaging systems}
       \field{urlday}{28}
@@ -839,6 +839,84 @@
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry
+    \entry{voelz_computational_2011}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bdadcb01e831600480353c1586a7c004}{%
+           family={Voelz},
+           familyi={V\bibinitperiod},
+           given={David\bibnamedelima George},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bellingham, Wash}%
+      }
+      \list{publisher}{1}{%
+        {SPIE Press}%
+      }
+      \strng{namehash}{bdadcb01e831600480353c1586a7c004}
+      \strng{fullhash}{bdadcb01e831600480353c1586a7c004}
+      \strng{bibnamehash}{bdadcb01e831600480353c1586a7c004}
+      \strng{authorbibnamehash}{bdadcb01e831600480353c1586a7c004}
+      \strng{authornamehash}{bdadcb01e831600480353c1586a7c004}
+      \strng{authorfullhash}{bdadcb01e831600480353c1586a7c004}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-8194-8204-4}
+      \field{langid}{english}
+      \field{shorttitle}{Computational fourier optics}
+      \field{title}{Computational fourier optics: a {MATLAB} tutorial}
+      \field{year}{2011}
+      \verb{file}
+      \verb Voelz - 2011 - Computational fourier optics a MATLAB tutorial.pdf:/home/andrei/Zotero/storage/JEWWHQ5K/Voelz - 2011 - Computational fourier optics a MATLAB tutorial.pdf:application/pdf
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{schmidt_numerical_2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=325cca9615e6d8dff621a5af02a3c5db}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{325cca9615e6d8dff621a5af02a3c5db}
+      \strng{fullhash}{325cca9615e6d8dff621a5af02a3c5db}
+      \strng{bibnamehash}{325cca9615e6d8dff621a5af02a3c5db}
+      \strng{authorbibnamehash}{325cca9615e6d8dff621a5af02a3c5db}
+      \strng{authornamehash}{325cca9615e6d8dff621a5af02a3c5db}
+      \strng{authorfullhash}{325cca9615e6d8dff621a5af02a3c5db}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-8194-8327-0}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Numerical {Simulation} of {Optical} {Wave} {Propagation} with {Examples} in {MATLAB}}
+      \field{urlday}{20}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1117/3.866274
+      \endverb
+      \verb{file}
+      \verb Schmidt - 2010 - Numerical Simulation of Optical Wave Propagation w.pdf:/home/andrei/Zotero/storage/H7ZYNPWV/Schmidt - 2010 - Numerical Simulation of Optical Wave Propagation w.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://spiedigitallibrary.org/ebooks/PM/Numerical-Simulation-of-Optical-Wave-Propagation-with-Examples-in-MATLAB/eISBN-9780819483270/10.1117/3.866274
+      \endverb
+      \verb{url}
+      \verb https://spiedigitallibrary.org/ebooks/PM/Numerical-Simulation-of-Optical-Wave-Propagation-with-Examples-in-MATLAB/eISBN-9780819483270/10.1117/3.866274
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
     \entry{tanaka_spectra_2001}{article}{}
       \name{author}{2}{}{%
         {{hash=4e902ea439118ac341fde5b9e0333860}{%
@@ -858,8 +936,8 @@
       \strng{authorbibnamehash}{a08e4911808e6c8b77e7f8df77b7b83d}
       \strng{authornamehash}{a08e4911808e6c8b77e7f8df77b7b83d}
       \strng{authorfullhash}{a08e4911808e6c8b77e7f8df77b7b83d}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{journaltitle}{Journal of Synchrotron Radiation}
@@ -910,8 +988,8 @@
       \strng{authorbibnamehash}{f3e551eb0e2cffec6ba5019ec744546a}
       \strng{authornamehash}{f3e551eb0e2cffec6ba5019ec744546a}
       \strng{authorfullhash}{f3e551eb0e2cffec6ba5019ec744546a}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -1050,8 +1128,8 @@
       \strng{authorbibnamehash}{98e95b869bd825a84a9cf0dc515fb3d4}
       \strng{authornamehash}{98e95b869bd825a84a9cf0dc515fb3d4}
       \strng{authorfullhash}{98e95b869bd825a84a9cf0dc515fb3d4}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Optics Express}
@@ -1194,8 +1272,8 @@
       \strng{authorbibnamehash}{6f977d4228571eba604bdc7ebaed94b4}
       \strng{authornamehash}{6f977d4228571eba604bdc7ebaed94b4}
       \strng{authorfullhash}{770d0baa160d2dc5b70c9c0cfb664909}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Review of Scientific Instruments}
       \field{month}{9}
@@ -1267,8 +1345,8 @@
       \strng{authorbibnamehash}{0551dc8e018c5fc36e158c5a25804ab3}
       \strng{authornamehash}{0551dc8e018c5fc36e158c5a25804ab3}
       \strng{authorfullhash}{a2bc76d00baa9787e35d7d3f284d6221}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{Using the {Power} {Spectral} {Density} {Method} to {Characterize} and {Evaluate} the {X}-ray {Mirrors} {Surfaces}}
@@ -1306,8 +1384,8 @@
       \strng{authorbibnamehash}{bcc3448cde97444cdd59d2955117b546}
       \strng{authornamehash}{bcc3448cde97444cdd59d2955117b546}
       \strng{authorfullhash}{4e29417743466210131dceb1e6a671a2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Measurement Science and Technology}
       \field{langid}{english}
@@ -1380,8 +1458,8 @@
       \strng{authorbibnamehash}{55d20adb34265742cadb200a1356fb31}
       \strng{authornamehash}{55d20adb34265742cadb200a1356fb31}
       \strng{authorfullhash}{4ef78525e59b4d5aa320138ea5bae11d}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Optics Express}
       \field{langid}{EN}
@@ -1489,8 +1567,8 @@
       \strng{authorbibnamehash}{5126f9984f3df7effd20b593dc704621}
       \strng{authornamehash}{5126f9984f3df7effd20b593dc704621}
       \strng{authorfullhash}{7257136610a1dbf1b7bdf7f625374a3d}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Synchrotron Radiation}
       \field{langid}{english}
@@ -1535,8 +1613,8 @@
       \strng{authorbibnamehash}{65f927c8fc2ddf929edd6189f45dcfca}
       \strng{authornamehash}{65f927c8fc2ddf929edd6189f45dcfca}
       \strng{authorfullhash}{65f927c8fc2ddf929edd6189f45dcfca}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
