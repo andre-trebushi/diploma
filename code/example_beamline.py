@@ -141,11 +141,17 @@ def plot_two_dfls(dfl_first, dfl_second, domains='s', scale='mm', label_first=No
     
     std_1x = fwhm(dfl1.scale_x()*scale_order, I_1x/np.max(I_1x))  
     std_2x = fwhm(dfl2.scale_x()*scale_order, I_2x/np.max(I_2x)) 
-    print(' $FWHM_x$ = {} мкм'.format(round(std_1x)),  '$FWHM_x$ = {} мкм'.format(round(std_2x)), std_1x/std_2x)
+    x_line_f, rms_1x = gauss_fit(dfl1.scale_x()*scale_order, I_1x/np.max(I_1x))
+    x_line_f, rms_2x = gauss_fit(dfl2.scale_x()*scale_order, I_2x/np.max(I_2x))
+
+    print(' $FWHM_x, rms_x$ = {}, {} мкм'.format(round(std_1x), round(rms_1x,2)),  '$FWHM_x, rms_x$ = {}, {} мкм'.format(round(std_2x), round(rms_2x,2)), std_1x/std_2x)
     
     std_1y = fwhm(dfl1.scale_y()*scale_order, I_1y/np.max(I_1y))  
     std_2y = fwhm(dfl2.scale_y()*scale_order, I_2y/np.max(I_2y)) 
-    print(' $FWHM_y$ = {} мкм'.format(round(std_1y)), ' $FWHM_y = {}$ мкм'.format(round(std_2y)), std_1y/std_2y)
+    x_line_f, rms_1y = gauss_fit(dfl1.scale_y()*scale_order, I_1y/np.max(I_1y))
+    x_line_f, rms_2y = gauss_fit(dfl2.scale_y()*scale_order, I_2y/np.max(I_2y))
+
+    print(' $FWHM_y, rms_y$ = {}, {} мкм'.format(round(std_1y), round(rms_1y, 2)), ' $FWHM_y, rms_y = {}, {}$ мкм'.format(round(std_2y), round(rms_2y,2)), std_1y/std_2y)
     
     ax_x.plot(dfl1.scale_x()*scale_order, I_1x, c='b', label=label_first)
     ax_x2.plot(dfl2.scale_x()*scale_order, I_2x, c='green', label=label_second)
@@ -397,8 +403,8 @@ dfl_MC = undulator_field_dfl_MP(dfl_MC, z=25, L_w=L_w, E_ph=E_ph, N_e=N_e, N_b=N
                                             approximation=approximation, mode='incoh', seed=seed)
 #%%
 dfl_MC.to_domain(domains='sf') 
-plot_dfl(dfl_MC, domains='sf', phase=True, fig_name=fieldname_MC)
-plot_dfl(dfl_MC, domains='kf', phase=True, fig_name = fieldname_MC)
+# plot_dfl(dfl_MC, domains='sf', phase=True, fig_name=fieldname_MC)
+# plot_dfl(dfl_MC, domains='kf', phase=True, fig_name = fieldname_MC)
 
 filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/'
 # write_field_file(dfl_MC, filePath=filePath, fileName=fieldname_MC)
@@ -434,9 +440,9 @@ filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/3.80E-05_um_4.68
 #%%
 filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamline/SERVAL'
 dfl_SERVAL = read_field_file(filePath)
-savefig = True
-plot_dfl(dfl_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
-plot_dfl(dfl_SERVAL, domains='f', phase=True, fig_name = fieldname_SERVAL)
+savefig = False
+# plot_dfl(dfl_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
+# plot_dfl(dfl_SERVAL, domains='f', phase=True, fig_name = fieldname_SERVAL)
 #%%
 dfl_prop_SERVAL = deepcopy(dfl_SERVAL)
 fieldname_SERVAL = '1-far_zone_25_m_SERVAL'
@@ -467,20 +473,23 @@ filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_n
 #%%
 filePath_MC = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamline/MCA'
 dfl_MC = read_field_file(filePath_MC)
+#%%
+dfl_MC_source = dfl_MC.prop_m(-25, m=0.075)
+#%%
+filePath = '/home/andrei/Documents/XFEL/SERVAL/fields/far_field/' + simulation_name + '/'
+plot_two_dfls(dfl_MC, dfl_SERVAL, domains='s', fig_name='0-source' + simulation_name, 
+              slice_xy=False, phase=False, label_first='МСA', scale ='um',
+              label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=True)
 
-# plot_two_dfls(dfl_MC, dfl_prop_SERVAL, domains='s', fig_name='1-far_zone_25_m' + simulation_name, 
-#               slice_xy=False, phase=False, label_first='МСA', scale ='um',
-#               label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=savefig)
+corr_MC = dfl_xy_corr(dfl_MC, norm=1)
+corr_SERVAL = dfl_xy_corr(dfl_prop_SERVAL, norm=1)
 
-# corr_MC = dfl_xy_corr(dfl_MC, norm=1)
-# corr_SERVAL = dfl_xy_corr(dfl_prop_SERVAL, norm=1)
+# plot_dfl(corr_MC, domains='sf', phase=True, fig_name = 'corr_MC')
+# plot_dfl(corr_SERVAL, domains='sf', phase=True, fig_name = 'corr_SERVAL')
 
-# # plot_dfl(corr_MC, domains='sf', phase=True, fig_name = 'corr_MC')
-# # plot_dfl(corr_SERVAL, domains='sf', phase=True, fig_name = 'corr_SERVAL')
-
-# plot_two_dfls(corr_MC, corr_SERVAL, domains='s', fig_name='corr'+ simulation_name, 
-#               slice_xy=True, phase=False, label_first='МСА', scale ='um', 
-#               label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=savefig)
+plot_two_dfls(corr_MC, corr_SERVAL, domains='s', fig_name='corr'+ simulation_name, 
+              slice_xy=True, phase=False, label_first='МСА', scale ='um', 
+              label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=savefig)
 
 #%%
 dfl2_MC = deepcopy(dfl_MC)
@@ -524,17 +533,16 @@ m_y = 0.3
 dfl4_MC.prop_m(12.5, m=[m_x, m_y])
 dfl4_SERVAL.prop_m(12.5, m=[m_x, m_y])
 
-#%%
+
 fieldname = '3-70_m_focal_plane'
 plot_two_dfls(dfl4_MC, dfl4_SERVAL, domains='s', fig_name=fieldname  + simulation_name, 
               slice_xy=True, phase=False, label_first='MCA', scale='um',
               label_second='СЕРВАЛ', title=None, filePath=filePath, savefig=savefig)
 
-
 # save of your python script in the simulation directory
 # write_script(script_dir, new_script_dir)
 
-
+ 
 
 
 

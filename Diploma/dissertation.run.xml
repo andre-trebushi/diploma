@@ -87,9 +87,6 @@
     </requires>
     <requires type="editable">
       <file>../biblio/othercites.bib</file>
-      <file>../biblio/authorpapersVAK.bib</file>
-      <file>../biblio/authorpapers.bib</file>
-      <file>../biblio/authorconferences.bib</file>
     </requires>
   </external>
 </requests>

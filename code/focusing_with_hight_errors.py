@@ -202,9 +202,9 @@ dfl_SERVAL = undulator_field_dfl_SERVAL(dfl_SERVAL, L_w=L_w,
                                         sig_xp=ebeam_sigma_xp, sig_yp=ebeam_sigma_yp,
                                         k_support = 'intensity', s_support='conv_intensities', showfig=False)
 
-# plot_dfl(dfl_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
-# plot_dfl(dfl_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
-
+plot_dfl(dfl_SERVAL, domains='sf', phase=True, fig_name = fieldname_SERVAL)
+plot_dfl(dfl_SERVAL, domains='kf', phase=True, fig_name = fieldname_SERVAL)
+#%%
 dfl_prop_SERVAL = deepcopy(dfl_SERVAL)
 fieldname_SERVAL = '1-far_zone_25_m_SERVAL'
 dfl_prop_SERVAL.prop_m(25, m=[12, 12])

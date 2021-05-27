@@ -1,25 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'dissertation.blg'
-[70] biber:322> INFO - === Thu May 20, 2021, 15:04:21
-[85] Biber.pm:415> INFO - Reading 'dissertation.bcf'
-[186] Biber.pm:943> INFO - Found 31 citekeys in bib section 0
-[201] Biber.pm:4256> INFO - Processing section 0
+[70] biber:322> INFO - === Sat May 22, 2021, 17:26:05
+[86] Biber.pm:415> INFO - Reading 'dissertation.bcf'
+[185] Biber.pm:943> INFO - Found 29 citekeys in bib section 0
+[200] Biber.pm:4256> INFO - Processing section 0
 [201] Utils.pm:75> INFO - Globbing data source '../biblio/othercites.bib'
 [201] Utils.pm:91> INFO - Globbed data source '../biblio/othercites.bib' to ../biblio/othercites.bib
-[201] Utils.pm:75> INFO - Globbing data source '../biblio/authorpapersVAK.bib'
-[201] Utils.pm:91> INFO - Globbed data source '../biblio/authorpapersVAK.bib' to ../biblio/authorpapersVAK.bib
-[201] Utils.pm:75> INFO - Globbing data source '../biblio/authorpapers.bib'
-[201] Utils.pm:91> INFO - Globbed data source '../biblio/authorpapers.bib' to ../biblio/authorpapers.bib
-[202] Utils.pm:75> INFO - Globbing data source '../biblio/authorconferences.bib'
-[202] Utils.pm:91> INFO - Globbed data source '../biblio/authorconferences.bib' to ../biblio/authorconferences.bib
 [210] Biber.pm:4455> INFO - Looking for bibtex format file '../biblio/othercites.bib' for section 0
-[216] bibtex.pm:1653> INFO - LaTeX decoding ...
-[316] bibtex.pm:1471> INFO - Found BibTeX data source '../biblio/othercites.bib'
-[318] Utils.pm:293> WARN - Duplicate entry key: 'geloni_brightness_2014' in file '../biblio/othercites.bib', skipping ...
-[602] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[603] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[603] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[603] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
-[629] bbl.pm:652> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
-[665] bbl.pm:755> INFO - Output to dissertation.bbl
-[665] Biber.pm:128> INFO - WARNINGS: 1
+[215] bibtex.pm:1653> INFO - LaTeX decoding ...
+[314] bibtex.pm:1471> INFO - Found BibTeX data source '../biblio/othercites.bib'
+[316] Utils.pm:293> WARN - Duplicate entry key: 'geloni_brightness_2014' in file '../biblio/othercites.bib', skipping ...
+[575] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[576] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[576] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[576] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
+[603] bbl.pm:652> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
+[622] bbl.pm:755> INFO - Output to dissertation.bbl
+[622] Biber.pm:128> INFO - WARNINGS: 1

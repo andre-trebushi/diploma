@@ -3560,9 +3560,6 @@
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex">../biblio/othercites.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">../biblio/authorpapersVAK.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">../biblio/authorpapers.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">../biblio/authorconferences.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">bartolini_challenges_2021</bcf:citekey>
@@ -3602,19 +3599,15 @@
     <bcf:citekey order="35">chubar_simulation_2006</bcf:citekey>
     <bcf:citekey order="36">tanaka_spectra_2001</bcf:citekey>
     <bcf:citekey order="37">goodman_statistical_2015</bcf:citekey>
-    <bcf:citekey order="38">goodman_statistical_2015</bcf:citekey>
+    <bcf:citekey order="38">serkez_design_2015</bcf:citekey>
     <bcf:citekey order="39">serkez_design_2015</bcf:citekey>
-    <bcf:citekey order="40">serkez_design_2015</bcf:citekey>
-    <bcf:citekey order="41">church_specification_1993</bcf:citekey>
-    <bcf:citekey order="42">angeisky_fractal_nodate</bcf:citekey>
-    <bcf:citekey order="43">pardini_effect_2015</bcf:citekey>
-    <bcf:citekey order="44">serkez_design_2015</bcf:citekey>
-    <bcf:citekey order="45">heimann_linac_2011</bcf:citekey>
-    <bcf:citekey order="46">hua_using_2013</bcf:citekey>
-    <bcf:citekey order="47">xu_statistical_2012</bcf:citekey>
-    <bcf:citekey order="48">barty_predicting_2009</bcf:citekey>
-    <bcf:citekey order="49">strocov_high-resolution_2010</bcf:citekey>
-    <bcf:citekey order="50">sankari_hippie_nodate</bcf:citekey>
+    <bcf:citekey order="40">strocov_high-resolution_2010</bcf:citekey>
+    <bcf:citekey order="41">sankari_hippie_nodate</bcf:citekey>
+    <bcf:citekey order="42">church_specification_1993</bcf:citekey>
+    <bcf:citekey order="43">angeisky_fractal_nodate</bcf:citekey>
+    <bcf:citekey order="44">hua_using_2013</bcf:citekey>
+    <bcf:citekey order="45">xu_statistical_2012</bcf:citekey>
+    <bcf:citekey order="46">barty_predicting_2009</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

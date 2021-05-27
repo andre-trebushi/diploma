@@ -1012,6 +1012,141 @@
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry
+    \entry{strocov_high-resolution_2010}{article}{useauthor=false}
+      \name{author}{14}{}{%
+        {{hash=0e984cce875d662784aa05089eb28682}{%
+           family={Strocov},
+           familyi={S\bibinitperiod},
+           given={V.\bibnamedelimi N.},
+           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=f90d599493829d2753c0b744e7201d9d}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=39673a065e64bd9d27f66bb93de7691f}{%
+           family={Flechsig},
+           familyi={F\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=927b5bc644972557d1d98df4119ab47d}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=eae77937c22f7bc75bedd9a93756a817}{%
+           family={Imhof},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6dbedad2342e7fdc31f6a6905f472c6d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=47b3fe2b1c4ddddc606117c53f0e21c9}{%
+           family={Raabe},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c019c40eec378e5add78d2bcee193268}{%
+           family={Betemps},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=634f9b329542b174a428f18e6ab987df}{%
+           family={Zimoch},
+           familyi={Z\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=89faaeef3136d1d04b363555d7d98cde}{%
+           family={Krempasky},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bbe869383a7d3458b82c516a21e4482c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ba447cd2dceaa3c51c83af37ce714f9b}{%
+           family={Grioni},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4a878e465619d3e00c7f279eac36fedf}{%
+           family={Piazzalunga},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7b92145ec84992d669a89f638c27676e}{%
+           family={Patthey},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{5126f9984f3df7effd20b593dc704621}
+      \strng{authornamehash}{5126f9984f3df7effd20b593dc704621}
+      \strng{authorfullhash}{7257136610a1dbf1b7bdf7f625374a3d}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{title}{High-resolution soft {X}-ray beamline {ADRESS} at the {Swiss} {Light} {Source} for resonant inelastic {X}-ray scattering and angle-resolved photoelectron spectroscopies}
+      \field{urlday}{15}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{number}{5}
+      \range{number}{1}
+      \field{pages}{631\bibrangedash 643}
+      \range{pages}{13}
+      \field{volume}{17}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1107/S0909049510019862
+      \endverb
+      \verb{file}
+      \verb Strocov et al. - 2010 - High-resolution soft X-ray beamline ADRESS at the .pdf:/home/andrei/Zotero/storage/BLU2XQX7/Strocov et al. - 2010 - High-resolution soft X-ray beamline ADRESS at the .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://scripts.iucr.org/cgi-bin/paper?S0909049510019862
+      \endverb
+      \verb{url}
+      \verb http://scripts.iucr.org/cgi-bin/paper?S0909049510019862
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
+    \entry{sankari_hippie_nodate}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65f927c8fc2ddf929edd6189f45dcfca}{%
+           family={Sankari},
+           familyi={S\bibinitperiod},
+           given={Rami},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{65f927c8fc2ddf929edd6189f45dcfca}
+      \strng{fullhash}{65f927c8fc2ddf929edd6189f45dcfca}
+      \strng{bibnamehash}{65f927c8fc2ddf929edd6189f45dcfca}
+      \strng{authorbibnamehash}{65f927c8fc2ddf929edd6189f45dcfca}
+      \strng{authornamehash}{65f927c8fc2ddf929edd6189f45dcfca}
+      \strng{authorfullhash}{65f927c8fc2ddf929edd6189f45dcfca}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{HIPPIE} beamline at {MAX} {IV}: {Detailed} optical design report}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{file}
+      \verb Sankari - HIPPIE beamline at MAX IV Detailed optical design.pdf:/home/andrei/Zotero/storage/J9MCWMM7/Sankari - HIPPIE beamline at MAX IV Detailed optical design.pdf:application/pdf
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
     \entry{church_specification_1993}{article}{}
       \name{author}{2}{}{%
         {{hash=53d128cd3c1c2e93ef8d51a3ab98d34d}{%
@@ -1031,8 +1166,8 @@
       \strng{authorbibnamehash}{6fb372ee93483ea12597eeb69d073903}
       \strng{authornamehash}{6fb372ee93483ea12597eeb69d073903}
       \strng{authorfullhash}{6fb372ee93483ea12597eeb69d073903}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Optics}
@@ -1090,8 +1225,8 @@
       \strng{authorbibnamehash}{f46cc8b421ebce0ed859756912ee716d}
       \strng{authornamehash}{f46cc8b421ebce0ed859756912ee716d}
       \strng{authorfullhash}{412cf2a1a9e73a09010d7c87832e3fcd}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{Fractal description of rough surfaces}
@@ -1101,206 +1236,6 @@
       \range{volume}{1}
       \verb{file}
       \verb Angeisky et al. - Fractal description of rough surfaces.pdf:/home/andrei/Zotero/storage/4DI3564A/Angeisky et al. - Fractal description of rough surfaces.pdf:application/pdf
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
-    \entry{pardini_effect_2015}{article}{}
-      \name{author}{3}{}{%
-        {{hash=6a7a7815a584e411efa7349f97c86aa7}{%
-           family={Pardini},
-           familyi={P\bibinitperiod},
-           given={Tom},
-           giveni={T\bibinitperiod}}}%
-        {{hash=05a21300ad0ab771f8ee5390d5af85c2}{%
-           family={Cocco},
-           familyi={C\bibinitperiod},
-           given={Daniele},
-           giveni={D\bibinitperiod}}}%
-        {{hash=d53012ec55b311ef454f65d8edce798f}{%
-           family={Hau-Riege},
-           familyi={H\bibinithyphendelim R\bibinitperiod},
-           given={Stefan\bibnamedelima P.},
-           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{98e95b869bd825a84a9cf0dc515fb3d4}
-      \strng{fullhash}{98e95b869bd825a84a9cf0dc515fb3d4}
-      \strng{bibnamehash}{98e95b869bd825a84a9cf0dc515fb3d4}
-      \strng{authorbibnamehash}{98e95b869bd825a84a9cf0dc515fb3d4}
-      \strng{authornamehash}{98e95b869bd825a84a9cf0dc515fb3d4}
-      \strng{authorfullhash}{98e95b869bd825a84a9cf0dc515fb3d4}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Optics Express}
-      \field{langid}{english}
-      \field{month}{12}
-      \field{title}{Effect of slope errors on the performance of mirrors for x-ray free electron laser applications}
-      \field{urlday}{15}
-      \field{urlmonth}{5}
-      \field{urlyear}{2021}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{number}{25}
-      \range{number}{1}
-      \field{pages}{31889}
-      \range{pages}{1}
-      \field{volume}{23}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1364/OE.23.031889
-      \endverb
-      \verb{file}
-      \verb Pardini et al. - 2015 - Effect of slope errors on the performance of mirro.pdf:/home/andrei/Zotero/storage/4W7XC6CC/Pardini et al. - 2015 - Effect of slope errors on the performance of mirro.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.osapublishing.org/abstract.cfm?URI=oe-23-25-31889
-      \endverb
-      \verb{url}
-      \verb https://www.osapublishing.org/abstract.cfm?URI=oe-23-25-31889
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
-    \entry{heimann_linac_2011}{article}{useauthor=false}
-      \name{author}{21}{}{%
-        {{hash=062b82b1bf64e25a3e1bebe40d9ee4f9}{%
-           family={Heimann},
-           familyi={H\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod}}}%
-        {{hash=ee1b871ab7dd111af75f61816d0a7c16}{%
-           family={Krupin},
-           familyi={K\bibinitperiod},
-           given={Oleg},
-           giveni={O\bibinitperiod}}}%
-        {{hash=3b92b5d822f3203512ba153a0b7ac251}{%
-           family={Schlotter},
-           familyi={S\bibinitperiod},
-           given={William\bibnamedelima F.},
-           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=e61ecd0703daa6c1be30a0ddc1e67e72}{%
-           family={Turner},
-           familyi={T\bibinitperiod},
-           given={Joshua},
-           giveni={J\bibinitperiod}}}%
-        {{hash=4efd3e7c9d7d9ece0810303e9cfefe92}{%
-           family={Krzywinski},
-           familyi={K\bibinitperiod},
-           given={Jacek},
-           giveni={J\bibinitperiod}}}%
-        {{hash=59f24ed56c61f3d874c081e9f87d00bb}{%
-           family={Sorgenfrei},
-           familyi={S\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=5fc5a1eb68f0c3b4120d8e732463ea70}{%
-           family={Messerschmidt},
-           familyi={M\bibinitperiod},
-           given={Marc},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0e48d39ed6acd37cafe2ec2c3116ef10}{%
-           family={Bernstein},
-           familyi={B\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=a0b758f466f3775aa36d19ac1d048662}{%
-           family={Chalupský},
-           familyi={C\bibinitperiod},
-           given={Jaromir},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b7175519039e3c484c9675873769a4e9}{%
-           family={Hájková},
-           familyi={H\bibinitperiod},
-           given={Vera},
-           giveni={V\bibinitperiod}}}%
-        {{hash=e5d552d59d90a4aa06d1817bd7faaf59}{%
-           family={Hau-Riege},
-           familyi={H\bibinithyphendelim R\bibinitperiod},
-           given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=1eb9da72dfc9339033c485154100ed45}{%
-           family={Holmes},
-           familyi={H\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f3936d18d70ff3ecad42bf6f8870b637}{%
-           family={Juha},
-           familyi={J\bibinitperiod},
-           given={Libor},
-           giveni={L\bibinitperiod}}}%
-        {{hash=fa3bf7fd914e5e7c1a76149ac80036c9}{%
-           family={Kelez},
-           familyi={K\bibinitperiod},
-           given={Nicholas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=f08e6d2159f8bd7bd4277a5be71eb6d9}{%
-           family={Lüning},
-           familyi={L\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=23e3d6bf75b5b8c19b84fcd1152c33ac}{%
-           family={Nordlund},
-           familyi={N\bibinitperiod},
-           given={Dennis},
-           giveni={D\bibinitperiod}}}%
-        {{hash=d9d405d5d4cd811d19a36c4c6738fa37}{%
-           family={Fernandez\bibnamedelima Perea},
-           familyi={F\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={Monica},
-           giveni={M\bibinitperiod}}}%
-        {{hash=201d18c42446a3bac719ce2cba228a04}{%
-           family={Scherz},
-           familyi={S\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f1d1a907099ad4ea730c24c3819342cc}{%
-           family={Soufli},
-           familyi={S\bibinitperiod},
-           given={Regina},
-           giveni={R\bibinitperiod}}}%
-        {{hash=ac286f7763d53e01417216a0276d8f2c}{%
-           family={Wurth},
-           familyi={W\bibinitperiod},
-           given={Wilfried},
-           giveni={W\bibinitperiod}}}%
-        {{hash=9d9dc3d4a432294649a305818ded10c0}{%
-           family={Rowen},
-           familyi={R\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{authorbibnamehash}{6f977d4228571eba604bdc7ebaed94b4}
-      \strng{authornamehash}{6f977d4228571eba604bdc7ebaed94b4}
-      \strng{authorfullhash}{770d0baa160d2dc5b70c9c0cfb664909}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Review of Scientific Instruments}
-      \field{month}{9}
-      \field{note}{Publisher: American Institute of Physics}
-      \field{title}{Linac {Coherent} {Light} {Source} soft x-ray materials science instrument optical design and monochromator commissioning}
-      \field{urlday}{15}
-      \field{urlmonth}{5}
-      \field{urlyear}{2021}
-      \field{year}{2011}
-      \field{urldateera}{ce}
-      \field{number}{9}
-      \range{number}{1}
-      \field{pages}{093104}
-      \range{pages}{1}
-      \field{volume}{82}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1063/1.3633947
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/andrei/Zotero/storage/W54RGTQE/Heimann et al. - 2011 - Linac Coherent Light Source soft x-ray materials s.pdf:application/pdf;Snapshot:/home/andrei/Zotero/storage/N3YBB7R9/1.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://aip.scitation.org/doi/full/10.1063/1.3633947
-      \endverb
-      \verb{url}
-      \verb https://aip.scitation.org/doi/full/10.1063/1.3633947
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry
@@ -1488,141 +1423,6 @@
       \endverb
       \verb{url}
       \verb https://www.osapublishing.org/oe/abstract.cfm?uri=oe-17-18-15508
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
-    \entry{strocov_high-resolution_2010}{article}{useauthor=false}
-      \name{author}{14}{}{%
-        {{hash=0e984cce875d662784aa05089eb28682}{%
-           family={Strocov},
-           familyi={S\bibinitperiod},
-           given={V.\bibnamedelimi N.},
-           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=f90d599493829d2753c0b744e7201d9d}{%
-           family={Schmitt},
-           familyi={S\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=39673a065e64bd9d27f66bb93de7691f}{%
-           family={Flechsig},
-           familyi={F\bibinitperiod},
-           given={U.},
-           giveni={U\bibinitperiod}}}%
-        {{hash=927b5bc644972557d1d98df4119ab47d}{%
-           family={Schmidt},
-           familyi={S\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=eae77937c22f7bc75bedd9a93756a817}{%
-           family={Imhof},
-           familyi={I\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6dbedad2342e7fdc31f6a6905f472c6d}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=47b3fe2b1c4ddddc606117c53f0e21c9}{%
-           family={Raabe},
-           familyi={R\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=c019c40eec378e5add78d2bcee193268}{%
-           family={Betemps},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=634f9b329542b174a428f18e6ab987df}{%
-           family={Zimoch},
-           familyi={Z\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=89faaeef3136d1d04b363555d7d98cde}{%
-           family={Krempasky},
-           familyi={K\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=bbe869383a7d3458b82c516a21e4482c}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod}}}%
-        {{hash=ba447cd2dceaa3c51c83af37ce714f9b}{%
-           family={Grioni},
-           familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=4a878e465619d3e00c7f279eac36fedf}{%
-           family={Piazzalunga},
-           familyi={P\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=7b92145ec84992d669a89f638c27676e}{%
-           family={Patthey},
-           familyi={P\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{authorbibnamehash}{5126f9984f3df7effd20b593dc704621}
-      \strng{authornamehash}{5126f9984f3df7effd20b593dc704621}
-      \strng{authorfullhash}{7257136610a1dbf1b7bdf7f625374a3d}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Synchrotron Radiation}
-      \field{langid}{english}
-      \field{month}{9}
-      \field{title}{High-resolution soft {X}-ray beamline {ADRESS} at the {Swiss} {Light} {Source} for resonant inelastic {X}-ray scattering and angle-resolved photoelectron spectroscopies}
-      \field{urlday}{15}
-      \field{urlmonth}{5}
-      \field{urlyear}{2021}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \field{number}{5}
-      \range{number}{1}
-      \field{pages}{631\bibrangedash 643}
-      \range{pages}{13}
-      \field{volume}{17}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1107/S0909049510019862
-      \endverb
-      \verb{file}
-      \verb Strocov et al. - 2010 - High-resolution soft X-ray beamline ADRESS at the .pdf:/home/andrei/Zotero/storage/BLU2XQX7/Strocov et al. - 2010 - High-resolution soft X-ray beamline ADRESS at the .pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://scripts.iucr.org/cgi-bin/paper?S0909049510019862
-      \endverb
-      \verb{url}
-      \verb http://scripts.iucr.org/cgi-bin/paper?S0909049510019862
-      \endverb
-      \keyw{biblioother,bibliofull}
-    \endentry
-    \entry{sankari_hippie_nodate}{article}{}
-      \name{author}{1}{}{%
-        {{hash=65f927c8fc2ddf929edd6189f45dcfca}{%
-           family={Sankari},
-           familyi={S\bibinitperiod},
-           given={Rami},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{65f927c8fc2ddf929edd6189f45dcfca}
-      \strng{fullhash}{65f927c8fc2ddf929edd6189f45dcfca}
-      \strng{bibnamehash}{65f927c8fc2ddf929edd6189f45dcfca}
-      \strng{authorbibnamehash}{65f927c8fc2ddf929edd6189f45dcfca}
-      \strng{authornamehash}{65f927c8fc2ddf929edd6189f45dcfca}
-      \strng{authorfullhash}{65f927c8fc2ddf929edd6189f45dcfca}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{{HIPPIE} beamline at {MAX} {IV}: {Detailed} optical design report}
-      \field{pages}{7}
-      \range{pages}{1}
-      \verb{file}
-      \verb Sankari - HIPPIE beamline at MAX IV Detailed optical design.pdf:/home/andrei/Zotero/storage/J9MCWMM7/Sankari - HIPPIE beamline at MAX IV Detailed optical design.pdf:application/pdf
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry

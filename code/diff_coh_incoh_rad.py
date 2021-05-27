@@ -177,9 +177,10 @@ squarify(fig)
 fig.canvas.mpl_connect("resize_event", lambda evt: squarify(fig))
 
 plt.show()
+filePath = '/home/andrei/Documents/diploma/Diploma/images/'
+
 plt.savefig(filePath + 'diff_coh_incoh_rad' + '.png', dpi=200)
 
-filePath = '/home/andrei/Documents/diploma/Diploma/images/'
 
 # plot_two_dfls(dfl_incoh, dfl_coh, domains='s', scale='mm', label_first="некогерентное", label_second="когерентное",
 #               slice_xy=True, fig_name='diff_coh_incoh_rad', filePath=filePath, savefig=False)
