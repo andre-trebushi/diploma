@@ -781,6 +781,55 @@
       \endverb
       \keyw{biblioother,bibliofull}
     \endentry
+    \entry{onuki_undulators_2003}{book}{}
+      \name{author}{2}{}{%
+        {{hash=80bb46fe589560bbcb081ceb1778915e}{%
+           family={Ōnuki},
+           familyi={Ō\bibinitperiod},
+           given={Hideo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1046dc0b40507f3b939468ecd17cd50a}{%
+           family={Elleaume},
+           familyi={E\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{f11431851e667374a8dac35b33a1b6b8}
+      \strng{fullhash}{f11431851e667374a8dac35b33a1b6b8}
+      \strng{bibnamehash}{f11431851e667374a8dac35b33a1b6b8}
+      \strng{authorbibnamehash}{f11431851e667374a8dac35b33a1b6b8}
+      \strng{authornamehash}{f11431851e667374a8dac35b33a1b6b8}
+      \strng{authorfullhash}{f11431851e667374a8dac35b33a1b6b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-203-21823-5 978-0-203-27377-7}
+      \field{langid}{english}
+      \field{note}{OCLC: 941215200}
+      \field{title}{Undulators, wigglers, and their applications}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Ōnuki and Elleaume - 2003 - Undulators, wigglers, and their applications.pdf:/home/andrei/Zotero/storage/GSQL4W2V/Ōnuki and Elleaume - 2003 - Undulators, wigglers, and their applications.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.crcnetbase.com/isbn/9780203218235
+      \endverb
+      \verb{url}
+      \verb http://www.crcnetbase.com/isbn/9780203218235
+      \endverb
+      \keyw{biblioother,bibliofull}
+    \endentry
     \entry{geloni_fourier_2007}{article}{useauthor=false}
       \name{author}{4}{}{%
         {{hash=5a05d1b32a5ab9ab3a0977e3d257043d}{%

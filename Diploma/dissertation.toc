@@ -14,7 +14,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Теоретический базис}{8}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Распространение функции взаимной когерентности и теорема Ван Циттерта - Цернике}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Поперечная функция когерентности и теорема Ван Циттерта - Цернике}{8}{section.1.1}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}
@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}О статистических свойства синхротронного излучения}{11}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Методы моделирования ондуляторного излучения от пучка с конечным эмиттансом}{14}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Методы моделирования ондуляторного излучения от пучка с конечным эмиттансом}{15}{chapter.2}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}
@@ -36,129 +36,7 @@
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Расчёт ондуляторного излучения прямым моделированием методом Монте-Карло}{15}{section.2.1}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Метод сложения амплитуд}{16}{subsection.2.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Метод сложения интенсивностей}{18}{subsection.2.1.2}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Учёт влияния размера электронного пучка на расходимость излучения при помощи прямых методов Монте-Карло}{20}{section.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Влияние размера электронного пучка на расходимость излучения}{20}{subsection.2.2.1}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Различие расходимости излучения для случая продольно когерентного и некогерентного излучения}{23}{subsection.2.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Метод ограничения пространственных гармоник огибающими: СЕРВАЛ}{24}{section.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Алгоритм создания поля}{25}{subsection.2.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Выбор подходящих огибающих}{27}{subsection.2.3.2}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Применение СЕРВАЛа}{32}{chapter.3}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Фокусирующая система с конечной апертурой}{33}{section.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Интерференционный эксперимент}{39}{section.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Отражение от неидеального зеркала}{42}{section.3.3}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список литературы}{49}{section*.38}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
+\contentsline {section}{\numberline {2.1}Расчёт ондуляторного излучения прямым моделированием методом Монте-Карло}{16}{section.2.1}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}
@@ -172,15 +50,141 @@
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список рисунков}{54}{section*.40}%
+\contentsline {subsection}{\numberline {2.1.1}Метод сложения амплитуд}{18}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Список таблиц}{58}{section*.41}%
+\contentsline {subsection}{\numberline {2.1.2}Метод сложения интенсивностей}{20}{subsection.2.1.2}%
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Учёт влияния размера электронного пучка на расходимость излучения при помощи прямых методов Монте-Карло}{22}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Влияние размера электронного пучка на расходимость излучения}{22}{subsection.2.2.1}%
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Различие расходимости излучения для случая продольно когерентного и некогерентного излучения}{24}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Метод ограничения пространственных гармоник огибающими: СЕРВАЛ}{26}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Алгоритм создания поля}{27}{subsection.2.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Выбор подходящих распределений для ограничения пространственных гармоник шума}{30}{subsection.2.3.2}%
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Применение СЕРВАЛа}{35}{chapter.3}%
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Фокусирующая система с конечной апертурой}{36}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Интерференционный эксперимент}{42}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Отражение от неидеального зеркала}{45}{section.3.3}%
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Список литературы}{52}{section*.38}%
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Список рисунков}{57}{section*.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Список таблиц}{61}{section*.41}%
 \defcounter {refsection}{0}\relax 
 \def \cftchappresnum {{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre }{} }\setlength {\cftchapnumwidth }{\widthof {\bfseries {\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre }~Ш.\ }}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\CYRA }Анализ подходящих огибающих для СЕРВАЛа}{59}{appendix.A}%
+\contentsline {chapter}{\numberline {\CYRA }Анализ подходящих огибающих для СЕРВАЛа}{62}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\CYRB }Описание шероховатости поверхностей зеркал}{60}{appendix.B}%
+\contentsline {chapter}{\numberline {\CYRB }Описание шероховатости поверхностей зеркал}{63}{appendix.B}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}
