@@ -23,7 +23,7 @@
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Спайковая структура излучения синхротронного излучения. Здесь красной линией показана полоса излучения, выделяемая монохроматором\relax }}{13}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Спайковая структура излучения синхротронного излучения. Красной линией показана полоса излучения, выделяемая монохроматором\relax }}{13}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \babel@toc {english}{}
@@ -57,21 +57,21 @@
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Схема эффекта зависимости расходимости излучения от размера электронного пучка. Рисунок разделён на две части: ближняя зона, источник излучения -- слева и дальняя зона -- справа. Жёлтой линией схематично изображена характерный поперечный размер излучения, синей линей характерный поперечный размер электронного пучка, жёлтая волнистая линия символизирует длину волны излучения в сравнение с продольным размером электронного пучка. Важно отметить, схематичный масштаб для обоих рисунков (верхнего и нижнего), -- тот же. Расходимости электронных пучков (сверху и снизу) одинаковы.\relax }}{23}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Схема эффекта зависимости расходимости излучения от размера электронного сгустка. Рисунок разделён на две части: ближняя зона, источник излучения -- слева и дальняя зона -- справа. Жёлтой линией схематично изображён характерный поперечный размер излучения, синей линей характерный поперечный размер электронного сгустка, жёлтая волнистая линия символизирует длину волны излучения в сравнении с продольным размером электронного сгустка. Важно отметить, масштабы для обоих рисунков (верхнего и нижнего) -- те же. Расходимости электронных сгустков (сверху и снизу) одинаковы.\relax }}{23}{figure.caption.9}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Расходимость излучения от электронного пучка с размерами, указанными в легенде. Расходимость электронного пучка много меньше натуральной расходимости синхротронного излучения\relax }}{24}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Расходимость излучения от электронного сгустка с размерами, указанными в легенде. Расходимость электронного сгустка много меньше натуральной расходимости синхротронного излучения\relax }}{24}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Схема эффекта зависимости расходимости излучения от продольной когерентности излучения. Жёлтой линией обозначен характерный поперечный размер излучения, жёлтой волнистой длина волны излучения с сравнение в продольным размером электронного пучка. На рисунке обозначено, что в случае продольно некогерентного излучения расходимость в $\sqrt {2}$ раз больше, чем в случае продольно когерентного излучения\relax }}{25}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Схема эффекта зависимости расходимости излучения от продольной когерентности излучения. Жёлтой линией обозначен характерный поперечный размер излучения, жёлтой волнистой длина волны излучения с сравнение в продольным размером электронного сгустка. На рисунке обозначено, что в случае продольно некогерентного излучения расходимость в $\sqrt {2}$ раз больше, чем в случае продольно когерентного излучения\relax }}{25}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Расходимость излучения в случае продольно когерентного излучения (зелёная линия), и продольно некогерентного излучения (синяя линия).\relax }}{26}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Интенсивность комплексного гауссового шума\relax }}{27}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Излучение с наложенным шумом\relax }}{28}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Размер излучение с наложенным шумом в $r$-пространстве\relax }}{27}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Моды излучения в $k$-пространстве на источнике\relax }}{28}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Размер излучение с наложенным шумом $k$-пространстве\relax }}{27}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Расходимость излучения в источнике\relax }}{28}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
@@ -81,49 +81,47 @@
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Распределение поля на источнике излучения для разных огибающих в сравнении с распределением, даваемым методом сложения амплитуд\relax }}{32}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Распределение поля на источнике излучения для разных функций в сравнении с методом сложения амплитуд\relax }}{31}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Функция взаимной когерентности на расстоянии $25$ м от источника\relax }}{33}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Функции поперечной когерентности на расстоянии $25$ м от источника\relax }}{32}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Размеры излучения в дальней зоне (расходимость) на расстоянии $25$ м\relax }}{33}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Размеры излучения в дальней зоне (расходимость) на расстоянии $25$ м\relax }}{32}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Оптическая схема. Ондулятор в начале координат, апертура перед линзой на расстоянии 25 м от ондулятора, линза с фокусным расстоянием 12.5 м фокусирует излучение на образец, расположенный на 25 м от линзы. Распределения интенсивности смотрятся: на источнике, в дальней зоне перед апертурой, на половине пути к образцу и на самом образце.\relax }}{36}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Оптическая схема. Ондулятор в начале координат, апертура перед линзой на расстоянии 25 м от ондулятора, линза с фокусным расстоянием 12,5 м фокусирует излучение на образец, расположенный на 25 м от линзы. Распределения интенсивности приведены на источнике излучения, в дальней зоне перед апертурой, на половине пути к образцу и на самом образце (в фокусе).\relax }}{35}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Распределение интенсивности на источнике излучения с величиной среднеквадратичного отклонения $40.8 \times 10.8$ мкм$^2$\relax }}{37}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Распределение интенсивности на источнике излучения с величиной среднеквадратичного отклонения $40.8 \times 10.8$ мкм$^2$\relax }}{36}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Распределение интенсивности излучения в дальней зоне с величиной среднеквадратичного отклонения $750 \times 635$ мкм$^2$.\relax }}{38}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Распределение интенсивности излучения в дальней зоне с величиной среднеквадратичного отклонения $750 \times 635$ мкм$^2$.\relax }}{37}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Распределение функции взаимной когерентности, построенное по формуле~\ref {eq:g1} с величиной среднеквадратичного отклонения $40 \times 150 $ мкм$^2$.\relax }}{39}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Распределение функции взаимной когерентности, построенное по формуле~\ref {eq:g1} с величиной среднеквадратичного отклонения $40 \times 150 $ мкм$^2$.\relax }}{38}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Результат дифракции на апертуре и 12.5 м распространения через пустое пространство, величина среднеквадратичного отклонения представленных распределений $225 \times 222$ мкм$^2$\relax }}{40}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Результат дифракции на апертуре и 12.5 м распространения через пустое пространство, величина среднеквадратичного отклонения представленных распределений $225 \times 222$ мкм$^2$\relax }}{39}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Распределение излучения в фокусе, величина среднеквадратичного отклонения представленных распределений $42 \times 13.5$ мкм$^2$\relax }}{41}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Распределение излучения в фокусе, величина среднеквадратичного отклонения представленных распределений $42 \times 13,5$ мкм$^2$\relax }}{40}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Размер излучения на $25$ м от источника (слева) и пятно когерентности на $25$ м от источника с щелями (справа), щели обозначены цветными полосками. Три набора щелей для каждого из направлений. Межщелевые расстояния: зелёные полоски -- $75$ мкм, красные -- $150$ мкм и оранжевые -- $300$ мкм.\relax }}{42}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Размер излучения на $25$ м от источника (слева) и пятно когерентности на $25$ м от источника с щелями (справа), щели обозначены цветными полосками. Три набора щелей для каждого из направлений. Межщелевые расстояния: зелёные полоски -- $75$ мкм, красные -- $150$ мкм и оранжевые -- $300$ мкм.\relax }}{41}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Схема двухщелевого эксперимента. После щелей -- интерферограмма усреднённа по 400 реализациям, а за ней интерферограммы для отдельных реализаций из статистического набора. Интерферограммы приведены в дальней зоне. Примечательно, что видность каждой из реализаций равна единице, но при усреднении по многим реализациям видность падает из-за наличия частичной когерентности излучения\relax }}{43}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Схема двухщелевого эксперимента. После щелей -- интерферограмма усреднённа по 400 реализациям, за ней представлены интерферограммы для отдельных реализаций из статистического набора. Интерферограммы приведены в дальней зоне. Примечательно, что видность каждой из реализаций после дифракции на щелях равна единице~\cite {goodman_statistical_2015}, но при усреднении по многим реализациям видность падает из-за наличия частичной когерентности излучения\relax }}{42}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Дифракционные картины для \textit {вертикального} расположения щелей в дальней зоне, слева на право межщелевой зазор: $75$ мкм, $150$ мкм, $300$ мкм. Цвета линий соответствуют цветам на Рис.~\ref {fig:double_slit_size_corr}\relax }}{44}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Дифракционные картины для \textit {вертикального} расположения щелей в дальней зоне, слева на право межщелевой зазор: $75$ мкм, $150$ мкм, $300$ мкм. Цвета линий соответствуют цветам на Рис.~\ref {fig:double_slit_size_corr}\relax }}{43}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Дифракционные картины для \textit {горизонтального} расположения щелей в дальней зоне, слева на право межщелевой зазор: $75$ мкм, $150$ мкм, $300$ мкм. Цвета линий соответствуют цветам на Рис.~\ref {fig:double_slit_size_corr}\relax }}{45}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Дифракционные картины для \textit {горизонтального} расположения щелей в дальней зоне, слева на право межщелевой зазор: $75$ мкм, $150$ мкм, $300$ мкм. Цвета линий соответствуют цветам на Рис.~\ref {fig:double_slit_size_corr}\relax }}{44}{figure.caption.31}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
-\babel@toc {english}{}
-\babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Распределение интенсивности излучения после отражения от неидеального фокусирующего зеркал и распространение через $12,5$ метров пустого пространства. На Рис.~\ref {fig:x_SERVAL_radiaiton_after_reflection_2d_3A} зеркало ориентировано \textit {вертикально}, на Рис.~\ref {fig:y_SERVAL_radiaiton_after_reflection_2d_3A} зеркало ориентировано \textit {горизонтально}.\relax }}{47}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Распределение интенсивности излучения после отражения от неидеального фокусирующего зеркал и распространение через $12,5$ м пустого пространства. На Рис.~\ref {fig:x_SERVAL_radiaiton_after_reflection_2d_3A} зеркало ориентировано \textit {вертикально}, на Рис.~\ref {fig:y_SERVAL_radiaiton_after_reflection_2d_3A} зеркало ориентировано \textit {горизонтально}.\relax }}{46}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Распределение интенсивности излучения после пропагции на 12.5 от зеркала, зеркало ориентировано \textit {вертикально}\relax }}{48}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Распределение интенсивности излучения после пропагции на 12,5 м от зеркала, зеркало ориентировано \textit {вертикально}\relax }}{47}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Распределение интенсивности излучения после распространение на 12.5 от зеркала, зеркало ориентировано \textit {горизонтально}\relax }}{48}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Распределение интенсивности излучения после распространение на 12,5 м от зеркала, зеркало ориентировано \textit {горизонтально}\relax }}{47}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Распределение интенсивности излучения в фокусе, зеркало в данном случае ориентировано \textit {вертикально}\relax }}{49}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Распределение интенсивности излучения в фокусе, зеркало в данном случае ориентировано \textit {вертикально}\relax }}{48}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Распределение интенсивности излучения в фокусе, зеркало ориентировано \textit {горизонтально}\relax }}{49}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Распределение интенсивности излучения в фокусе, зеркало ориентировано \textit {горизонтально}\relax }}{48}{figure.caption.36}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \babel@toc {english}{}

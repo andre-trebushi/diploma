@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  27 MAY 2021 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  28 MAY 2021 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2112,13 +2112,12 @@ LaTeX Warning: Command \l invalid in math mode on input line 27.
 
 LaTeX Warning: Command \l invalid in math mode on input line 27.
 
-[17.17]
-<images/spikes2.png, id=316, 992.70876pt x 926.46124pt>
+<images/spikes2.png, id=306, 992.70876pt x 926.46124pt>
 File: images/spikes2.png Graphic file (type png)
 <use images/spikes2.png>
 Package pdftex.def Info: images/spikes2.png  used on input line 32.
 (pdftex.def)             Requested size: 318.66948pt x 297.40666pt.
-
+[17.17]
 
 LaTeX Warning: Command \l invalid in math mode on input line 40.
 
@@ -2303,44 +2302,50 @@ Package pdftex.def Info: images/diff_coh_incoh_rad.png  used on input line 101.
 
 (pdftex.def)             Requested size: 227.62206pt x 189.68402pt.
  [25.25 <./images/coh_incoh_divergence.png>]
-Underfull \hbox (badness 3471) in paragraph at lines 109--111
-[]\T2A/cmr/m/n/14.4 Алгоритм вы-пол-ня-ет-ся в три эта-па: со-зда-ние ком-плекс
--но-го
+Underfull \hbox (badness 2073) in paragraph at lines 109--111
+\T2A/cmr/m/n/14.4 со-во-го шу-ма; его огра-ни-че-ние раз-ме-ра-ми из-лу-че-ния 
+в пе-ре-тяж-ке
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 109--111
+\T2A/cmr/m/n/14.4 в $\OML/cmm/m/it/14.4 r$\T2A/cmr/m/n/14.4 -пространстве; его 
+огра-ни-че-ние рас-хо-ди-мо-стью из-лу-че-ния в $\OML/cmm/m/it/14.4 k$\T2A/cmr/
+m/n/14.4 -
  []
 
 [26.26 <./images/diff_coh_incoh_rad.png>]
-<images/1-X_noise.png, id=402, 578.16pt x 578.16pt>
+<images/1-X_noise.png, id=403, 578.16pt x 578.16pt>
 File: images/1-X_noise.png Graphic file (type png)
 <use images/1-X_noise.png>
 Package pdftex.def Info: images/1-X_noise.png  used on input line 113.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/2-X_e-beam-size.png, id=403, 578.16pt x 578.16pt>
+<images/2-X_e-beam-size.png, id=404, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-size.png Graphic file (type png)
 <use images/2-X_e-beam-size.png>
 Package pdftex.def Info: images/2-X_e-beam-size.png  used on input line 122.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/2-X_e-beam-divergence.png, id=404, 578.16pt x 578.16pt>
+<images/2-X_e-beam-divergence.png, id=405, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-divergence.png Graphic file (type png)
 <use images/2-X_e-beam-divergence.png>
 Package pdftex.def Info: images/2-X_e-beam-divergence.png  used on input line 1
 28.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
- [27.27 <./images/1-X_noise.png>]
-<images/3-X_radaition_divergence.png, id=414, 578.16pt x 578.16pt>
+<images/3-X_radaition_divergence.png, id=406, 578.16pt x 578.16pt>
 File: images/3-X_radaition_divergence.png Graphic file (type png)
 <use images/3-X_radaition_divergence.png>
 Package pdftex.def Info: images/3-X_radaition_divergence.png  used on input lin
 e 138.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/3-X_radaition_size.png, id=415, 578.16pt x 578.16pt>
+<images/3-X_radaition_size.png, id=407, 578.16pt x 578.16pt>
 File: images/3-X_radaition_size.png Graphic file (type png)
 <use images/3-X_radaition_size.png>
 Package pdftex.def Info: images/3-X_radaition_size.png  used on input line 144.
 
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-
-[28.28 <./images/2-X_e-beam-size.png> <./images/2-X_e-beam-divergence.png> <./i
-mages/3-X_radaition_divergence.png> <./images/3-X_radaition_size.png>] [29.29]
+ [27.27 <./images/1-X_noise.png> <./images/2-X_e-beam-size.png> <./images/2-X_e
+-beam-divergence.png>] [28.28 <./images/3-X_radaition_divergence.png> <./images
+/3-X_radaition_size.png>] [29.29]
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
@@ -2391,225 +2396,205 @@ File: images/SERVAL_envelopes_comparison_source.png Graphic file (type png)
 Package pdftex.def Info: images/SERVAL_envelopes_comparison_source.png  used on
  input line 211.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [31.31]
-<images/SERVAL_corr_comparison.png, id=478, 867.24pt x 433.62pt>
+<images/SERVAL_corr_comparison.png, id=468, 867.24pt x 433.62pt>
 File: images/SERVAL_corr_comparison.png Graphic file (type png)
 <use images/SERVAL_corr_comparison.png>
 Package pdftex.def Info: images/SERVAL_corr_comparison.png  used on input line 
 217.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [32.32 <./images/SERVAL_envelopes_comparison_source.png>]
-<images/SERVAL_envelopes_comparison_far_zone.png, id=484, 867.24pt x 433.62pt>
+ [31.31 <./images/SERVAL_envelopes_comparison_source.png>]
+<images/SERVAL_envelopes_comparison_far_zone.png, id=476, 867.24pt x 433.62pt>
 File: images/SERVAL_envelopes_comparison_far_zone.png Graphic file (type png)
 <use images/SERVAL_envelopes_comparison_far_zone.png>
 Package pdftex.def Info: images/SERVAL_envelopes_comparison_far_zone.png  used 
 on input line 223.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-
-[33.33 <./images/SERVAL_corr_comparison.png> <./images/SERVAL_envelopes_compari
-son_far_zone.png>] [34.34]
+ [32.32 <./images/SERVAL_corr_comparison.png> <./images/SERVAL_envelopes_compar
+ison_far_zone.png>] [33.33]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[35.35
+[34.34
 
 ]
-<images/beamline.png, id=508, 1079.03125pt x 528.97626pt>
+<images/beamline.png, id=501, 1079.03125pt x 528.97626pt>
 File: images/beamline.png Graphic file (type png)
 <use images/beamline.png>
-Package pdftex.def Info: images/beamline.png  used on input line 237.
+Package pdftex.def Info: images/beamline.png  used on input line 240.
 (pdftex.def)             Requested size: 450.69417pt x 220.9497pt.
 <images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_bea
-mline.png, id=510, 867.24pt x 867.24pt>
+mline.png, id=503, 867.24pt x 867.24pt>
 File: images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_exampl
 e_beamline.png Graphic file (type png)
 <use images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example
 _beamline.png>
 Package pdftex.def Info: images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2
-.00E-05_urad_example_beamline.png  used on input line 243.
+.00E-05_urad_example_beamline.png  used on input line 246.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [36.36 <./images/beamline.png>]
+ [35.35 <./images/beamline.png>]
 <images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_exam
-ple_beamline.png, id=519, 867.24pt x 867.24pt>
+ple_beamline.png, id=512, 867.24pt x 867.24pt>
 File: images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad
 _example_beamline.png Graphic file (type png)
 <use images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_
 example_beamline.png>
 Package pdftex.def Info: images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05
-_urad_2.00E-05_urad_example_beamline.png  used on input line 249.
+_urad_2.00E-05_urad_example_beamline.png  used on input line 252.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [37.37 <./images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_e
+ [36.36 <./images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_e
 xample_beamline.png>]
 <images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamlin
-e.png, id=528, 867.24pt x 867.24pt>
+e.png, id=520, 867.24pt x 867.24pt>
 File: images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_be
 amline.png Graphic file (type png)
 <use images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_bea
 mline.png>
 Package pdftex.def Info: images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E
--05_urad_example_beamline.png  used on input line 255.
+-05_urad_example_beamline.png  used on input line 258.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [38.38 <./images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05
+ [37.37 <./images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05
 _urad_example_beamline.png>]
 <images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-05_urad_2
-.00E-05_urad_example_beamline.png, id=537, 867.24pt x 867.24pt>
+.00E-05_urad_example_beamline.png, id=530, 867.24pt x 867.24pt>
 File: images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-05_u
 rad_2.00E-05_urad_example_beamline.png Graphic file (type png)
 <use images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-05_ur
 ad_2.00E-05_urad_example_beamline.png>
 Package pdftex.def Info: images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.6
 8E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamline.png  used on input line 2
-61.
+64.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [39.39 <./images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_examp
+ [38.38 <./images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_examp
 le_beamline.png>]
 <images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_e
-xample_beamline.png, id=545, 867.24pt x 867.24pt>
+xample_beamline.png, id=538, 867.24pt x 867.24pt>
 File: images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_u
 rad_example_beamline.png Graphic file (type png)
 <use images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_ur
 ad_example_beamline.png>
 Package pdftex.def Info: images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E
--05_urad_2.00E-05_urad_example_beamline.png  used on input line 269.
+-05_urad_2.00E-05_urad_example_beamline.png  used on input line 272.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [40.40 <./images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E
+ [39.39 <./images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E
 -05_urad_2.00E-05_urad_example_beamline.png>]
-
-LaTeX Warning: Command \CYRCH invalid in math mode on input line 273.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 273.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 273.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 273.
-
-
-LaTeX Warning: Command \cyrz invalid in math mode on input line 273.
-
-Missing character: There is no Ч in font cmr12!
-Missing character: There is no е in font cmr12!
-Missing character: There is no р in font cmr12!
-Missing character: There is no е in font cmr12!
-Missing character: There is no з in font cmr12!
+[40.40 <./images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-
+05_urad_example_beamline.png>]
 <images/double_slit_size_corr.png, id=553, 1856.9375pt x 1222.5675pt>
 File: images/double_slit_size_corr.png Graphic file (type png)
 <use images/double_slit_size_corr.png>
 Package pdftex.def Info: images/double_slit_size_corr.png  used on input line 2
-78.
+81.
 (pdftex.def)             Requested size: 341.43307pt x 224.79099pt.
-[41.41 <./images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-
-05_urad_example_beamline.png>]
-<images/double_slit_scheme.png, id=560, 2267.47125pt x 1192.455pt>
+<images/double_slit_scheme.png, id=555, 2267.47125pt x 1192.455pt>
 File: images/double_slit_scheme.png Graphic file (type png)
 <use images/double_slit_scheme.png>
-Package pdftex.def Info: images/double_slit_scheme.png  used on input line 284.
+Package pdftex.def Info: images/double_slit_scheme.png  used on input line 287.
 
 (pdftex.def)             Requested size: 450.69417pt x 237.01295pt.
- [42.42 <./images/double_slit_size_corr.png>]
-<images/x_slits_width_3e-05_separation_7.5e-05_.png, id=572, 469.755pt x 867.24
+ [41.41 <./images/double_slit_size_corr.png>]
+<images/x_slits_width_3e-05_separation_7.5e-05_.png, id=566, 469.755pt x 867.24
 pt>
 File: images/x_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 )
 <use images/x_slits_width_3e-05_separation_7.5e-05_.png>
 Package pdftex.def Info: images/x_slits_width_3e-05_separation_7.5e-05_.png  us
-ed on input line 295.
+ed on input line 296.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/x_slits_width_3e-05_separation_0.00015_.png, id=573, 469.755pt x 867.24
+<images/x_slits_width_3e-05_separation_0.00015_.png, id=567, 469.755pt x 867.24
 pt>
 File: images/x_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 )
 <use images/x_slits_width_3e-05_separation_0.00015_.png>
 Package pdftex.def Info: images/x_slits_width_3e-05_separation_0.00015_.png  us
-ed on input line 301.
+ed on input line 302.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/x_slits_width_3e-05_separation_0.0003_.png, id=574, 469.755pt x 867.24p
+<images/x_slits_width_3e-05_separation_0.0003_.png, id=568, 469.755pt x 867.24p
 t>
 File: images/x_slits_width_3e-05_separation_0.0003_.png Graphic file (type png)
 
 <use images/x_slits_width_3e-05_separation_0.0003_.png>
 Package pdftex.def Info: images/x_slits_width_3e-05_separation_0.0003_.png  use
-d on input line 307.
+d on input line 308.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
 
-[43.43 <./images/double_slit_scheme.png>]
-<images/y_slits_width_3e-05_separation_7.5e-05_.png, id=588, 469.755pt x 867.24
+[42.42 <./images/double_slit_scheme.png>]
+<images/y_slits_width_3e-05_separation_7.5e-05_.png, id=579, 469.755pt x 867.24
 pt>
 File: images/y_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 )
 <use images/y_slits_width_3e-05_separation_7.5e-05_.png>
 Package pdftex.def Info: images/y_slits_width_3e-05_separation_7.5e-05_.png  us
-ed on input line 321.
+ed on input line 322.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/y_slits_width_3e-05_separation_0.00015_.png, id=589, 469.755pt x 867.24
+<images/y_slits_width_3e-05_separation_0.00015_.png, id=580, 469.755pt x 867.24
 pt>
 File: images/y_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 )
 <use images/y_slits_width_3e-05_separation_0.00015_.png>
 Package pdftex.def Info: images/y_slits_width_3e-05_separation_0.00015_.png  us
-ed on input line 327.
+ed on input line 328.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/y_slits_width_3e-05_separation_0.0003_.png, id=590, 469.755pt x 867.24p
+<images/y_slits_width_3e-05_separation_0.0003_.png, id=581, 469.755pt x 867.24p
 t>
 File: images/y_slits_width_3e-05_separation_0.0003_.png Graphic file (type png)
 
 <use images/y_slits_width_3e-05_separation_0.0003_.png>
 Package pdftex.def Info: images/y_slits_width_3e-05_separation_0.0003_.png  use
-d on input line 333.
+d on input line 334.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
- [44.44 <./images/x_slits_width_3e-05_separation_7.5e-05_.png> <./images/x_slit
+ [43.43 <./images/x_slits_width_3e-05_separation_7.5e-05_.png> <./images/x_slit
 s_width_3e-05_separation_0.00015_.png> <./images/x_slits_width_3e-05_separation
-_0.0003_.png>] [45.45 <./images/y_slits_width_3e-05_separation_7.5e-05_.png> <.
+_0.0003_.png>] [44.44 <./images/y_slits_width_3e-05_separation_7.5e-05_.png> <.
 /images/y_slits_width_3e-05_separation_0.00015_.png> <./images/y_slits_width_3e
 -05_separation_0.0003_.png>]
-<images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=619, 578.16pt x 57
+<images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=610, 578.16pt x 57
 8.16pt>
 File: images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png Graphic file (typ
 e png)
 <use images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png>
 Package pdftex.def Info: images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.pn
-g  used on input line 359.
+g  used on input line 360.
 (pdftex.def)             Requested size: 223.07211pt x 223.06425pt.
-<images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=620, 578.16pt x 57
+<images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=611, 578.16pt x 57
 8.16pt>
 File: images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png Graphic file (typ
 e png)
 <use images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png>
 Package pdftex.def Info: images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.pn
-g  used on input line 365.
+g  used on input line 366.
 (pdftex.def)             Requested size: 223.07211pt x 223.06425pt.
- [46.46]
-<images/x_SERVAL_radiaiton_after_reflection.png, id=638, 867.24pt x 433.62pt>
+ [45.45]
+<images/x_SERVAL_radiaiton_after_reflection.png, id=627, 867.24pt x 433.62pt>
 File: images/x_SERVAL_radiaiton_after_reflection.png Graphic file (type png)
 <use images/x_SERVAL_radiaiton_after_reflection.png>
 Package pdftex.def Info: images/x_SERVAL_radiaiton_after_reflection.png  used o
-n input line 378.
+n input line 379.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
 
-[47.47 <./images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png> <./images/y_
+[46.46 <./images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png> <./images/y_
 SERVAL_radiaiton_after_reflection_2d_3.0_A.png>]
-<images/y_SERVAL_radiaiton_after_reflection.png, id=649, 867.24pt x 433.62pt>
+<images/y_SERVAL_radiaiton_after_reflection.png, id=638, 867.24pt x 433.62pt>
 File: images/y_SERVAL_radiaiton_after_reflection.png Graphic file (type png)
 <use images/y_SERVAL_radiaiton_after_reflection.png>
 Package pdftex.def Info: images/y_SERVAL_radiaiton_after_reflection.png  used o
-n input line 384.
+n input line 385.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-<images/x_SERVAL_radiaiton_in_focus.png, id=654, 867.24pt x 433.62pt>
+<images/x_SERVAL_radiaiton_in_focus.png, id=643, 867.24pt x 433.62pt>
 File: images/x_SERVAL_radiaiton_in_focus.png Graphic file (type png)
 <use images/x_SERVAL_radiaiton_in_focus.png>
 Package pdftex.def Info: images/x_SERVAL_radiaiton_in_focus.png  used on input 
-line 392.
+line 393.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [48.48 <./images/x_SERVAL_radiaiton_after_reflection.png> <./images/y_SERVAL_r
+ [47.47 <./images/x_SERVAL_radiaiton_after_reflection.png> <./images/y_SERVAL_r
 adiaiton_after_reflection.png>]
-<images/y_SERVAL_radiaiton_in_focus.png, id=661, 867.24pt x 433.62pt>
+<images/y_SERVAL_radiaiton_in_focus.png, id=650, 867.24pt x 433.62pt>
 File: images/y_SERVAL_radiaiton_in_focus.png Graphic file (type png)
 <use images/y_SERVAL_radiaiton_in_focus.png>
 Package pdftex.def Info: images/y_SERVAL_radiaiton_in_focus.png  used on input 
-line 398.
+line 399.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-) (./conclusion.tex [49.49 <./images/x_SERVAL_radiaiton_in_focus.png> <./images
-/y_SERVAL_radiaiton_in_focus.png>] [50.50]) (./references.tex [51.51
+) (./conclusion.tex [48.48 <./images/x_SERVAL_radiaiton_in_focus.png> <./images
+/y_SERVAL_radiaiton_in_focus.png>] [49.49] [50.50
+
+]) (./references.tex [51.51
 
 ]
 Underfull \hbox (badness 2753) in paragraph at lines 7--7
@@ -2694,7 +2679,7 @@ Missing character: There is no г in font cmr10!
 
 ]
 
-Package biblatex Warning: No hyphenation patterns for 'EN' on input line 47.
+Package biblatex Warning: No hyphenation patterns for 'EN' on input line 45.
 
 )
 
@@ -2711,9 +2696,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
  (./dissertation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
-Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 8518F287C78466095386BEF32F02370A;9228.
 
+
+Package rerunfilecheck Warning: File `dissertation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `dissertation.out':
+(rerunfilecheck)             Before: 3A8D49A1E25BAAFBC38037EA680F7B56;9063
+(rerunfilecheck)             After:  74DEED62558D3F2716DF53EE15FFD6B3;9063.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2723,18 +2714,15 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 40834 strings out of 481239
- 769752 string characters out of 5920376
- 1674859 words of memory out of 5000000
+ 40836 strings out of 481239
+ 769773 string characters out of 5920376
+ 1675006 words of memory out of 5000000
  55068 multiletter control sequences out of 15000+600000
  543574 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,92p,3589b,3890s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not ex
+ 66i,15n,92p,3636b,4061s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
-t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2772,6 +2760,12 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
+pdfTeX warning (dest): name{section*.40} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.38} has been referenced but does not exist
+, replaced by a fixed one
+
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
@@ -2779,18 +2773,17 @@ fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfti1440.pfb>
-Output written on dissertation.pdf (64 pages, 8431768 bytes).
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfti1440.pfb>
+Output written on dissertation.pdf (64 pages, 8422911 bytes).
 PDF statistics:
- 973 PDF objects out of 1000 (max. 8388607)
- 809 compressed objects within 9 object streams
- 197 named destinations out of 1000 (max. 500000)
+ 968 PDF objects out of 1000 (max. 8388607)
+ 805 compressed objects within 9 object streams
+ 199 named destinations out of 1000 (max. 500000)
  407 words of extra memory for PDF output out of 10000 (max. 10000000)
 
