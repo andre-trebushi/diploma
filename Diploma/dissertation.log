@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  28 MAY 2021 19:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.17)  11 JUN 2021 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1694,9 +1694,6 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 )
 (./dissertation.aux
 
-LaTeX Warning: Label `fig:diff_coh_incoh_rad' multiply defined.
-
-
 LaTeX Warning: Label `amplitude' multiply defined.
 
 
@@ -1859,8 +1856,41 @@ Package biblatex Info: ... file 'dissertation.bbl' found.
 (./dissertation.bbl)
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
- (./names.tex) (./contents.tex (./dissertation.toc<<ot1.cmap>><<oml.cmap>><<oms
-.cmap>><<omx.cmap>>
+ (./names.tex)
+<NSU/title.pdf, id=104, 597.53635pt x 845.04686pt>
+File: NSU/title.pdf Graphic file (type pdf)
+<use NSU/title.pdf>
+Package pdftex.def Info: NSU/title.pdf  used on input line 27.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+File: NSU/title.pdf Graphic file (type pdf)
+<use NSU/title.pdf>
+Package pdftex.def Info: NSU/title.pdf  used on input line 27.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+<NSU/title.pdf, id=107, page=1, 597.53635pt x 845.04686pt>
+File: NSU/title.pdf Graphic file (type pdf)
+<use NSU/title.pdf, page 1>
+Package pdftex.def Info: NSU/title.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.53488pt x 845.0448pt.
+File: NSU/title.pdf Graphic file (type pdf)
+<use NSU/title.pdf, page 1>
+Package pdftex.def Info: NSU/title.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.56223pt x 845.08348pt.
+File: NSU/title.pdf Graphic file (type pdf)
+<use NSU/title.pdf, page 1>
+Package pdftex.def Info: NSU/title.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.56223pt x 845.08348pt.
+File: NSU/title.pdf Graphic file (type pdf)
+<use NSU/title.pdf, page 1>
+Package pdftex.def Info: NSU/title.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.56223pt x 845.08348pt.
+File: NSU/title.pdf Graphic file (type pdf)
+<use NSU/title.pdf, page 1>
+Package pdftex.def Info: NSU/title.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.56223pt x 845.08348pt.
+ [1.1
+
+ <./NSU/title.pdf>] (./contents.tex
+(./dissertation.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1870,18 +1900,18 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1.1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+) [1.2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write7
 \openout7 = `dissertation.toc'.
 
-) (./introduction.tex [2.2] [3.3
+) (./introduction.texpdfTeX warning (ext4): destination with the same identifie
+r (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            *{Р’РІРµРґРµРЅРёРµ}	 [2.3] [4.4
 
-] [4.4
-
-]
-[5.5] [6.6]) (./part1.tex [7.7]
+] [5.5] [6.6]) (./part1.tex [7.7]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 
 Package biblatex Warning: No hyphenation patterns for 'de' on input line 10.
@@ -1889,12 +1919,12 @@ Package biblatex Warning: No hyphenation patterns for 'de' on input line 10.
 [8.8
 
 ]
-<images/VCC_incoh_scheme.png, id=202, 2464.20625pt x 741.77126pt>
+<images/VCC_incoh_scheme.png, id=221, 2464.20625pt x 741.77126pt>
 File: images/VCC_incoh_scheme.png Graphic file (type png)
 <use images/VCC_incoh_scheme.png>
 Package pdftex.def Info: images/VCC_incoh_scheme.png  used on input line 17.
 (pdftex.def)             Requested size: 450.69417pt x 135.66357pt.
-<images/VCC_partially_coh_scheme.png, id=205, 2465.21pt x 914.41624pt>
+<images/VCC_partially_coh_scheme.png, id=224, 2465.21pt x 914.41624pt>
 File: images/VCC_partially_coh_scheme.png Graphic file (type png)
 <use images/VCC_partially_coh_scheme.png>
 Package pdftex.def Info: images/VCC_partially_coh_scheme.png  used on input lin
@@ -1969,7 +1999,7 @@ Underfull \hbox (badness 1242) in paragraph at lines 52--53
  []
 
 [11.11]
-<images/spikes.png, id=243, 1823.81375pt x 1256.695pt>
+<images/spikes.png, id=262, 1823.81375pt x 1256.695pt>
 File: images/spikes.png Graphic file (type png)
 <use images/spikes.png>
 Package pdftex.def Info: images/spikes.png  used on input line 56.
@@ -2112,7 +2142,7 @@ LaTeX Warning: Command \l invalid in math mode on input line 27.
 
 LaTeX Warning: Command \l invalid in math mode on input line 27.
 
-<images/spikes2.png, id=306, 992.70876pt x 926.46124pt>
+<images/spikes2.png, id=325, 992.70876pt x 926.46124pt>
 File: images/spikes2.png Graphic file (type png)
 <use images/spikes2.png>
 Package pdftex.def Info: images/spikes2.png  used on input line 32.
@@ -2143,7 +2173,7 @@ LaTeX Warning: Command \l invalid in math mode on input line 40.
 LaTeX Warning: Command \l invalid in math mode on input line 40.
 
 [18.18 <./images/spikes2.png>]
-<images/MC_scheme.png, id=325, 1153.30875pt x 783.92876pt>
+<images/MC_scheme.png, id=344, 1153.30875pt x 783.92876pt>
 File: images/MC_scheme.png Graphic file (type png)
 <use images/MC_scheme.png>
 Package pdftex.def Info: images/MC_scheme.png  used on input line 43.
@@ -2269,33 +2299,33 @@ LaTeX Warning: Command \l invalid in math mode on input line 60.
 
 LaTeX Warning: Command \l invalid in math mode on input line 60.
 
-<images/SRW_scheme.png, id=344, 936.49875pt x 675.52374pt>
+<images/SRW_scheme.png, id=363, 936.49875pt x 675.52374pt>
 File: images/SRW_scheme.png Graphic file (type png)
 <use images/SRW_scheme.png>
 Package pdftex.def Info: images/SRW_scheme.png  used on input line 63.
 (pdftex.def)             Requested size: 450.69417pt x 325.10324pt.
 [20.20] [21.21 <./images/SRW_scheme.png>]
-<images/diff_divergence_coh_scheme.png, id=361, 1334.9875pt x 1298.8525pt>
+<images/diff_divergence_coh_scheme.png, id=380, 1334.9875pt x 1298.8525pt>
 File: images/diff_divergence_coh_scheme.png Graphic file (type png)
 <use images/diff_divergence_coh_scheme.png>
 Package pdftex.def Info: images/diff_divergence_coh_scheme.png  used on input l
 ine 76.
 (pdftex.def)             Requested size: 450.69417pt x 438.49245pt.
  [22.22] [23.23 <./images/diff_divergence_coh_scheme.png>]
-<images/diff_divergence_coh.png, id=376, 433.62pt x 361.35pt>
+<images/diff_divergence_coh.png, id=395, 433.62pt x 361.35pt>
 File: images/diff_divergence_coh.png Graphic file (type png)
 <use images/diff_divergence_coh.png>
 Package pdftex.def Info: images/diff_divergence_coh.png  used on input line 84.
 
 (pdftex.def)             Requested size: 227.62206pt x 189.68402pt.
-<images/coh_incoh_divergence.png, id=379, 1627.07875pt x 1240.635pt>
+<images/coh_incoh_divergence.png, id=398, 1627.07875pt x 1240.635pt>
 File: images/coh_incoh_divergence.png Graphic file (type png)
 <use images/coh_incoh_divergence.png>
 Package pdftex.def Info: images/coh_incoh_divergence.png  used on input line 94
 .
 (pdftex.def)             Requested size: 450.69417pt x 343.64612pt.
  [24.24 <./images/diff_divergence_coh.png>]
-<images/diff_coh_incoh_rad.png, id=388, 433.62pt x 361.35pt>
+<images/diff_coh_incoh_rad.png, id=406, 433.62pt x 361.35pt>
 File: images/diff_coh_incoh_rad.png Graphic file (type png)
 <use images/diff_coh_incoh_rad.png>
 Package pdftex.def Info: images/diff_coh_incoh_rad.png  used on input line 101.
@@ -2315,29 +2345,29 @@ m/n/14.4 -
  []
 
 [26.26 <./images/diff_coh_incoh_rad.png>]
-<images/1-X_noise.png, id=403, 578.16pt x 578.16pt>
+<images/1-X_noise.png, id=422, 578.16pt x 578.16pt>
 File: images/1-X_noise.png Graphic file (type png)
 <use images/1-X_noise.png>
 Package pdftex.def Info: images/1-X_noise.png  used on input line 113.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/2-X_e-beam-size.png, id=404, 578.16pt x 578.16pt>
+<images/2-X_e-beam-size.png, id=423, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-size.png Graphic file (type png)
 <use images/2-X_e-beam-size.png>
 Package pdftex.def Info: images/2-X_e-beam-size.png  used on input line 122.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/2-X_e-beam-divergence.png, id=405, 578.16pt x 578.16pt>
+<images/2-X_e-beam-divergence.png, id=424, 578.16pt x 578.16pt>
 File: images/2-X_e-beam-divergence.png Graphic file (type png)
 <use images/2-X_e-beam-divergence.png>
 Package pdftex.def Info: images/2-X_e-beam-divergence.png  used on input line 1
 28.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/3-X_radaition_divergence.png, id=406, 578.16pt x 578.16pt>
+<images/3-X_radaition_divergence.png, id=425, 578.16pt x 578.16pt>
 File: images/3-X_radaition_divergence.png Graphic file (type png)
 <use images/3-X_radaition_divergence.png>
 Package pdftex.def Info: images/3-X_radaition_divergence.png  used on input lin
 e 138.
 (pdftex.def)             Requested size: 204.85846pt x 204.85565pt.
-<images/3-X_radaition_size.png, id=407, 578.16pt x 578.16pt>
+<images/3-X_radaition_size.png, id=426, 578.16pt x 578.16pt>
 File: images/3-X_radaition_size.png Graphic file (type png)
 <use images/3-X_radaition_size.png>
 Package pdftex.def Info: images/3-X_radaition_size.png  used on input line 144.
@@ -2390,38 +2420,38 @@ LaTeX Warning: Command \l invalid in math mode on input line 188.
 LaTeX Warning: Command \l invalid in math mode on input line 188.
 
 [30.30]
-<images/SERVAL_envelopes_comparison_source.png, id=464, 867.24pt x 433.62pt>
+<images/SERVAL_envelopes_comparison_source.png, id=483, 867.24pt x 433.62pt>
 File: images/SERVAL_envelopes_comparison_source.png Graphic file (type png)
 <use images/SERVAL_envelopes_comparison_source.png>
 Package pdftex.def Info: images/SERVAL_envelopes_comparison_source.png  used on
  input line 211.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-<images/SERVAL_corr_comparison.png, id=468, 867.24pt x 433.62pt>
+<images/SERVAL_corr_comparison.png, id=487, 867.24pt x 433.62pt>
 File: images/SERVAL_corr_comparison.png Graphic file (type png)
 <use images/SERVAL_corr_comparison.png>
 Package pdftex.def Info: images/SERVAL_corr_comparison.png  used on input line 
 217.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
  [31.31 <./images/SERVAL_envelopes_comparison_source.png>]
-<images/SERVAL_envelopes_comparison_far_zone.png, id=476, 867.24pt x 433.62pt>
+<images/SERVAL_envelopes_comparison_far_zone.png, id=495, 867.24pt x 433.62pt>
 File: images/SERVAL_envelopes_comparison_far_zone.png Graphic file (type png)
 <use images/SERVAL_envelopes_comparison_far_zone.png>
 Package pdftex.def Info: images/SERVAL_envelopes_comparison_far_zone.png  used 
 on input line 223.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
  [32.32 <./images/SERVAL_corr_comparison.png> <./images/SERVAL_envelopes_compar
-ison_far_zone.png>] [33.33]
+ison_far_zone.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[34.34
+[33.33
 
 ]
-<images/beamline.png, id=501, 1079.03125pt x 528.97626pt>
+<images/beamline.png, id=515, 1079.03125pt x 528.97626pt>
 File: images/beamline.png Graphic file (type png)
 <use images/beamline.png>
 Package pdftex.def Info: images/beamline.png  used on input line 240.
 (pdftex.def)             Requested size: 450.69417pt x 220.9497pt.
 <images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_bea
-mline.png, id=503, 867.24pt x 867.24pt>
+mline.png, id=517, 867.24pt x 867.24pt>
 File: images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_exampl
 e_beamline.png Graphic file (type png)
 <use images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example
@@ -2429,9 +2459,9 @@ _beamline.png>
 Package pdftex.def Info: images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2
 .00E-05_urad_example_beamline.png  used on input line 246.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [35.35 <./images/beamline.png>]
+ [34.34 <./images/beamline.png>]
 <images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_exam
-ple_beamline.png, id=512, 867.24pt x 867.24pt>
+ple_beamline.png, id=526, 867.24pt x 867.24pt>
 File: images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad
 _example_beamline.png Graphic file (type png)
 <use images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_
@@ -2439,10 +2469,10 @@ example_beamline.png>
 Package pdftex.def Info: images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05
 _urad_2.00E-05_urad_example_beamline.png  used on input line 252.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [36.36 <./images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_e
+ [35.35 <./images/0-source3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_e
 xample_beamline.png>]
 <images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamlin
-e.png, id=520, 867.24pt x 867.24pt>
+e.png, id=534, 867.24pt x 867.24pt>
 File: images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_be
 amline.png Graphic file (type png)
 <use images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_example_bea
@@ -2450,10 +2480,10 @@ mline.png>
 Package pdftex.def Info: images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E
 -05_urad_example_beamline.png  used on input line 258.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [37.37 <./images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05
+ [36.36 <./images/1-far_zone_25_m3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05
 _urad_example_beamline.png>]
 <images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-05_urad_2
-.00E-05_urad_example_beamline.png, id=530, 867.24pt x 867.24pt>
+.00E-05_urad_example_beamline.png, id=543, 867.24pt x 867.24pt>
 File: images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-05_u
 rad_2.00E-05_urad_example_beamline.png Graphic file (type png)
 <use images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E-05_ur
@@ -2462,10 +2492,10 @@ Package pdftex.def Info: images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.6
 8E-06_um_2.50E-05_urad_2.00E-05_urad_example_beamline.png  used on input line 2
 64.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [38.38 <./images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_examp
+ [37.37 <./images/corr3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_examp
 le_beamline.png>]
 <images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_urad_e
-xample_beamline.png, id=538, 867.24pt x 867.24pt>
+xample_beamline.png, id=552, 867.24pt x 867.24pt>
 File: images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_u
 rad_example_beamline.png Graphic file (type png)
 <use images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-05_ur
@@ -2473,24 +2503,24 @@ ad_example_beamline.png>
 Package pdftex.def Info: images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E
 -05_urad_2.00E-05_urad_example_beamline.png  used on input line 272.
 (pdftex.def)             Requested size: 450.69417pt x 450.70274pt.
- [39.39 <./images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E
+ [38.38 <./images/2-far_zone_12_5_m_after_aperture3.80E-05_um_4.68E-06_um_2.50E
 -05_urad_2.00E-05_urad_example_beamline.png>]
-[40.40 <./images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-
+[39.39 <./images/3-70_m_focal_plane3.80E-05_um_4.68E-06_um_2.50E-05_urad_2.00E-
 05_urad_example_beamline.png>]
-<images/double_slit_size_corr.png, id=553, 1856.9375pt x 1222.5675pt>
+<images/double_slit_size_corr.png, id=567, 1856.9375pt x 1222.5675pt>
 File: images/double_slit_size_corr.png Graphic file (type png)
 <use images/double_slit_size_corr.png>
 Package pdftex.def Info: images/double_slit_size_corr.png  used on input line 2
 81.
 (pdftex.def)             Requested size: 341.43307pt x 224.79099pt.
-<images/double_slit_scheme.png, id=555, 2267.47125pt x 1192.455pt>
+<images/double_slit_scheme.png, id=569, 2267.47125pt x 1192.455pt>
 File: images/double_slit_scheme.png Graphic file (type png)
 <use images/double_slit_scheme.png>
 Package pdftex.def Info: images/double_slit_scheme.png  used on input line 287.
 
 (pdftex.def)             Requested size: 450.69417pt x 237.01295pt.
- [41.41 <./images/double_slit_size_corr.png>]
-<images/x_slits_width_3e-05_separation_7.5e-05_.png, id=566, 469.755pt x 867.24
+ [40.40 <./images/double_slit_size_corr.png>]
+<images/x_slits_width_3e-05_separation_7.5e-05_.png, id=580, 469.755pt x 867.24
 pt>
 File: images/x_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 )
@@ -2498,7 +2528,7 @@ File: images/x_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 Package pdftex.def Info: images/x_slits_width_3e-05_separation_7.5e-05_.png  us
 ed on input line 296.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/x_slits_width_3e-05_separation_0.00015_.png, id=567, 469.755pt x 867.24
+<images/x_slits_width_3e-05_separation_0.00015_.png, id=581, 469.755pt x 867.24
 pt>
 File: images/x_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 )
@@ -2506,7 +2536,7 @@ File: images/x_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 Package pdftex.def Info: images/x_slits_width_3e-05_separation_0.00015_.png  us
 ed on input line 302.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/x_slits_width_3e-05_separation_0.0003_.png, id=568, 469.755pt x 867.24p
+<images/x_slits_width_3e-05_separation_0.0003_.png, id=582, 469.755pt x 867.24p
 t>
 File: images/x_slits_width_3e-05_separation_0.0003_.png Graphic file (type png)
 
@@ -2515,8 +2545,8 @@ Package pdftex.def Info: images/x_slits_width_3e-05_separation_0.0003_.png  use
 d on input line 308.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
 
-[42.42 <./images/double_slit_scheme.png>]
-<images/y_slits_width_3e-05_separation_7.5e-05_.png, id=579, 469.755pt x 867.24
+[41.41 <./images/double_slit_scheme.png>]
+<images/y_slits_width_3e-05_separation_7.5e-05_.png, id=593, 469.755pt x 867.24
 pt>
 File: images/y_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 )
@@ -2524,7 +2554,7 @@ File: images/y_slits_width_3e-05_separation_7.5e-05_.png Graphic file (type png
 Package pdftex.def Info: images/y_slits_width_3e-05_separation_7.5e-05_.png  us
 ed on input line 322.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/y_slits_width_3e-05_separation_0.00015_.png, id=580, 469.755pt x 867.24
+<images/y_slits_width_3e-05_separation_0.00015_.png, id=594, 469.755pt x 867.24
 pt>
 File: images/y_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 )
@@ -2532,7 +2562,7 @@ File: images/y_slits_width_3e-05_separation_0.00015_.png Graphic file (type png
 Package pdftex.def Info: images/y_slits_width_3e-05_separation_0.00015_.png  us
 ed on input line 328.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
-<images/y_slits_width_3e-05_separation_0.0003_.png, id=581, 469.755pt x 867.24p
+<images/y_slits_width_3e-05_separation_0.0003_.png, id=595, 469.755pt x 867.24p
 t>
 File: images/y_slits_width_3e-05_separation_0.0003_.png Graphic file (type png)
 
@@ -2540,12 +2570,12 @@ File: images/y_slits_width_3e-05_separation_0.0003_.png Graphic file (type png)
 Package pdftex.def Info: images/y_slits_width_3e-05_separation_0.0003_.png  use
 d on input line 334.
 (pdftex.def)             Requested size: 150.23138pt x 277.35045pt.
- [43.43 <./images/x_slits_width_3e-05_separation_7.5e-05_.png> <./images/x_slit
+ [42.42 <./images/x_slits_width_3e-05_separation_7.5e-05_.png> <./images/x_slit
 s_width_3e-05_separation_0.00015_.png> <./images/x_slits_width_3e-05_separation
-_0.0003_.png>] [44.44 <./images/y_slits_width_3e-05_separation_7.5e-05_.png> <.
+_0.0003_.png>] [43.43 <./images/y_slits_width_3e-05_separation_7.5e-05_.png> <.
 /images/y_slits_width_3e-05_separation_0.00015_.png> <./images/y_slits_width_3e
 -05_separation_0.0003_.png>]
-<images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=610, 578.16pt x 57
+<images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=624, 578.16pt x 57
 8.16pt>
 File: images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png Graphic file (typ
 e png)
@@ -2553,7 +2583,7 @@ e png)
 Package pdftex.def Info: images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.pn
 g  used on input line 360.
 (pdftex.def)             Requested size: 223.07211pt x 223.06425pt.
-<images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=611, 578.16pt x 57
+<images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png, id=625, 578.16pt x 57
 8.16pt>
 File: images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.png Graphic file (typ
 e png)
@@ -2561,42 +2591,48 @@ e png)
 Package pdftex.def Info: images/y_SERVAL_radiaiton_after_reflection_2d_3.0_A.pn
 g  used on input line 366.
 (pdftex.def)             Requested size: 223.07211pt x 223.06425pt.
- [45.45]
-<images/x_SERVAL_radiaiton_after_reflection.png, id=627, 867.24pt x 433.62pt>
+ [44.44]
+<images/x_SERVAL_radiaiton_after_reflection.png, id=641, 867.24pt x 433.62pt>
 File: images/x_SERVAL_radiaiton_after_reflection.png Graphic file (type png)
 <use images/x_SERVAL_radiaiton_after_reflection.png>
 Package pdftex.def Info: images/x_SERVAL_radiaiton_after_reflection.png  used o
 n input line 379.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
 
-[46.46 <./images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png> <./images/y_
+[45.45 <./images/x_SERVAL_radiaiton_after_reflection_2d_3.0_A.png> <./images/y_
 SERVAL_radiaiton_after_reflection_2d_3.0_A.png>]
-<images/y_SERVAL_radiaiton_after_reflection.png, id=638, 867.24pt x 433.62pt>
+<images/y_SERVAL_radiaiton_after_reflection.png, id=652, 867.24pt x 433.62pt>
 File: images/y_SERVAL_radiaiton_after_reflection.png Graphic file (type png)
 <use images/y_SERVAL_radiaiton_after_reflection.png>
 Package pdftex.def Info: images/y_SERVAL_radiaiton_after_reflection.png  used o
 n input line 385.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-<images/x_SERVAL_radiaiton_in_focus.png, id=643, 867.24pt x 433.62pt>
+<images/x_SERVAL_radiaiton_in_focus.png, id=657, 867.24pt x 433.62pt>
 File: images/x_SERVAL_radiaiton_in_focus.png Graphic file (type png)
 <use images/x_SERVAL_radiaiton_in_focus.png>
 Package pdftex.def Info: images/x_SERVAL_radiaiton_in_focus.png  used on input 
 line 393.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
- [47.47 <./images/x_SERVAL_radiaiton_after_reflection.png> <./images/y_SERVAL_r
+ [46.46 <./images/x_SERVAL_radiaiton_after_reflection.png> <./images/y_SERVAL_r
 adiaiton_after_reflection.png>]
-<images/y_SERVAL_radiaiton_in_focus.png, id=650, 867.24pt x 433.62pt>
+<images/y_SERVAL_radiaiton_in_focus.png, id=664, 867.24pt x 433.62pt>
 File: images/y_SERVAL_radiaiton_in_focus.png Graphic file (type png)
 <use images/y_SERVAL_radiaiton_in_focus.png>
 Package pdftex.def Info: images/y_SERVAL_radiaiton_in_focus.png  used on input 
 line 399.
 (pdftex.def)             Requested size: 450.69417pt x 225.35136pt.
-) (./conclusion.tex [48.48 <./images/x_SERVAL_radiaiton_in_focus.png> <./images
-/y_SERVAL_radiaiton_in_focus.png>] [49.49] [50.50
-
-]) (./references.tex [51.51
+) (./conclusion.tex [47.47 <./images/x_SERVAL_radiaiton_in_focus.png> <./images
+/y_SERVAL_radiaiton_in_focus.png>] [48.48] [49.49
 
 ]
+Underfull \hbox (badness 1648) in paragraph at lines 25--26
+[]\T2A/cmr/bx/n/14.4 Якову Ва-ле-рье-ви-чу Рак-шу-ну \T2A/cmr/m/n/14.4 за его н
+а-уч-ное ру-ко-вод-ство
+ []
+
+[50.50
+
+]) (./references.tex [51.51]
 Underfull \hbox (badness 2753) in paragraph at lines 7--7
 []\T2A/cmr/m/it/14.4 Chubar O.\T2A/cmr/m/n/14.4 , \T2A/cmr/m/it/14.4 Elleaume P
 . \T2A/cmr/m/n/14.4 Accurate and efficient computation of
@@ -2646,40 +2682,35 @@ Package biblatex Warning: No hyphenation patterns for 'EN' on input line 7.
 ]) (./appendix.tex
 {\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \
 CYRA .
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 31.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 31.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 31.
+
+Missing character: There is no л in font cmr10!
+Missing character: There is no о in font cmr10!
+Missing character: There is no г in font cmr10!
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 31.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 31.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 31.
+
+Missing character: There is no л in font cmr10!
+Missing character: There is no о in font cmr10!
+Missing character: There is no г in font cmr10!
 [62.62
 
 ]
-{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \
-CYRB .
 
-LaTeX Warning: Command \cyrl invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \cyrg invalid in math mode on input line 33.
-
-Missing character: There is no л in font cmr10!
-Missing character: There is no о in font cmr10!
-Missing character: There is no г in font cmr10!
-
-LaTeX Warning: Command \cyrl invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \cyrg invalid in math mode on input line 33.
-
-Missing character: There is no л in font cmr10!
-Missing character: There is no о in font cmr10!
-Missing character: There is no г in font cmr10!
-[63.63
-
-]
-
-Package biblatex Warning: No hyphenation patterns for 'EN' on input line 45.
+Package biblatex Warning: No hyphenation patterns for 'EN' on input line 43.
 
 )
 
@@ -2690,21 +2721,15 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 259.
 See the caption package documentation for explanation.
 
-[64.64]
+[63.63]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
  (./dissertation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: FAE8467A5EBF699C9359249E62ACF2B0;8982.
 
-
-Package rerunfilecheck Warning: File `dissertation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `dissertation.out':
-(rerunfilecheck)             Before: 3A8D49A1E25BAAFBC38037EA680F7B56;9063
-(rerunfilecheck)             After:  74DEED62558D3F2716DF53EE15FFD6B3;9063.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2714,13 +2739,13 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 40836 strings out of 481239
- 769773 string characters out of 5920376
- 1675006 words of memory out of 5000000
- 55068 multiletter control sequences out of 15000+600000
+ 40841 strings out of 481239
+ 769973 string characters out of 5920376
+ 1675291 words of memory out of 5000000
+ 55078 multiletter control sequences out of 15000+600000
  543574 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,92p,3636b,4061s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,18n,92p,3625b,4061s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -2760,12 +2785,6 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.40} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.38} has been referenced but does not exist
-, replaced by a fixed one
-
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
@@ -2780,10 +2799,10 @@ fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfti1440.pfb>
-Output written on dissertation.pdf (64 pages, 8422911 bytes).
+Output written on dissertation.pdf (63 pages, 8453269 bytes).
 PDF statistics:
- 968 PDF objects out of 1000 (max. 8388607)
- 805 compressed objects within 9 object streams
- 199 named destinations out of 1000 (max. 500000)
- 407 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 977 PDF objects out of 1000 (max. 8388607)
+ 807 compressed objects within 9 object streams
+ 193 named destinations out of 1000 (max. 500000)
+ 435 words of extra memory for PDF output out of 10000 (max. 10000000)
 
